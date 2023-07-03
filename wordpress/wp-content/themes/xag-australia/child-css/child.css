@@ -55,6 +55,7 @@
 
 .logo img {
 	width: inherit;
+  max-height: 50px;
 }
 
 .site-title, .site-description {
