@@ -62,11 +62,12 @@
 }
 
 .header-two {
-    background-color: #0000008a;
+    background-color: #ffffff;
+    height: 100px;
 }
 
 .top-bar{
-  background-color: #282828;
+  background-color: #ffffff;
   padding: 20px 0
 }
 
