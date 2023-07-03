@@ -10,7 +10,7 @@ if($techup_enable_banner_section==true ) {
 ?>  
 <!-- ======= Hero Section ======= -->
 <section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>); height: 50vh; background-opacity: 0.1;">
-<video autoplay muted loop id="myVideo" style="position: fixed; min-width: 100%; max-height: 50vh; right: 0; top: 0; object-fit: cover;">
+<video autoplay muted loop id="myVideo" style="min-width: 100%; max-height: 50vh; right: 0; top: 0; object-fit: cover;">
 <source src="http://localhost:8080/wp-content/uploads/2023/07/file.mp4" type="video/mp4">      
 <div class="container">
      
