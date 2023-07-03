@@ -18,10 +18,6 @@
 /**
  * Theme functions and definitions.
  */
-
-@ini_set( 'upload_max_size' , '256M' );
-@ini_set( 'post_max_size', '256M');
-@ini_set( 'max_execution_time', '300' );
  
 add_action( 'wp_enqueue_scripts', 'it_techup_child_css',25);
 function it_techup_child_css() {
