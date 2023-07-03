@@ -9,10 +9,10 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
 if($techup_enable_banner_section==true ) {
 ?>  
 <!-- ======= Hero Section ======= -->
-<video style="position: fixed; max-height: 50vh; min-width: 100vw;">
-<source src="http://localhost:8080/wp-content/uploads/2023/07/file.mp4" type="video/mp4">
 <section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>); opacity: 0.5;">
       <div class="container">
+      <video style="position: fixed; max-height: 50vh; min-width: 100vw;">
+      <source src="http://localhost:8080/wp-content/uploads/2023/07/file.mp4" type="video/mp4">
         <div class="row">
           <div class="content-sec">
               <h2 class="section-title">
@@ -27,9 +27,9 @@ if($techup_enable_banner_section==true ) {
              <?php endif; ?>
           </div>
       </div>
+      </video>
       </div>
     </section>
-</video>
 	<div id="content"></div>
 
     <!--End Hero-->
