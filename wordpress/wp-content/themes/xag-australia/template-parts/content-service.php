@@ -20,53 +20,46 @@ if($techup_enable_service_section==true ) {
         $techup_services_query = new WP_Query( $techup_services_args );
       
 
-?> 
-    <!-- ======= Services Section ======= -->
-
-    <section id="services" class="services-5">
+?>
+ 	<!-- ======= Services Section ======= -->
+    <section id="services" class="services-sec buco">
       <div class="container">
-        <div class="section-title-5">
-        	<?php if($techup_service_title) : ?>
-          <h2><?php echo esc_html($techup_service_title); ?></h2>
-          <?php endif; ?>
-          <div class="separator">
-            <ul>
-               <li><i class="fa fa-star"></i></li>
-            </ul>
-          </div>
-          <?php if($techup_service_subtitle) : ?>
-          <p><?php echo esc_html($techup_service_subtitle); ?></p>
-          <?php endif; ?>
+          <div class="section-heading text-center">
+			<?php if($techup_service_title) : ?>
+				<span class="sm-title"><?php echo esc_html($techup_service_title); ?></span>
+			<?php endif; ?>	
+			<?php if($techup_service_subtitle) : ?>
+				<h3 class="bg-title"><?php echo esc_html($techup_service_subtitle); ?></h3>
+			<?php endif; ?>	
         </div>
         <div class="row">
-        	<?php
-						$count = 0;
-						while($techup_services_query->have_posts() && $count <= 8 ) :
-						$techup_services_query->the_post();
-					?>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+		<?php
+		$count = 0;
+		while($techup_services_query->have_posts() && $count <= 8 ) :
+		$techup_services_query->the_post();
+		?>	
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="service-box">
-                <div class="service-icon box-color">
-                    <div class="front-content">
-                        <i class="fa <?php echo esc_attr($techup_service_icon[$count]); ?>"></i>
-                        <h3><?php the_title(); ?></h3>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3><?php the_title(); ?></h3>
-                    <p><?php echo esc_html(get_the_excerpt()); ?></p>
-                </div>
+            	<?php the_post_thumbnail(); ?>
+              <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+              <p><?php echo esc_html(get_the_excerpt()); ?></p>
+              <?php if(!has_post_thumbnail()): ?>
+              <div class="icon-box">
+                <i class="fa <?php echo esc_html($techup_service_icon[$count]); ?>"></i>
+              </div>
+          <?php endif; ?>	
+              <div class="arrow">
+              	<a href="<?php the_permalink(); ?>"><?php echo esc_html__('More detail','fullscreen-techup') ?><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
-          <?php
-						$count = $count + 1;
-						endwhile;
-						wp_reset_postdata();
-					?>
+        <?php
+			$count = $count + 1;
+			endwhile;
+			wp_reset_postdata();
+		?>    
         </div>
       </div>
     </section>
-
     <!-- End Services Section -->
-	
-<?php } ?>
+ <?php } ?>

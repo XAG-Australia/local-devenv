@@ -7,23 +7,25 @@ $techup_callout_title1 = get_theme_mod( 'techup_callout_title1');
 $techup_callout_content1 = get_theme_mod( 'techup_callout_content1');
 if($techup_co1_image=="")
 {
-	$techup_co1_image = esc_url(  get_template_directory_uri() ); 
+	$techup_co1_image = esc_url(  get_template_directory_uri() . '/assets/images/banner.jpg' ); 
 }
 ?>
-	<!--==== Start CTA- Section 2 =====------>
-
-    <section class="cta-7 bg-img">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center" data-wow-delay="0.2s">
-                <h3 class="c-white"><?php echo esc_html($techup_callout_title1); ?></h3>
-                <p class="c-white mb-0"><?php echo esc_html($techup_callout_content1); ?></p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!------ End CTA- Section 2------>
+ <section class="cta-7">
+	<div class="container-fluid p-0">
+		<div class="row">
+			<div class="col-md-6">
+			  <div class="cta-body">
+				<h3 class="c-white"><?php echo esc_html($techup_callout_title1); ?></h3>
+				<p class="c-white"><?php echo esc_html($techup_callout_content1); ?></p>
+			  </div>
+			</div>
+			<div class="col-md-6">
+			  <div class="cta-img">
+				<img src="<?php echo esc_url($techup_co1_image); ?>">
+			  </div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <?php } ?>

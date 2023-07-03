@@ -1,15 +1,15 @@
-=== IT Techup ===
+===  Fullscreen Techup ===
 Contributors: wptexture      
-Requires at least:  4.9.7
+Requires at least:  5.4
 Tested up to:       6.0
-Requires PHP:       5.2.4
-Stable tag:         1.3
+Requires PHP:       5.6
+Stable tag:         1.1
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, translation-ready, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
 
 == Description ==
-IT Techup Free Theme 
+Fullscreen Techup Free Theme 
  
 == Installation ==
 
@@ -19,10 +19,10 @@ IT Techup Free Theme
 
 == Copyright ==
 
-IT Techup WordPress Theme, Copyright 2022, wptexture  
-IT Techup is distributed under the terms of the GNU GPL
+Fullscreen techup WordPress Theme, Copyright 2023, wptexture  
+Fullscreen techup is distributed under the terms of the GNU GPL
 
-Creative Techup bundles the following third-party resources:
+fullscreen techup bundles the following third-party resources:
 
 	Font Awesome by Dave Gandy
     Licenses: SIL OFL 1.1, MIT, CC BY 3.0
@@ -40,12 +40,9 @@ Creative Techup bundles the following third-party resources:
     License: MIT
     Source: http://dimsemenov.com/plugins/magnific-popup/
 
-== screenshot ==
+ 
 
-Image for theme screenshot 
-License:  CCO 
-License URL: https://pxhere.com/en/photo/595817
-
-Image for header background 
-License:  CCO 
-License URL: https://pxhere.com/en/photo/26634
+== Screenshots & Banner ==
+    Licenses: Screenshots Image 
+	https://pxhere.com/en/photo/1162464
+	Licnece : https://pxhere.com/en/license     

@@ -17,55 +17,49 @@ if($techup_enable_testimonial_section == true ) {
 	); 
 	$techup_testimonials_query = new WP_Query( $techup_testimonials_args );
 ?>
- 	<!-- ======= Testimonials Section ======= -->
-
-    <section id="testimonials" class="testimonials-5">
+ <!-- ======= Testimonials Section ======= -->
+   <section id="testimonials" class="testimonials-5">
       <div class="container">
-        <div class="section-title-5">
-        	<?php if($techup_testimonial_title) : ?>
-          <h2 class="title"><?php echo esc_html($techup_testimonial_title); ?></h2>
-          <?php endif; ?>
-          <div class="separator">
-            <ul>
-              <li><i class="fa fa-star"></i></li>
-            </ul>
-          </div>
-          <?php if($techup_testimonial_subtitle) : ?>
-          <p><?php echo esc_html($techup_testimonial_subtitle); ?></p>
-          <?php endif; ?>
+        <div class="section-heading text-center">
+			<?php if($techup_testimonial_title) : ?>
+				<span class="sm-title"><?php echo esc_html($techup_testimonial_title); ?></span>
+			<?php endif; ?>	
+			<?php if($techup_testimonial_subtitle) : ?>
+				<h3 class="bg-title"><?php echo esc_html($techup_testimonial_subtitle); ?></h3>
+			<?php endif; ?>	
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-            <div class="testimonials-content owl-carousel owl-theme">
-            	<?php
-				          $count = 0;
-				          while($techup_testimonials_query->have_posts() && $count <= 5 ) :
-				          $techup_testimonials_query->the_post();
-				        ?>
-              
-                <article class="testimonial-block">
-                  <figure class="thumbnail">
-                    <?php the_post_thumbnail(); ?>
-                  </figure>
-                
-                  <div class="testimonial-content">
-                    <p><?php echo esc_html(get_the_excerpt()); ?></p>
-                    <cite class="name"><?php get_the_author_meta(); ?></cite>
-                    <span class="position"><?php get_the_author(); ?></span>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="testimonials-content owl-carousel text-center col-md-6">
+            <?php
+          $count = 0;
+          while($techup_testimonials_query->have_posts() && $count <= 5 ) :
+          $techup_testimonials_query->the_post();
+        ?>
+            <div class="testimonial">
+              <i class="fa fa-quote-right font1"></i>
+                <span class="testimonial-desc"><?php the_content(); ?></span>
+                <div class="client-desc">
+                  <div class="testimonial-pic">
+                      <?php the_post_thumbnail(); ?>
                   </div>
-                </article>
-                <?php
-        				$count = $count + 1;
-        				endwhile;
-        				wp_reset_postdata();
-        			?>            
+                  <div class="testimonial-profile">
+                       <span class="name"><?php the_title(); ?></span>
+                      <span class="post"><?php echo get_the_author(); ?></span>
+                  </div>
+                </div>
             </div>
+            <?php
+				$count = $count + 1;
+				endwhile;
+				wp_reset_postdata();
+				  ?>
+           </div>
+          </div>
         </div>
       </div>
-    </section>
-    
-    <!-- End Testimonials Section ---->
+    </section>    
 
 	
 <?php } ?>

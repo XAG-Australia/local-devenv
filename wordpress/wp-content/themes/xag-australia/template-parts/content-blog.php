@@ -3,29 +3,24 @@ $techup_enable_blog_section = get_theme_mod( 'techup_enable_blog_section', true 
 $techup_blog_cat 		= get_theme_mod( 'techup_blog_cat', 'uncategorized' );
 if($techup_enable_blog_section == true) 
 {
-	$techup_blog_title 	= get_theme_mod( 'techup_blog_title', esc_html__( 'Our News & Blogs','it-techup'));
-	$techup_blog_subtitle 	= get_theme_mod( 'techup_blog_subtitle', esc_html__( 'Latest News','it-techup') );
-	$techup_rm_button_label 	= get_theme_mod( 'techup_rm_button_label', esc_html__( 'Read More','it-techup'));
+	$techup_blog_title 	= get_theme_mod( 'techup_blog_title', esc_html__( 'Blog','fullscreen-techup'));
+	$techup_blog_subtitle 	= get_theme_mod( 'techup_blog_subtitle' );
+	$techup_rm_button_label 	= get_theme_mod( 'techup_rm_button_label', esc_html__( 'Read More','fullscreen-techup'));
 	$techup_blog_count 	 = apply_filters( 'techup_blog_count', 3 );
-?> 	
-	<!-- blog start-->
-	<section class="blog-5">
+?>
+<!-- blog start-->
+    <section class="blog-sec">
         <div class="container">
-          <div class="section-title-5">
-          	<?php if($techup_blog_title) : ?>
-            <h2><?php echo esc_html( $techup_blog_title ); ?></h2>
-            <?php endif; ?>
-            <div class="separator">
-              <ul>
-                 <li><i class="fa fa-star"></i></li>
-              </ul>
-            </div>
-            <?php if($techup_blog_subtitle) : ?>
-            <p><?php echo esc_html( $techup_blog_subtitle ); ?></p>
-            <?php endif; ?>
-        </div>
+          <div class="section-heading text-center">
+			<?php if($techup_blog_title) : ?>
+				<span class="sm-title"><?php echo esc_html( $techup_blog_title ); ?></span>
+			<?php endif; ?>	
+			<?php if($techup_blog_subtitle) : ?>	
+            <h3 class="bg-title"><?php echo esc_html( $techup_blog_subtitle ); ?></h3>
+            <?php endif; ?> 
+          </div>
             <div class="row">
-            	<?php 
+				<?php 
 				if( !empty( $techup_blog_cat ) ) 
 					{
 					$blog_args = array(
@@ -44,36 +39,36 @@ if($techup_enable_blog_section == true)
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <article class="blog-item blog-1">
                         <div class="post-img">
-                          	<?php if(the_post_thumbnail()): ?>
-                            <?php the_post_thumbnail_url(); ?>
-                            <?php endif; ?>
-                          <div class="date-box" >
-                            <div class="m"><?php echo esc_html(get_the_date( 'j' ));?></div>
-                            <div class="d"><?php echo esc_html(get_the_date( 'M' ));?></div>
-                          </div>
+                            <?php the_post_thumbnail(); ?>
                         </div>
                         <div class="post-content pt-4 text-left">
                             <h5>
                                 <a class="heading" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                             </h5>
-                            <p class="text-left"><?php the_excerpt(); ?></p>
-                            <div class="btn-wraper">
-                              <?php if($techup_rm_button_label):?>
-                              <a href="<?php the_permalink(); ?>" class="read-more-btn"><?php echo esc_html($techup_rm_button_label); ?></a>
-                              <?php endif; ?>
+                            <div class="post-meta-list">
+                              <span class="meta-date">
+                                <i class="fa fa-calendar"></i>
+                                <span class="meta-date-text"><?php echo esc_html(get_the_date()); ?></span>
+                              </span>
+                              <span>                    
+                                <i class="fa fa-user"></i>
+                                <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" rel="category tag"><?php the_author(); ?></a>
+                              </span>
                             </div>
                         </div>
                     </article>
                   </div>
-                  <?php
-						}
-					}
-					wp_reset_postdata();
-				} ?>
+                <?php
+				}
+			}
+			wp_reset_postdata();
+		}
+		 ?>      
+                     
             </div>
         </div>
     </section>
+    <!-- blog end-->
 
-        <!-- blog end-->	
 
 <?php } ?>
