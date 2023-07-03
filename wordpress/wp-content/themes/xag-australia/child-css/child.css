@@ -97,11 +97,6 @@ a,a:hover{
     width: 100%;
 }
 
-.header-two {
-    height: 100px;
-    background-color: #ffffff;
-}
-
 .navbar-toggler-icon {
     background-color: #03a9f4 !important;
 }
@@ -124,7 +119,7 @@ a,a:hover{
     }
     .header-two{
         padding: 15px 75px;
-        background: transparent;
+        background: #ffffff;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
