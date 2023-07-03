@@ -119,7 +119,7 @@ a,a:hover{
     }
     .header-two{
         padding: 15px 75px;
-        background: #ffffff;
+        background-color: #ffffff;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
