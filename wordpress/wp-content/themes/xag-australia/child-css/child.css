@@ -97,6 +97,11 @@ a,a:hover{
     width: 100%;
 }
 
+.header-two {
+    height: 100px;
+    background-color: #ffffff;
+}
+
 .navbar-toggler-icon {
     background-color: #03a9f4 !important;
 }
@@ -565,7 +570,7 @@ slider Area End
     padding: 100px 0 0;
   }
   .header-two{
-    background-color: #1f1f1f;
+    background-color: #ffffff;
   }
 }
 
