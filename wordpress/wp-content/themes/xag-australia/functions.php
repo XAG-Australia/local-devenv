@@ -31,10 +31,6 @@ function it_techup_child_css() {
 	wp_enqueue_style( 'it-techup-google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap' ); 
 } 
 
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300' );
-
 /*function it_techup_customize_register() {
 		global $wp_customize;
 		$wp_customize->remove_section( 'colors' );
