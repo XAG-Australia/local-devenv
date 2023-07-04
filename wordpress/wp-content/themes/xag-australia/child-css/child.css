@@ -313,6 +313,7 @@ slider Area End
     padding: 100px 0;
     overflow: hidden;
     position: relative;
+    padding-top: 25px !important;
   }
 }
 
@@ -321,9 +322,11 @@ slider Area End
     padding: 65px 0;
     overflow: hidden;
     position: relative;
+    padding-top: 25px !important;
   }
   section.home7-hero-sec {
     padding: 100px 0;
+    padding-top: 25px !important;
   }
 }
 
