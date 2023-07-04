@@ -24,7 +24,37 @@ if($techup_enable_features_section==true ) {
 		$techup_features_query->the_post();
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>">
+          <div class="feature-box feature-box-one feature-box-1" style="width: 25vw;">
+            <div class="icon">
+              <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
+            </div>
+            <div class="content">
+              <h5 class="title-box"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+              <?php the_excerpt(); ?>
+			</div>
+            <div class="link-boxer">
+              <a href="<?php the_permalink(); ?>" class="link-details">
+                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="feature-box feature-box-one feature-box-2" style="width: 25vw;">
+            <div class="icon">
+              <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
+            </div>
+            <div class="content">
+              <h5 class="title-box"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+              <?php the_excerpt(); ?>
+			</div>
+            <div class="link-boxer">
+              <a href="<?php the_permalink(); ?>" class="link-details">
+                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="feature-box feature-box-one feature-box-3" style="width: 25vw;">
             <div class="icon">
               <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
             </div>
