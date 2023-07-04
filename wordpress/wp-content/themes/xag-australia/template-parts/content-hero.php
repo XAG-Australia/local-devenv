@@ -19,7 +19,7 @@ if($techup_enable_banner_section==true ) {
       </div>
     </section>
 	<div id="content" style="min-height: 50vh;">
-  <div class="row">
+  <div class="row" style="display: initial: margin-left: auto; margin-right: auto; padding-top: 50px;">
           <div class="content-sec">
               <h2 class="section-title">
                 <?php echo esc_html($techup_banner_title); ?>
