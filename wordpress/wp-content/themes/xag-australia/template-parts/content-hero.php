@@ -14,7 +14,12 @@ if($techup_enable_banner_section==true ) {
 <source src="http://localhost:8080/wp-content/uploads/2023/07/file.mp4" type="video/mp4">      
 <div class="container">
      
-        <div class="row">
+       
+      </video>
+      </div>
+    </section>
+	<div id="content" style="min-height: 50vh;">
+  <div class="row">
           <div class="content-sec">
               <h2 class="section-title">
                 <?php echo esc_html($techup_banner_title); ?>
@@ -28,10 +33,7 @@ if($techup_enable_banner_section==true ) {
              <?php endif; ?>
           </div>
       </div>
-      </video>
-      </div>
-    </section>
-	<div id="content" style="min-height: 50vh;"></div>
+  </div>
 
     <!--End Hero-->
  
