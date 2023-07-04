@@ -480,25 +480,25 @@ slider Area End
 }
 
 .feature-box-0 {
-	background-color: #0099e5 !important;
+	background-color: #3E3C39 !important;
 }
 
 .feature-box-1 {
-	background-color: #171e23 !important;
+	background-color: #3E3C39 !important;
 }
 
 .feature-box-2 {
-	background-color: #e86240 !important;
+	background-color: #3E3C39!important;
 }
 
 .feature-sec .feature-box{
     position: relative;
     background: #fff;
     text-align: center;
-    padding: 48px 35px 40px;
-    margin: -15px;
+    padding: 50px;
     box-shadow: 8px 8px 30px 0 rgb(0 0 0 / 12%);
     transition: all 0.3s linear;
+    margin: 50px;
 }
 
 .buco .feature-box:hover {
