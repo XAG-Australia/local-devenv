@@ -17,7 +17,7 @@ if( ! function_exists( 'techup_footer_start' ) ):
 endif; 
 if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
-	    <div class="foot-top" style="display:none;">
+	    <div class="foot-top" style="height: calc(50vh - 60px);">
             <div class="container">
                 <div class="row clearfix">
                 	<?php if( is_active_sidebar( 'footer-widget-area' ) ){ ?>
@@ -30,7 +30,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 endif; 
 if( ! function_exists( 'techup_footer_site_info' ) ):
 	function techup_footer_site_info(){ ?>
-		<div class="foot-bottom" style="width: 100vw; bottom: 0; position: fixed;">
+		<div class="foot-bottom" style="padding: none; box-shadow: none;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
