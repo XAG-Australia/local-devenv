@@ -34,12 +34,9 @@ if( ! function_exists( 'techup_footer_site_info' ) ):
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <?php bloginfo( 'name' ); ?> 						
+                        <?php echo '© 2023' ?><?php bloginfo( 'name' ); ?>			
 						<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'techup' ) ); ?>" class="imprint">
-						<?php
-							/* translators: %s: WordPress */
-						printf( __( 'Proudly Powered By %s', 'techup' ), 'WordPress' );
-						?>
+						
                     </div>
                 </div>
             </div>
