@@ -30,7 +30,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 endif; 
 if( ! function_exists( 'techup_footer_site_info' ) ):
 	function techup_footer_site_info(){ ?>
-		<div class="foot-bottom" style="padding: none; box-shadow: none;">
+		<div class="foot-bottom" style="padding: 0px !important; box-shadow: none;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
