@@ -27,11 +27,11 @@ letter-spacing: 4px;
 }*/
 
 ::-webkit-scrollbar-thumb {
-	background-color: #e86240 !important;
+	background-color: #c01920 !important;
 }
 
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover  {
-	background-color: #e86240 !important;
+	background-color: #c01920 !important;
 }
 
 .testimonials-5 {
@@ -1862,8 +1862,8 @@ slider Area End
 }
 
 .widget_product_search .woocommerce-product-search button[type="submit"] {
-    background: #e86240 none repeat scroll 0 0;
-    border: 1px solid #e86240;
+    background: #c01920 none repeat scroll 0 0;
+    border: 1px solid #c01920;
     cursor: pointer;
     height: 40px;
     right: 7px;
