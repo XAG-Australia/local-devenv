@@ -13,7 +13,7 @@ if($techup_enable_banner_section==true ) {
       <div class="container">
         <div class="row">
           <div class="content-sec">
-              <h2 class="section-title">
+              <h2 class="section-title" style="font-size: 32px;">
                 <?php echo esc_html($techup_banner_title); ?>
               </h2>
               <?php if($techup_banner_button_label1) :?>
