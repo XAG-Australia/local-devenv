@@ -15,7 +15,7 @@ if($techup_enable_features_section==true ) {
         ); 
         $techup_features_query = new WP_Query( $techup_features_args );
 ?>
-<div class="feature-sec buco">
+<div class="feature-sec buco" style="height: 50vh;">
     <div class="container-fluid">
       <div class="row">
 		<?php
