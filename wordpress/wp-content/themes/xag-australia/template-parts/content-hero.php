@@ -7,8 +7,17 @@ $techup_banner_button_label1 = get_theme_mod( 'techup_banner_button_label1','');
 $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) {
-?>  
-<!-- ======= Hero Section ======= -->
+?>
+<style>
+  .hero-sec{
+
+    display:none;
+
+    }
+</style>
+
+<!-- START Hero Section 1 -->
+
 <section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>)">
       <div class="container">
         <div class="row">
@@ -26,12 +35,55 @@ if($techup_enable_banner_section==true ) {
           </div>
       </div>
       </div>
-    </section>
+</section>
 
-	<div id="content"></div>
+<!-- END Hero Section 1 -->
 
-    <!--End Hero-->
- 
+<!-- START Hero Section 2 -->
+
+<section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>)">
+      <div class="container">
+        <div class="row">
+          <div class="content-sec">
+              <h2 class="section-title" style="font-size: 52px;">
+                <?php echo esc_html($techup_banner_title); ?>
+              </h2>
+              <?php if($techup_banner_button_label1) :?>
+              <div class="btn-wraper">
+                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
+              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
+              <?php } ?>
+            </div>
+             <?php endif; ?>
+          </div>
+      </div>
+      </div>
+</section>
+
+<!-- END Hero Section 2 -->
+
+<!-- START Slider Script -->
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("hero-sec");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+	
+<div id="content"></div>
+
 <?php
 }
 ?>
