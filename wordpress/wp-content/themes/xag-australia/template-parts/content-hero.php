@@ -12,15 +12,21 @@ if($techup_enable_banner_section==true ) { ?>
 
 </style>
 
-<script type="text/javascript" src="/slidr-master/slidr-master/slidr.min.js"></script>
-<script>
-slidr.create('slidr-section', {
+
+
+<!-- START HERO -->
+
+<section id="slidr-div" class="hero-sec beg-img">
+
+<script type="text/javascript" src="/slidr-master/slidr-master/slidr.min.js">
+
+slidr.create('slidr-id', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
   controls: 'corner',
   direction: 'vertical',
-  fade: false,
+  fade: true,
   keyboard: true,
   overflow: true,
   theme: '#222',
@@ -30,10 +36,6 @@ slidr.create('slidr-section', {
 }).start();
 
 </script>
-
-<!-- START HERO -->
-
-<section id="slidr-section" class="hero-sec beg-img">
 
 <!-- START Slide 1 -->
 
