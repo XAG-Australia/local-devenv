@@ -32,7 +32,7 @@ slidr.create('slidr-id', {
   touch: true,
   transition: 'cube'
 }).start();
-<script>
+</script>
 <?php
 }
 ?>
