@@ -101,9 +101,8 @@ slidr.create('slidr-div', {
 
 
 
-@param {int=}
-@return {this}
-function auto(opt_msec ='5000', opt_direction, opt_start) {};
+
+function auto(opt_msec, opt_direction, opt_start) {};
 
 </script>
 <?php
