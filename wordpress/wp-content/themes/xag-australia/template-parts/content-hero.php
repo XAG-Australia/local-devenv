@@ -10,7 +10,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<div id="slidr-div"  style="display: inline;" >
+<div id="slidr-div"  style="display: inline; min-width: 100vw; min-height: 100vh;" >
   <div data-slidr="one">
     <section class="hero-sec">
       <div class="container">
