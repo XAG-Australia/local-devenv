@@ -18,7 +18,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <div id="content"></div>
 <script>
-slidr.create('slidr-id', {
+slidr.create('slidr-div', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
