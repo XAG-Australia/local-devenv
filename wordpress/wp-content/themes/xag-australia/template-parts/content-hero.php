@@ -12,13 +12,14 @@ if($techup_enable_banner_section==true ) {
 <style>
   .hero-sec{
     display: none;
+    transition-property: background-color !important;
     transition: ease-in;
     }
 </style>
 
 <!-- START Hero Section 1 -->
 
-<section class="hero-sec beg-img w3-animate-fading" style="background-color: #000000;">
+<section class="hero-sec beg-img" style="background-color: #000000;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -41,7 +42,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 2 -->
 
-<section class="hero-sec beg-img w3-animate-fading" style="background-color: #ffffff;">
+<section class="hero-sec beg-img" style="background-color: #ffffff;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -62,7 +63,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- END Hero Section 3 -->
 
-<section class="hero-sec beg-img w3-animate-fading" style="background-color: #ffffff;">
+<section class="hero-sec beg-img" style="background-color: #000000;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
