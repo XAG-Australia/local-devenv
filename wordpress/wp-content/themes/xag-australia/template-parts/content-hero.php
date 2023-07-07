@@ -10,10 +10,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<div id="slidr-div"  style="display: block;" >
+<div id="slidr-div" class="hero-sec beg-img" style="display: block;" >
   <div data-slidr="one">
-
-  <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -30,8 +28,6 @@ if($techup_enable_banner_section==true ) { ?>
           </div>
       </div>
       </div>
-</section>
-
   </div>
   <div data-slidr="two">banana</div>
   <div data-slidr="three">coconut</div>
