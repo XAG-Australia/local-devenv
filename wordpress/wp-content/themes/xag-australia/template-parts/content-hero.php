@@ -118,7 +118,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
-  x[slideIndex-1].style.transition = "background 2000ms ease-in";
+  x[slideIndex-1].style.transition = "all 2s";
   setTimeout(carousel, 6000); 
 }
 </script>
