@@ -10,8 +10,10 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<div id="slidr-div" class="hero-sec" style="display: block;" >
-  <div data-slidr="one" class="container">
+<div id="slidr-div"  style="display: inline;" >
+  <div data-slidr="one">
+    <section class="hero-sec">
+      <div class="container">
         <div class="row">
           <div class="content-sec">
               <h2 class="section-title" style="font-size: 52px;">
@@ -27,6 +29,8 @@ if($techup_enable_banner_section==true ) { ?>
           </div>
       </div>
   </div>
+                </div>
+                </section>
   <div data-slidr="two">banana</div>
   <div data-slidr="three">coconut</div>
 </div>
