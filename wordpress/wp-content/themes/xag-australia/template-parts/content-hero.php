@@ -37,7 +37,7 @@ slidr.create('slidr-section', {
 
 <!-- START Slide 1 -->
 
-<div data-slidr="one" class="container" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');>
+<div data-slidr="one" class="container" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg')";>
         <div class="row">
           <div class="content-sec">
               <h2 class="section-title" style="font-size: 52px;">
