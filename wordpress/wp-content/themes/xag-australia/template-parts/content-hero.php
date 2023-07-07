@@ -12,7 +12,6 @@ if($techup_enable_banner_section==true ) {
 <style>
   .hero-sec {
     display: none;
-    transition: background 2000ms ease-in;
     }
 </style>
 
@@ -119,6 +118,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
+  x[slideIndex-1].style.transition = "background 2000ms ease-in";
   setTimeout(carousel, 6000); 
 }
 </script>
