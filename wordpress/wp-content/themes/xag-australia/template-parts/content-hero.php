@@ -18,7 +18,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 1 -->
 
-<section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>)">
+<section class="hero-sec beg-img" style="background-color: #000000;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -41,7 +41,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 2 -->
 
-<section class="hero-sec beg-img" style="background-image:url(<?php if($techup_banner_image) { echo esc_url($techup_banner_image); } else { echo esc_url(get_header_image()); } ?>)">
+<section class="hero-sec beg-img" style="background-color: #ffffff;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
