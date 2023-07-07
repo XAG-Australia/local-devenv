@@ -8,7 +8,7 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
 
-<script type="text/javascript" src="\wp-content\themes\xag-australia\slidr-master"></script>
+<script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
 <div id="slidr-div" style="display: block">
   <div data-slidr="one">apple</div>
