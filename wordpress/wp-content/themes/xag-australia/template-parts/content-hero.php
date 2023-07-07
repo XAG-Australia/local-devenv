@@ -12,6 +12,9 @@ if($techup_enable_banner_section==true ) {
   .hero-sec{
 
     display:none;
+    transition-property: display;
+  transition-duration: 4s;
+  transition-delay: 2s;
 
     }
 </style>
