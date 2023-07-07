@@ -17,7 +17,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 1 -->
 
-<section class="hero-sec beg-img w3-animate-fading" style="background-color: #000000;">
+<section class="hero-sec beg-img" style="background-color: #000000;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -59,7 +59,49 @@ if($techup_enable_banner_section==true ) {
       </div>
 </section>
 
-<!-- END Hero Section 2 -->
+<!-- END Hero Section 3 -->
+
+<section class="hero-sec beg-img w3-animate-fading" style="background-color: #ffffff;">
+      <div class="container">
+        <div class="row">
+          <div class="content-sec">
+              <h2 class="section-title" style="font-size: 52px;">
+                <?php echo esc_html($techup_banner_title); ?>
+              </h2>
+              <?php if($techup_banner_button_label1) :?>
+              <div class="btn-wraper">
+                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
+              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
+              <?php } ?>
+            </div>
+             <?php endif; ?>
+          </div>
+      </div>
+      </div>
+</section>
+
+<!-- END Hero Section 4 -->
+
+<section class="hero-sec beg-img w3-animate-fading" style="background-color: #ffffff;">
+      <div class="container">
+        <div class="row">
+          <div class="content-sec">
+              <h2 class="section-title" style="font-size: 52px;">
+                <?php echo esc_html($techup_banner_title); ?>
+              </h2>
+              <?php if($techup_banner_button_label1) :?>
+              <div class="btn-wraper">
+                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
+              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
+              <?php } ?>
+            </div>
+             <?php endif; ?>
+          </div>
+      </div>
+      </div>
+</section>
+
+<!-- END Hero Section 4 -->
 
 <!-- START Slider Script -->
 
