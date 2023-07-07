@@ -10,8 +10,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<div id="slidr-div" style="display: block" class="hero-sec beg-img">
-  <div data-slidr="one">apple</div>
+<div id="slidr-div" style="display: block" >
+  <div data-slidr="one" class="hero-sec beg-img">apple</div>
   <div data-slidr="two">banana</div>
   <div data-slidr="three">coconut</div>
 </div>
