@@ -13,7 +13,9 @@ if($techup_enable_banner_section==true ) {
 
     display: none;
     opacity: 0;
-    transition: opacity 1000ms;
+    transition: opacity 2s ease-in-out;
+        -moz-transition: opacity 2s ease-in-out;
+        -webkit-transition: opacity 2s ease-in-out;
 
     }
 </style>
