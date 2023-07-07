@@ -40,15 +40,12 @@ if($techup_enable_banner_section==true ) { ?>
 slidr.create('slidr-div', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
-  breadcrumbs: true,
-  controls: 'corner',
+  auto: true,
+  controls: 'center',
   direction: 'horizontal',
   fade: true,
-  keyboard: true,
-  overflow: true,
   theme: '#222',
   timing: { 'linear': '0.5s ease-in' },
-  touch: true,
   transition: 'linear'
 }).start();
 </script>
