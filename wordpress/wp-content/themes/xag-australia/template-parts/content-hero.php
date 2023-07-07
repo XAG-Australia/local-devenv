@@ -89,16 +89,12 @@ aside[id="{slidr-id}-control"] .slidr-control.right:hover {
 <div id="content"></div>
 <script>
 slidr.create('slidr-div', {
-  controls: 'none',
   direction: 'horizontal',
   fade: true,
   theme: '#222',
   timing: { 'cube': '0.5s ease-in' },
   transition: 'linear'
 }).auto();
-
-
-
 
 function auto(opt_msec, opt_direction, opt_start) {};
 
