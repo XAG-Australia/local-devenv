@@ -11,6 +11,10 @@
     margin-top: -10px;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 h2 { 
 
 color: #232323;
