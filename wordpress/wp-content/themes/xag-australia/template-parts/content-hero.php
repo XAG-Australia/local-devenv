@@ -12,9 +12,8 @@ if($techup_enable_banner_section==true ) {
 <style>
   .hero-sec {
     display: none;
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 6000ms;
+    opacity: 1;
+    transition: opacity 250ms ease-in;
     }
 </style>
 
