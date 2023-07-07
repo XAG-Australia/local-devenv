@@ -10,10 +10,13 @@ if($techup_enable_banner_section==true ) {
 ?>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-  .hero-sec{
+  .hero-sec {
     display: none;
-    background: #000000;
-    transition: background ease-in-out 2s;
+    transition: opacity ease-in-out 2s;
+    opacity: 0;
+    }
+    .hero-sec:active {
+    opacity: 1;
     }
 </style>
 
