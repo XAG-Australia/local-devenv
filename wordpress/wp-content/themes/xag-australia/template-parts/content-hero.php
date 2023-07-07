@@ -7,10 +7,10 @@ $techup_banner_button_label1 = get_theme_mod( 'techup_banner_button_label1','');
 $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
-
+<script type="text/javascript" src="http://localhost:8080/slidr-master/slidr.min.js"></script>
+<script type="text/javascript" src="http://localhost:8080/slidr-master/slidr.js"></script>
 <!-- START HERO -->
-<script type="text/javascript" src="/slidr-master/slidr.min.js"></script>
-<script type="text/javascript" src="/slidr-master/slidr.js"></script>
+<ul id="slidr-ul" style="display: inline">
 <script>
   slidr.create('slidr-ul', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
@@ -27,7 +27,6 @@ if($techup_enable_banner_section==true ) { ?>
   transition: 'cube'
 }).start();
 </script>
-<ul id="slidr-ul" style="display: inline">
 <!-- START Slide 1 -->
   <li data-slidr="one">
     <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
