@@ -8,35 +8,14 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
 
-<style>
-
-</style>
-
-
-
 <!-- START HERO -->
+<script>slidr.create('slidr-ul').start();</script>
 <ul id="slidr-ul" style="display: inline">
 <!-- START Slide 1 -->
   <li data-slidr="one">
     <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
 
-    <script>
-      slidr.create('slidr-id', {
-        after: function(e) { console.log('in: ' + e.in.slidr); },
-        before: function(e) { console.log('out: ' + e.out.slidr); },
-        breadcrumbs: true,
-        controls: 'corner',
-        direction: 'vertical',
-        fade: true,
-        keyboard: true,
-        overflow: true,
-        theme: '#222',
-        timing: { 'linear': '0.5s ease-in' },
-        touch: true,
-        transition: 'linear'
-      }).start();
-
-    </script>
+  
 
     <div class="container">
             <div class="row">
