@@ -10,11 +10,32 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<section id="slidr-div"  style="display: block;" >
-  <div data-slidr="one">apple</div>
+<div id="slidr-div"  style="display: block;" >
+  <div data-slidr="one">
+
+  <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="content-sec">
+              <h2 class="section-title" style="font-size: 52px;">
+                <?php echo esc_html($techup_banner_title); ?>
+              </h2>
+              <?php if($techup_banner_button_label1) :?>
+              <div class="btn-wraper">
+                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
+              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
+              <?php } ?>
+            </div>
+             <?php endif; ?>
+          </div>
+      </div>
+      </div>
+</section>
+
+  </div>
   <div data-slidr="two">banana</div>
   <div data-slidr="three">coconut</div>
-</section>
+</div>
 
 <div id="content"></div>
 <script>
