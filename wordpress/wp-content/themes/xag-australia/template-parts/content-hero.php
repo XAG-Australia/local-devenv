@@ -125,6 +125,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
+  x[slideIndex-1].style.visibility = "visible";
   setTimeout(carousel, 6000); 
 }
 </script>
