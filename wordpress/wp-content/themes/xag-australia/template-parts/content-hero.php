@@ -89,8 +89,6 @@ aside[id="{slidr-id}-control"] .slidr-control.right:hover {
 <div id="content"></div>
 <script>
 slidr.create('slidr-div', {
-  after: function(e) { console.log('in: ' + e.in.slidr); },
-  before: function(e) { console.log('out: ' + e.out.slidr); },
   controls: 'none',
   direction: 'horizontal',
   fade: true,
@@ -102,7 +100,7 @@ slidr.create('slidr-div', {
 
 
 
-function auto(opt_msec = '5000', opt_direction = 'right', opt_start) {};
+function auto(opt_msec, opt_direction, opt_start) {};
 
 </script>
 <?php
