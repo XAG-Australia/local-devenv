@@ -48,6 +48,9 @@ slidr.create('slidr-div', {
   timing: { 'linear': '0.5s ease-in' },
   transition: 'linear'
 }).start();
+
+function auto(opt_msec, opt_direction, opt_start) {};
+
 </script>
 <?php
 }
