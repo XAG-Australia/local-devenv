@@ -16,7 +16,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <!-- START HERO -->
 
-<section id="slidr-div" class="hero-sec beg-img">
+<section id="slidr-div" class="hero-sec beg-img" style="display: block;">
 
 <script type="text/javascript" src="http://localhost:8080/slidr-master/slidr.min.js">
 
