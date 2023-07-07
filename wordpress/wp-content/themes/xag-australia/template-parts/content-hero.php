@@ -11,7 +11,7 @@ if($techup_enable_banner_section==true ) {
 <style>
   .hero-sec{
 
-    display: none;
+    display: block;
     opacity: 0;
     transition: opacity 2s ease-in-out;
         -moz-transition: opacity 2s ease-in-out;
@@ -76,11 +76,10 @@ function carousel() {
   var i;
   var x = document.getElementsByClassName("hero-sec");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none"; 
+    x[i].style.opacity = "none"; 
   }
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
-  x[slideIndex-1].style.display = "block"; 
   x[slideIndex-1].style.opacity = "1"; 
   setTimeout(carousel, 6000); 
 }
