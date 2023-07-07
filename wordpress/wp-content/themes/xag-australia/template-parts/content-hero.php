@@ -16,7 +16,7 @@ if($techup_enable_banner_section==true ) {
     visibility: hidden;
     transition: 0.5s opacity;
     }
-  .hero-sec.active {
+  .hero-sec active {
     opacity: 1;
     visibility: visible;
     }
