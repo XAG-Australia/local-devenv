@@ -14,9 +14,9 @@ if($techup_enable_banner_section==true ) {
     display: none;
     opacity: 0;
     visibility: hidden;
-    transition: 0.5s opacity;
+    transition: all 2000ms;
     }
-  .hero-sec.active {
+  .hero-sec:visible {
     opacity: 1;
     visibility: visible;
     }
@@ -126,6 +126,7 @@ function carousel() {
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
   x[slideIndex-1].style.visibility = "visible";
+  x[slideIndex-1].style.opacity = "1";
   setTimeout(carousel, 6000); 
 }
 </script>
