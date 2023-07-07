@@ -16,7 +16,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <!-- START HERO -->
 
-<section id="slidr-div" class="hero-sec beg-img" style="display: block;">
+<div id="slidr-div" class="hero-sec beg-img" style="display: block;">
 
 
 <script>
@@ -103,7 +103,7 @@ slidr.create('slidr-div', {
 
 <!-- END Slide 4 -->
 <script type="text/javascript" src="http://localhost:8080/slidr-master/slidr.js"></script>
-</section>
+                </div>
 
 <!-- END HERO -->
 
