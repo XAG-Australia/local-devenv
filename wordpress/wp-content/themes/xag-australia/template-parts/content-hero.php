@@ -16,11 +16,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 <!-- START HERO -->
 
-<section id="slidr-div" class="hero-sec beg-img" style="display: block;">
-
-
 <script>
-slidr.create('slidr-div', {
+slidr.create('slidr-ul', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
