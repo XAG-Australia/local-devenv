@@ -91,11 +91,11 @@ aside[id="{slidr-id}-control"] .slidr-control.right:hover {
 slidr.create('slidr-div', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
-  controls: 'corner',
+  controls: 'none',
   direction: 'horizontal',
   fade: true,
   theme: '#222',
-  timing: { 'linear': '0.5s ease-in' },
+  timing: { 'cube': '0.5s ease-in' },
   transition: 'linear'
 }).start();
 
