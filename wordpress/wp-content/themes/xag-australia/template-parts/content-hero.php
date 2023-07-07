@@ -94,7 +94,7 @@ slidr.create('slidr-div', {
 </ul>
 
 <div id="content"></div>
-
+<script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 <?php
 }
 ?>
