@@ -102,7 +102,7 @@ slidr.create('slidr-div', {
 
 
 
-function auto(opt_msec, opt_direction, opt_start) {};
+function auto(opt_msec = '5000', opt_direction = 'right', opt_start) {};
 
 </script>
 <?php
