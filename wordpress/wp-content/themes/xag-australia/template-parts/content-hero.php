@@ -14,7 +14,7 @@ if($techup_enable_banner_section==true ) {
     display: none;
     opacity: 0;
     transition-property: opacity;
-    transition-duration: 2000ms;
+    transition-duration: 6000ms;
     }
 </style>
 
@@ -117,13 +117,13 @@ function carousel() {
   var x = document.getElementsByClassName("hero-sec");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
-    x[i].style.opacity = "0";
+    x[i].style.opacity = "1";
   }
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
-  x[slideIndex-1].style.opacity = "1";
-  setTimeout(carousel, 2100); 
+  x[slideIndex-1].style.opacity = "0";
+  setTimeout(carousel, 6100); 
 }
 </script>
 
