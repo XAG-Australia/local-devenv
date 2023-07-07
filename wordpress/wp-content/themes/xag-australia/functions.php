@@ -25,6 +25,9 @@ function fullscreen_techup_child_css() {
     wp_enqueue_style( 'fullscreen-techup-child-style',get_stylesheet_directory_uri() . '/child-css/child.css');
 	wp_enqueue_script( 'fullscreen-techup-custom-script', get_stylesheet_directory_uri() . '/child-js/custom-script.js');
 	wp_enqueue_script( 'slidr', get_stylesheet_directory_uri() . '/slidr-master/slidr.min.js');
+	wp_enqueue_script( 'slidrr', get_stylesheet_directory_uri() . '/slidr-master/slidr.js');
+	
+
  
 }
 
