@@ -12,8 +12,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 </style>
 
-<script type="text/javascript" src="slidr-master/slidr-master/slidr.min.js">
-
+<script type="text/javascript" src="slidr-master/slidr-master/slidr.min.js"></script>
+<script>
 slidr.create('slidr-section', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
@@ -24,9 +24,9 @@ slidr.create('slidr-section', {
   keyboard: true,
   overflow: true,
   theme: '#222',
-  timing: { 'cube': '0.5s ease-in' },
+  timing: { 'linear': '0.5s ease-in' },
   touch: true,
-  transition: 'cube'
+  transition: 'linear'
 }).start();
 
 </script>
