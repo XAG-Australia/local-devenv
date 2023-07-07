@@ -16,7 +16,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <!-- START HERO -->
 
-<div id="slidr-div" class="hero-sec beg-img" style="display: block;">
+<section id="slidr-div" class="hero-sec beg-img" style="display: block;">
 
 
 <script>
@@ -37,75 +37,61 @@ slidr.create('slidr-div', {
 
 </script>
 
+<ul id="slidr-ul" style="display: inline">
 <!-- START Slide 1 -->
-
-<div data-slidr="one" class="container" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg')";>
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">
-                <?php echo esc_html($techup_banner_title); ?>
-              </h2>
-              <?php if($techup_banner_button_label1) :?>
-              <div class="btn-wraper">
-                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
-              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
-              <?php } ?>
-            </div>
-             <?php endif; ?>
+  <li data-slidr="one">
+    <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
+    <div class="container">
+            <div class="row">
+              <div class="content-sec">
+                  <h2 class="section-title" style="font-size: 52px;">
+                    <?php echo esc_html($techup_banner_title); ?>
+                  </h2>
+                  <?php if($techup_banner_button_label1) :?>
+                  <div class="btn-wraper">
+                    <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
+                  <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
+                  <?php } ?>
+                </div>
+                <?php endif; ?>
+              </div>
           </div>
-      </div>
-      </div>
-
+          </div>
+    </section>
+  </li>
 <!-- END Slide 1 -->
 
 <!-- START Slide 2 -->
 
-<div data-slidr="two" class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">AERIAL DRONE SPRAYING</h2>
-              <div class="btn-wraper">
-              <a href="#" class="readmore-btn">LEARN MORE</a>
-            </div>
+<li data-slidr="two">
+    <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
+    <div class="container">
+            <div class="row">
+              <div class="content-sec">
+                  <h2 class="section-title" style="font-size: 52px;"></h2>
+                  <div class="btn-wraper">
+                  <a href="#" class="readmore-btn"></a>
+                </div>
+              </div>
           </div>
-      </div>
-      </div>
+          </div>
+    </section>
+  </li>
 
 <!-- END Slide 2 -->
 
 <!-- START Slide 3 -->
 
-<div data-slidr="three" class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">AERIAL DRONE SEEDING</h2>
-              <div class="btn-wraper">
-              <a href="#" class="readmore-btn">LEARN MORE</a>
-            </div>
-          </div>
-      </div>
-      </div>
+
 
 <!-- END Slide 3 -->
 
 <!-- START Slide 4 -->
 
-<div data-slidr="four" class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">AERIAL DRONE SURVEYING</h2>
-              <div class="btn-wraper">
-              <a href="#" class="readmore-btn">LEARN MORE</a>
-            </div>
-          </div>
-      </div>
-      </div>
+
 
 <!-- END Slide 4 -->
-<script type="text/javascript" src="http://localhost:8080/slidr-master/slidr.js"></script>
-                </div>
-
-<!-- END HERO -->
+</ul>
 
 <div id="content"></div>
 
