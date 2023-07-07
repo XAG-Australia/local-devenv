@@ -7,7 +7,23 @@ $techup_banner_button_label1 = get_theme_mod( 'techup_banner_button_label1','');
 $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
+<style>
+  // Customizing a specific controller arrow.
+aside[id="{slidr-id}-control"] .slidr-control.right {
+  width: 50px !important;
+  height: 50px !important;
+  top: 50% !important;
+  margin-top: -25px !important;
+  right: -25px !important;
+  border-radius: 25px;
+  background: url('/static/images/arrow_right.png') 14px 13px no-repeat white;
+  opacity: 0.4;
+}
 
+aside[id="{slidr-id}-control"] .slidr-control.right:hover {
+  opacity: 1;
+}
+</style>
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
 <div id="slidr-div"  style="display: inline; min-width: 100vw; min-height: 100vh;" >
@@ -40,8 +56,7 @@ if($techup_enable_banner_section==true ) { ?>
 slidr.create('slidr-div', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
-  auto: true,
-  controls: 'center',
+  controls: 'corner',
   direction: 'horizontal',
   fade: true,
   theme: '#222',
@@ -49,9 +64,11 @@ slidr.create('slidr-div', {
   transition: 'linear'
 }).start();
 
-function auto(opt_msec, opt_direction, opt_start) {
-int="2000";
-};
+
+
+@param {int=}
+@return {this}
+function auto(opt_msec ='5000', opt_direction, opt_start) {};
 
 </script>
 <?php
