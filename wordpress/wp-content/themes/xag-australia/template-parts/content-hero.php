@@ -19,9 +19,9 @@ if($techup_enable_banner_section==true ) { ?>
 <!-- START Slide 1 -->
   <li data-slidr="one">
     <section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
-    
+
     <script>
-      slidr.create('slidr-ul', {
+      slidr.create('slidr-id', {
         after: function(e) { console.log('in: ' + e.in.slidr); },
         before: function(e) { console.log('out: ' + e.out.slidr); },
         breadcrumbs: true,
