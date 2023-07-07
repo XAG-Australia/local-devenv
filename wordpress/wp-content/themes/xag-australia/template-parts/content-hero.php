@@ -19,7 +19,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 1 -->
 
-<section class="hero-sec beg-img" style="background: #000000;">
+<section class="hero-sec beg-img" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
       <div class="container">
         <div class="row">
           <div class="content-sec">
