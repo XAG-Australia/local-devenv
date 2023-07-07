@@ -18,9 +18,9 @@ if($techup_enable_banner_section==true ) { ?>
 
 <section id="slidr-div" class="hero-sec beg-img">
 
-<script type="text/javascript" src="/slidr-master/slidr-master/slidr.min.js">
+<script type="text/javascript" src="/slidr-master/slidr.min.js">
 
-slidr.create('slidr-id', {
+slidr.create('slidr-div', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
