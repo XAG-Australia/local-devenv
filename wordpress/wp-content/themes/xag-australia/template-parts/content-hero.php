@@ -8,21 +8,16 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) {
 ?>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
   .hero-sec{
-
     display: none;
-    transition: opacity 2s ease-in-out;
-    -moz-transition: opacity 2s ease-in-out;
-    -webkit-transition: opacity 2s ease-in-out;
-    opacity: 0;
-
     }
 </style>
 
 <!-- START Hero Section 1 -->
 
-<section class="hero-sec beg-img" style="background-color: #000000;">
+<section class="hero-sec beg-img w3-animate-fading" style="background-color: #000000;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -45,7 +40,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 2 -->
 
-<section class="hero-sec beg-img" style="background-color: #ffffff;">
+<section class="hero-sec beg-img w3-animate-fading" style="background-color: #ffffff;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -77,12 +72,10 @@ function carousel() {
   var x = document.getElementsByClassName("hero-sec");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none"; 
-    x[i].style.opacity = "0"; 
   }
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
-  x[slideIndex-1].style.opacity = "1"; 
   setTimeout(carousel, 6000); 
 }
 </script>
