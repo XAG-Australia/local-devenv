@@ -95,7 +95,7 @@ slidr.create('slidr-div', {
   theme: '#222',
   timing: { 'cube': '0.5s ease-in' },
   transition: 'linear'
-}).start();
+}).auto();
 
 
 
