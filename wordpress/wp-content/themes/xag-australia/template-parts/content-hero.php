@@ -49,7 +49,9 @@ slidr.create('slidr-div', {
   transition: 'linear'
 }).start();
 
-function auto(opt_msec, opt_direction, opt_start) {};
+function auto(opt_msec, opt_direction, opt_start) {
+int="2000";
+};
 
 </script>
 <?php
