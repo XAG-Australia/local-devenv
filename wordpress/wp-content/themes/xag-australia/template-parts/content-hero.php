@@ -10,11 +10,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
 
-<div id="slidr-div" style="display: block" >
-  <div data-slidr="one" class="hero-sec beg-img">apple</div>
+<section id="slidr-div" class="hero-sec beg-img" style="display: block; background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');" >
+  <div data-slidr="one" class="container" >apple</div>
   <div data-slidr="two">banana</div>
   <div data-slidr="three">coconut</div>
-</div>
+</section>
 
 <div id="content"></div>
 <script>
