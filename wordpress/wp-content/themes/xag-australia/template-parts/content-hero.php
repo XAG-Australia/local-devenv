@@ -12,7 +12,7 @@ if($techup_enable_banner_section==true ) { ?>
 <script type="text/javascript" src="/slidr-master/slidr.min.js"></script>
 <script type="text/javascript" src="/slidr-master/slidr.js"></script>
 <script>
-  slidr.create('slidr-id', {
+  slidr.create('slidr-ul', {
   after: function(e) { console.log('in: ' + e.in.slidr); },
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
