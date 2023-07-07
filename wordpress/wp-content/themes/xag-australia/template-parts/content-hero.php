@@ -12,7 +12,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 <div id="slidr-div"  style="display: inline; min-width: 100vw; min-height: 100vh;" >
   <div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-    <section class="hero-sec">
+    <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -42,14 +42,14 @@ slidr.create('slidr-div', {
   before: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
   controls: 'corner',
-  direction: 'vertical',
-  fade: false,
+  direction: 'horizontal',
+  fade: true,
   keyboard: true,
   overflow: true,
   theme: '#222',
-  timing: { 'cube': '0.5s ease-in' },
+  timing: { 'linear': '0.5s ease-in' },
   touch: true,
-  transition: 'cube'
+  transition: 'linear'
 }).start();
 </script>
 <?php
