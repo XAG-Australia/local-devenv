@@ -12,8 +12,9 @@ if($techup_enable_banner_section==true ) {
 <style>
   .hero-sec {
     display: none;
-    transition: opacity ease-in-out 2s;
     opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2000ms;
     }
 </style>
 
@@ -42,7 +43,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- START Hero Section 2 -->
 
-<section class="hero-sec beg-img" style="background: #ffffff;">
+<section class="hero-sec beg-img" style="background: #ffffff; opacity: 1;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -63,7 +64,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- END Hero Section 3 -->
 
-<section class="hero-sec beg-img" style="background: #000000;">
+<section class="hero-sec beg-img" style="background: #000000; opacity: 1;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -84,7 +85,7 @@ if($techup_enable_banner_section==true ) {
 
 <!-- END Hero Section 4 -->
 
-<section class="hero-sec beg-img" style="background: #ffffff;">
+<section class="hero-sec beg-img" style="background: #ffffff; opacity: 1;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
@@ -121,8 +122,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block";
-  x[slideIndex-1].style.opacity = "1";
-  setTimeout(carousel, 6000); 
+  setTimeout(carousel, 2100); 
 }
 </script>
 
