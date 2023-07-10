@@ -66,11 +66,21 @@ if($techup_enable_banner_section==true ) { ?>
 	aside[id*="-breadcrumbs"] {
 		right: 50% !important;
 	}
+	.chat {
+		width: 100px;
+		height: 100px;
+		position: fixed;
+		bottom: 100px !important;
+		right: 100px !important;
+		z-index: 500;
+	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
   <!-- START HERO SLIDER -->
-
+	<div class="chat">
+		<img src="http://localhost:8080/wp-content/uploads/2023/07/chat.png">
+	</div>
 	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh;">
 		<!-- START SLIDE 1 -->
 
