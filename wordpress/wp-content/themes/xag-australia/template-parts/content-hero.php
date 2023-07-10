@@ -72,7 +72,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat; background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat black; background-size: cover; background-blend-mode: multiply;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
