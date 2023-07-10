@@ -72,7 +72,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat rgba(0, 0, 0, 0.1); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
@@ -81,7 +81,8 @@ if($techup_enable_banner_section==true ) { ?>
 							<?php if($techup_banner_button_label1) :?>
 
 							<div class="btn-wraper">
-								<?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?><a class="readmore-btn" href="%3C?php%20echo%20esc_url($techup_banner_button_link1);%20?%3E"><?php echo esc_html($techup_banner_button_label1); ?></a> <?php } ?>
+								<?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?><a class="readmore-btn" href="<?php echo esc_url($techup_banner_button_link1); ?>"><?php echo esc_html($techup_banner_button_label1); ?></a>
+								<?php } ?>
 							</div>
 							<?php endif; ?>
 						</div>
@@ -94,7 +95,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
@@ -114,7 +115,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
