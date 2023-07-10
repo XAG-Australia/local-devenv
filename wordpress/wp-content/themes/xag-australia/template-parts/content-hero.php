@@ -94,8 +94,8 @@ slidr.create('slidr-div', {
   fade: true,
   controls: 'border',
   theme: '#ffffff',
-  timing: { 'linear': '0.5s ease-in' },
-  transition: 'linear',
+  timing: { 'fade': '0.5s ease-in' },
+  transition: 'fade',
   overflow: false,
   pause: false,
 }).auto();
