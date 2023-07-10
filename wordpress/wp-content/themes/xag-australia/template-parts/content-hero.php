@@ -7,141 +7,143 @@ $techup_banner_button_label1 = get_theme_mod( 'techup_banner_button_label1','');
 $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
-<style>
+<!DOCTYPE html>
 
-aside[id="slidr-div-control"].border .slidr-control.right {
-    right: 50px !important;
-    width: 50px !important;
-    height: 50px !important;
-    top: 50% !important;
-    margin-top: -25px !important;
-    border-radius: 25px !important;
-    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5) !important;
-    opacity: 1 !important;
-    background-size: 25px !important;
-    background-position: center !important;
-}
+	<style>
 
-aside[id*="-control"] .slidr-control.disabled {
-  opacity: 0.5 !important;
-}
+	aside[id="slidr-div-control"].border .slidr-control.right {
+	   right: 50px !important;
+	   width: 50px !important;
+	   height: 50px !important;
+	   top: 50% !important;
+	   margin-top: -25px !important;
+	   border-radius: 25px !important;
+	   background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5) !important;
+	   opacity: 1 !important;
+	   background-size: 25px !important;
+	   background-position: center !important;
+	}
 
-aside[id="slidr-div-control"].border .slidr-control.left {
-    left: 50px !important;
-    width: 50px !important;
-    height: 50px !important;
-    top: 50% !important;
-    margin-top: -25px !important;
-    border-radius: 25px;
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.5);
-    opacity: 1;
-    background-size: 25px;
-    background-position: center;
-}
+	aside[id*="-control"] .slidr-control.disabled {
+	 opacity: 0.5 !important;
+	}
 
-aside[id="slidr-div-control"].border .slidr-control.right:hover {
-  opacity: 1;
-}
+	aside[id="slidr-div-control"].border .slidr-control.left {
+	   left: 50px !important;
+	   width: 50px !important;
+	   height: 50px !important;
+	   top: 50% !important;
+	   margin-top: -25px !important;
+	   border-radius: 25px;
+	   background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.5);
+	   opacity: 1;
+	   background-size: 25px;
+	   background-position: center;
+	}
+
+	aside[id="slidr-div-control"].border .slidr-control.right:hover {
+	 opacity: 1;
+	}
 
 
-aside[id="slidr-div-control"].border .slidr-control.left:hover {
-  opacity: 1;
-}
+	aside[id="slidr-div-control"].border .slidr-control.left:hover {
+	 opacity: 1;
+	}
 
-aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after {
-  border: transparent !important;
-}
-</style>
-<script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
+	aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after {
+	 border: transparent !important;
+	}
+	</style>
+	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
+  
+  <!-- START HERO SLIDER -->
 
-<div id="slidr-div"  style="display: inline; min-width: 100vw; min-height: 100vh;" >
-  <div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-    <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg') no-repeat; background-size: cover;">
-      <div class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">
-                <?php echo esc_html($techup_banner_title); ?>
-              </h2>
-              <?php if($techup_banner_button_label1) :?>
-              <div class="btn-wraper">
-                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
-              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
-              <?php } ?>
-            </div>
-             <?php endif; ?>
-          </div>
-      </div>
-                </section>
-                </div>
-  <div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
-  <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">
-                <?php echo esc_html($techup_banner_title); ?>
-              </h2>
-              <?php if($techup_banner_button_label1) :?>
-              <div class="btn-wraper">
-                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
-              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
-              <?php } ?>
-            </div>
-             <?php endif; ?>
-          </div>
-      </div>
-                </section>
-  </div>
-  <div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
-  <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="content-sec">
-              <h2 class="section-title" style="font-size: 52px;">
-                <?php echo esc_html($techup_banner_title); ?>
-              </h2>
-              <?php if($techup_banner_button_label1) :?>
-              <div class="btn-wraper">
-                <?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?>
-              <a href="<?php echo esc_url($techup_banner_button_link1); ?>" class="readmore-btn"><?php echo esc_html($techup_banner_button_label1); ?></a>
-              <?php } ?>
-            </div>
-             <?php endif; ?>
-          </div>
-      </div>
-                </section>
-  </div>
-</div>
+	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh;">
+		<!-- START SLIDE 1 -->
 
-<aside id="{slidr-id}-breadcrumbs">
-  <ul class="slidr-breadcrumbs">
-    <li></li>
-    <li class="normal"></li>
-    <li class="normal active"></li>
-  </ul>
-  ...
-</aside>
 
-<div id="content"></div>
-<script>
-slidr.create('slidr-div', {
-  after: function(e) { console.log('in: ' + e.in.slidr); },
-  before: function(e) { console.log('out: ' + e.out.slidr); },
-  direction: 'horizontal',
-  breadcrumbs: true,
-  fade: true,
-  controls: 'border',
-  theme: '#ffffff',
-  timing: { 'fade': '0.5s ease-in' },
-  transition: 'fade',
-  overflow: false,
-  pause: false,
-}).auto();
+		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat; background-size: cover;">
+				<div class="container">
+					<div class="row">
+						<div class="content-sec">
+							<h2 class="section-title" style="font-size: 52px;"><?php echo esc_html($techup_banner_title); ?>
+							</h2>
+							<?php if($techup_banner_button_label1) :?>
 
-function auto(opt_msec, opt_direction, opt_start) {};
+							<div class="btn-wraper">
+								<?php if(!empty($techup_banner_button_link1) && ($techup_banner_button_label1)) { ?><a class="readmore-btn" href="%3C?php%20echo%20esc_url($techup_banner_button_link1);%20?%3E"><?php echo esc_html($techup_banner_button_label1); ?></a> <?php } ?>
+							</div>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- END SLIDE 1 -->
+		<!-- START SLIDE 2 -->
 
-</script>
-<?php
-}
-?>
+
+		<div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat; background-size: cover;">
+				<div class="container">
+					<div class="row">
+						<div class="content-sec">
+							<h2 class="section-title" style="font-size: 52px;">AGRICULTURAL DRONE TECHNOLOGY</h2>
+
+
+							<div class="btn-wraper">
+								<a class="readmore-btn" href="#">SHOP NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- END SLIDE 2 -->
+		<!-- START SLIDE 3 -->
+
+
+		<div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat; background-size: cover;">
+				<div class="container">
+					<div class="row">
+						<div class="content-sec">
+							<h2 class="section-title" style="font-size: 52px;">AERIAL SPRAYING, SEEDING & SURVEYING</h2>
+
+
+							<div class="btn-wraper">
+								<a class="readmore-btn" href="#">LEARN MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- END SLIDE 3 -->
+	</div>
+	<!-- END HERO SLIDER -->
+
+
+	<div id="content">
+	</div>
+	<script>
+	slidr.create('slidr-div', {
+	 after: function(e) { console.log('in: ' + e.in.slidr); },
+	 before: function(e) { console.log('out: ' + e.out.slidr); },
+	 direction: 'horizontal',
+	 breadcrumbs: true,
+	 fade: true,
+	 controls: 'border',
+	 theme: '#ffffff',
+	 timing: { 'fade': '0.5s ease-in' },
+	 transition: 'fade',
+	 overflow: false,
+	 pause: false,
+	}).auto();
+
+	function auto(opt_msec, opt_direction, opt_start) {};
+
+	</script> <?php
+	}
+	?>
