@@ -89,6 +89,7 @@ if($techup_enable_banner_section==true ) { ?>
 		background-size: contain;
 		background-position: center;
 		border-radius: 100px;
+		border: solid 8px #ffffff;
 	}
 	.shop-now {
 		width: 50px;
@@ -114,15 +115,14 @@ if($techup_enable_banner_section==true ) { ?>
 		background-size: contain;
 		background-position: center;
 		border-radius: 100px;
+		border: solid 8px #ffffff;
 	}
 
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
   <!-- START HERO SLIDER -->
-	<div class="chat">
-		<img src="http://localhost:8080/wp-content/uploads/2023/07/chat.png">
-	</div>
+	<div class="chat"></div>
 
 	<div class="shop-now"></div>
 
