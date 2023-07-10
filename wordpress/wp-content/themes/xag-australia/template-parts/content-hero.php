@@ -137,7 +137,7 @@ if($techup_enable_banner_section==true ) { ?>
 	 transition: 'fade',
 	 overflow: false,
 	 pause: false,
-	}).auto(3000, 'right');
+	}).auto(3000, 'right', 'one');
 
 	function auto(opt_msec, opt_direction, opt_start) {};
 
