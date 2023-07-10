@@ -79,15 +79,15 @@ if($techup_enable_banner_section==true ) { ?>
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
 	.shop-now {
-		width: 220px;
-		height: 100px;
+		width: 180px;
+		height: 60px;
 		position: fixed;
-		top: 220px !important;
-		right: 100px !important;
+		bottom: 100px !important;
+		left: 100px !important;
 		z-index: 500;
 		background-color: #c01920;
 		color: #ffffff;
-		box-shadow: 3px 3px 100px rgba(0,0,0,0.5);
+		box-shadow: 3px 3px 20px rgba(0,0,0,0.5);
 		
 	}
 	.shop-now h2:hover {
