@@ -9,7 +9,7 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
 if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
-aside[id="{slidr-id}-control"] .slidr-control.right {
+aside[id="{slidr-id}-control"] .slidr-control.right, aside[id="{slidr-id}-control"] .slidr-control.right:after {
   
   width: 50px !important;
   height: 50px !important;
@@ -25,7 +25,7 @@ aside[id="{slidr-id}-control"] .slidr-control.right:hover {
   opacity: 1;
 }
 
-aside[id="{slidr-id}-control"] .slidr-control.left {
+aside[id="{slidr-id}-control"] .slidr-control.left, aside[id="{slidr-id}-control"] .slidr-control.left:after {
   
   width: 50px !important;
   height: 50px !important;
@@ -43,8 +43,8 @@ aside[id="{slidr-id}-control"] .slidr-control.left:hover {
 
 // Customize the position, size, border color and background color.
 aside[id="{slidr-id}-breadcrumbs"] {
-  right: 50% !important;
-  margin-right: -41px !important;
+ margin-left: auto;
+  margin-right: auto;
 }
 
 aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li {
