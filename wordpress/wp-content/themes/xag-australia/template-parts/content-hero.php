@@ -40,6 +40,16 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-position: center;
 	}
 
+  @media screen and (max-width: 990px){
+    aside[id="slidr-div-control"].border .slidr-control.left {
+      left: 50px !important;
+    }
+
+    aside[id="slidr-div-control"].border .slidr-control.right {
+      right: 50px !important;
+    }
+  }
+
 	aside[id="slidr-div-control"].border .slidr-control.right:hover {
 	 opacity: 1;
 	}
