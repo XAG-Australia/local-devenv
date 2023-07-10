@@ -52,11 +52,13 @@ if($techup_enable_banner_section==true ) { ?>
 
   aside[id="slidr-div-control"].border .slidr-control.right:hover {
 	 opacity: 1 !important;
+	 background: rgb(0 0 0 /0.25) !important;
 	}
 
 
 	aside[id="slidr-div-control"].border .slidr-control.left:hover {
 	 opacity: 1 !important;
+	 background: rgb(0 0 0 /0.25) !important;
 	}
 
 	aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after, aside[id="slidr-div-control"] .slidr-control.down::after {
@@ -65,6 +67,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 	aside[id*="-breadcrumbs"] {
 		right: 50% !important;
+		bottom: 100px !important;
 	}
 	.chat {
 		width: 50px;
