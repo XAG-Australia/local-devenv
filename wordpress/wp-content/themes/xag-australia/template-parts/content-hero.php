@@ -8,7 +8,7 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
 <style>
-  
+
 aside[id="slidr-div-control"].border .slidr-control.right {
     right: 50px !important;
     width: 50px !important;
@@ -48,7 +48,7 @@ aside[id="slidr-div-control"].border .slidr-control.left:hover {
   opacity: 1;
 }
 
-aside[id="slidr-div-control"] .slidr-control.left::after {
+aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after {
   border: transparent !important;
 }
 </style>
