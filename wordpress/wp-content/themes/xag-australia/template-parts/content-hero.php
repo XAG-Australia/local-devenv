@@ -98,7 +98,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">AGRICULTURAL DRONE TECHNOLOGY</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">Agricultural Drone Technology.</h2>
 
 
 							<div class="btn-wraper">
@@ -118,7 +118,8 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">AERIAL SPRAYING, SEEDING & SURVEYING</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">Aerial Drone Services.</h2>
+							<h3 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);"></h3>
 
 
 							<div class="btn-wraper">
