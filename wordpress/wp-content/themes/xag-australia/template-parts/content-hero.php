@@ -74,6 +74,9 @@ if($techup_enable_banner_section==true ) { ?>
 		right: 100px !important;
 		z-index: 500;
 	}
+	.chat:hover {
+		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
