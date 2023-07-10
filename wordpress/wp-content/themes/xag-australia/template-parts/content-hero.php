@@ -8,21 +8,18 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
 <style>
-  // Customizing a specific controller arrow.
-
-  aside[id="slidr-div-control"].border .slidr-control.right, aside[id*="-control"].border .slidr-control.right, aside[id*="-control"] .slidr-control.right {
-
+  
+aside[id="slidr-div-control"].border .slidr-control.right {
     right: 50px !important;
     width: 50px !important;
     height: 50px !important;
     top: 50% !important;
     margin-top: -25px !important;
     border-radius: 25px !important;
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.5) !important;
+    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5) !important;
     opacity: 1 !important;
     background-size: 25px !important;
     background-position: center !important;
-
 }
 
 aside[id*="-control"] .slidr-control.disabled {
