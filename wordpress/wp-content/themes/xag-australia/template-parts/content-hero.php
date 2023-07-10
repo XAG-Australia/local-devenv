@@ -59,8 +59,12 @@ if($techup_enable_banner_section==true ) { ?>
 	 opacity: 1;
 	}
 
-	aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after {
+	aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after, aside[id="slidr-div-control"] .slidr-control.down::after {
 	 border: transparent !important;
+	}
+
+	aside[id*="-breadcrumbs"] {
+		right: 50% !important;
 	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
