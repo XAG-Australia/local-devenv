@@ -10,8 +10,7 @@ if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
 
-
-  aside[id="slidr-div-control"].border .slidr-control.right {
+aside[id="slidr-div-control"] .slidr-control.right {
     right: 50px !important;
     width: 50px !important;
     height: 50px !important;
