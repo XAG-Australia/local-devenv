@@ -15,7 +15,7 @@ aside[id="{slidr-id}-control"] .slidr-control.right {
   height: 50px !important;
   top: 50% !important;
   margin-top: -25px !important;
-  right: -50px !important;
+  right: 50px !important;
   border-radius: 25px;
   background: url('/static/images/arrow_right.png') 14px 13px no-repeat white;
   opacity: 0.4;
@@ -39,6 +39,26 @@ aside[id="{slidr-id}-control"] .slidr-control.left {
 
 aside[id="{slidr-id}-control"] .slidr-control.left:hover {
   opacity: 1;
+}
+
+// Customize the position, size, border color and background color.
+aside[id="{slidr-id}-breadcrumbs"] {
+  right: 50% !important;
+  margin-right: -41px !important;
+}
+
+aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li {
+  width: 15px !important;
+  height: 15px !important;
+  margin: 3px !important;
+}
+
+aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.normal {
+  border-color: white !important;
+}
+
+aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.active {
+  background-color: black !important;
 }
 </style>
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
