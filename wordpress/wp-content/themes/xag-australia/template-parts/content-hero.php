@@ -26,14 +26,16 @@ aside[id="slidr-div-control"].border .slidr-control.right {
 }
 
 aside[id="slidr-div-control"].border .slidr-control.left {
-  left: 50px !important;
-  width: 50px !important;
-  height: 50px !important;
-  top: 50% !important;
-  margin-top: -25px !important;
-  border-radius: 25px;
-  background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') 14px 13px no-repeat white;
-  opacity: 0.4;
+    left: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+    top: 50% !important;
+    margin-top: -25px !important;
+    border-radius: 25px;
+    background: url(http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png) no-repeat rgb(0 0 0 /0.5);
+    opacity: 1;
+    background-size: 25px;
+    background-position: center;
 }
 
 aside[id="{slidr-id}-control"] .slidr-control.right:hover {
@@ -73,6 +75,11 @@ aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.normal {
 
 aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.active {
   background-color: black !important;
+}
+
+// Hide all Slidr arrows.
+aside[id*="-control"] .slidr-control:after {
+  border-color: transparent !important;   
 }
 </style>
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
