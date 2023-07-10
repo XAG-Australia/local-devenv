@@ -9,8 +9,9 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
 if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
-aside[id="{slidr-id}-control"] .slidr-control.right {
-  
+
+
+aside[id="slidr-div-control"].border .slidr-control.right {
   width: 50px !important;
   height: 50px !important;
   top: 50% !important;
@@ -21,20 +22,7 @@ aside[id="{slidr-id}-control"] .slidr-control.right {
   opacity: 0.4;
 }
 
-aside[id="slidr-div-control"].border .slidr-control.right {
-  right: 50px !important;
-}
-
 aside[id="slidr-div-control"].border .slidr-control.left {
-  left: 50px !important;
-}
-
-aside[id="{slidr-id}-control"] .slidr-control.right:hover {
-  opacity: 1;
-}
-
-aside[id="{slidr-id}-control"] .slidr-control.left, aside[id="{slidr-id}-control"] .slidr-control.left after {
-  
   width: 50px !important;
   height: 50px !important;
   top: 50% !important;
@@ -45,28 +33,13 @@ aside[id="{slidr-id}-control"] .slidr-control.left, aside[id="{slidr-id}-control
   opacity: 0.4;
 }
 
-aside[id="{slidr-id}-control"] .slidr-control.left:hover {
+aside[id="{slidr-id}-control"].border .slidr-control.right:hover {
   opacity: 1;
 }
 
-// Customize the position, size, border color and background color.
-aside[id="{slidr-id}-breadcrumbs"] {
- margin-left: auto;
-  margin-right: auto;
-}
 
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li {
-  width: 15px !important;
-  height: 15px !important;
-  margin: 3px !important;
-}
-
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.normal {
-  border-color: white !important;
-}
-
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.active {
-  background-color: black !important;
+aside[id="{slidr-id}-control"].border .slidr-control.left:hover {
+  opacity: 1;
 }
 </style>
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
