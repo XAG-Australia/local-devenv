@@ -67,16 +67,28 @@ if($techup_enable_banner_section==true ) { ?>
 		right: 50% !important;
 	}
 	.chat {
-		width: 100px;
-		height: 100px;
+		width: 50px;
+		height: 50px;
 		position: fixed;
 		bottom: 100px !important;
 		right: 100px !important;
 		z-index: 500;
+		background: url('http://localhost:8080/wp-content/uploads/2023/07/chat-1.png') no-repeat;
+		background-size: contain;
+		background-position: center;
 		border-radius: 100px;
 	}
 	.chat:hover {
-		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+		width: 50px;
+		height: 50px;
+		position: fixed;
+		bottom: 100px !important;
+		right: 100px !important;
+		z-index: 500;
+		background: url('http://localhost:8080/wp-content/uploads/2023/07/chat-2.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		border-radius: 100px;
 	}
 	.shop-now {
 		width: 50px;
