@@ -46,9 +46,8 @@ aside[id="{slidr-id}-control"].border .slidr-control.left:hover {
   opacity: 1;
 }
 
-// Hide all Slidr arrows.
-aside[id*="slidr-div-control"].border .slidr-control:after {
-  border-color: transparent !important;   
+aside[id="slidr-div-control"] .slidr-control.left::after, aside[id="slidr-div-control"] .slidr-control.right::after {
+  border: transparent !important;
 }
 </style>
 <script type="text/javascript" src="\slidr-master\slidr.min.js"></script>
