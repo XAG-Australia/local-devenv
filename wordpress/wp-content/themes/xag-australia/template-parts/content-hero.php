@@ -92,7 +92,7 @@ slidr.create('slidr-div', {
   direction: 'horizontal',
   breadcrumbs: true,
   fade: true,
-  controls: 'corner',
+  controls: 'border',
   theme: '#ffffff',
   timing: { 'linear': '0.5s ease-in' },
   transition: 'linear',
