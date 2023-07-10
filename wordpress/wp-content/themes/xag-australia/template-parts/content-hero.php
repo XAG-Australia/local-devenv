@@ -66,7 +66,7 @@ if($techup_enable_banner_section==true ) { ?>
 	}
 
 	aside[id*="-breadcrumbs"] {
-		right: 50% !important;
+		right: 49% !important;
 		bottom: 100px !important;
 	}
 	.chat {
