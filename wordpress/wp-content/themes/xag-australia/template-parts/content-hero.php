@@ -12,7 +12,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
   aside[id="slidr-div-control"].border .slidr-control.right {
-  right: 50px !important;
+    right: 50px !important;
     width: 50px !important;
     height: 50px !important;
     top: 50% !important;
