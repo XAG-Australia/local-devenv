@@ -87,11 +87,15 @@ if($techup_enable_banner_section==true ) { ?>
 		z-index: 500;
 		background-color: #c01920;
 		color: #ffffff;
+		font-size: 18px;
 	}
 	.shop-now:hover {
 		background-color: #ffffff;
 		color: #c01920;
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+	}
+	.shop-now h2 {
+		color: #ffffff !important;
 	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
