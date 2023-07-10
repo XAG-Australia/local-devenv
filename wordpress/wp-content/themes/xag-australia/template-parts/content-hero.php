@@ -56,7 +56,7 @@ aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-c
 
 <div id="slidr-div"  style="display: inline; min-width: 100vw; min-height: 100vh;" >
   <div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-    <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg'); background-size: contain; background-position: center;">
+    <section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/pexels-rene-strgar-17402297-scaled-e1688618891603.jpg') no-repeat; background-size: cover;">
       <div class="container">
         <div class="row">
           <div class="content-sec">
