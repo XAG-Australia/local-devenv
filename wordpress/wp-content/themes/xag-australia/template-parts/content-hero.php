@@ -11,7 +11,7 @@ if($techup_enable_banner_section==true ) { ?>
 	<style>
 
 	aside[id="slidr-div-control"].border .slidr-control.right {
-	   right: calc(100vw - 1480px / 2) !important;
+     right: c
 	   width: 50px !important;
 	   height: 50px !important;
 	   top: 50% !important;
@@ -28,7 +28,7 @@ if($techup_enable_banner_section==true ) { ?>
 	}
 
 	aside[id="slidr-div-control"].border .slidr-control.left {
-	   left: calc(100vw - 1480px / 2) !important;
+	   left: right: calc((100vw - 1280px)/2);
 	   width: 50px !important;
 	   height: 50px !important;
 	   top: 50% !important;
