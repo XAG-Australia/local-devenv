@@ -87,7 +87,8 @@ if($techup_enable_banner_section==true ) { ?>
 		z-index: 500;
 		background-color: #c01920;
 		color: #ffffff;
-		font-size: 18px;
+		box-shadow: 3px 3px 100px rgba(0,0,0,0.5);
+		
 	}
 	.shop-now:hover {
 		background-color: #ffffff;
@@ -96,6 +97,8 @@ if($techup_enable_banner_section==true ) { ?>
 	}
 	.shop-now h2 {
 		color: #ffffff !important;
+		font-size: 18px !important;
+		text-align: center;
 	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
