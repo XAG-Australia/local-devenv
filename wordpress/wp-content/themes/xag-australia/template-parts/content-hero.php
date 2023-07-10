@@ -131,11 +131,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 	<div class="shop-now"></div>
 
-	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh;">
+	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: calc(100vh - 10px); border-bottom: solid 10px #ffffff;">
 		<!-- START SLIDE 1 -->
 
 
-		<div data-slidr="one" style="min-width: 100vw; height: calc(100vh - 10px); border-bottom: solid 10px #ffffff;">
+		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
 			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat rgba(0, 0, 0, 0.1); background-size: cover;">
 				<div class="container">
 					<div class="row">
