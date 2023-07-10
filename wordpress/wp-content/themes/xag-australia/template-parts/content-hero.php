@@ -96,8 +96,8 @@ if($techup_enable_banner_section==true ) { ?>
 		width: 50px;
 		height: 50px;
 		position: fixed;
-		bottom: 100px !important;
-		left: 100px !important;
+		bottom: 220px !important;
+		right: 100px !important;
 		z-index: 500;
 		background: url('http://localhost:8080/wp-content/uploads/2023/07/shop-1.png') no-repeat;
 		background-size: contain;
@@ -109,8 +109,8 @@ if($techup_enable_banner_section==true ) { ?>
 		width: 50px;
 		height: 50px;
 		position: fixed;
-		bottom: 100px !important;
-		left: 100px !important;
+		bottom: 220px !important;
+		right: 100px !important;
 		z-index: 500;
 		background: url('http://localhost:8080/wp-content/uploads/2023/07/shop-2.png') no-repeat;
 		background-size: contain;
