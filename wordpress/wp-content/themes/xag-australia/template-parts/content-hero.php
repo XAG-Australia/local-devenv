@@ -119,7 +119,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec">
 							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">Aerial Drone Services.</h2>
-							<h3 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);"></h3>
+							<h3 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">Spraying, seeding & surveying.</h3>
 
 
 							<div class="btn-wraper">
