@@ -40,7 +40,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-position: center;
 	}
 
-  @media screen and (max-width: 1919px){
+  @media screen and (max-width: 1279px){
     aside[id="slidr-div-control"].border .slidr-control.left {
       left: 50px !important;
     }
