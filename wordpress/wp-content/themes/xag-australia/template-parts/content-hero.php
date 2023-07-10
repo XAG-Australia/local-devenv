@@ -11,7 +11,7 @@ if($techup_enable_banner_section==true ) { ?>
 	<style>
 
 	aside[id="slidr-div-control"].border .slidr-control.right {
-     right: c
+     right: calc((100vw - 1280px)/2);
 	   width: 50px !important;
 	   height: 50px !important;
 	   top: 50% !important;
@@ -28,7 +28,7 @@ if($techup_enable_banner_section==true ) { ?>
 	}
 
 	aside[id="slidr-div-control"].border .slidr-control.left {
-	   left: right: calc((100vw - 1280px)/2);
+	   left: calc((100vw - 1280px)/2);
 	   width: 50px !important;
 	   height: 50px !important;
 	   top: 50% !important;
@@ -43,12 +43,10 @@ if($techup_enable_banner_section==true ) { ?>
   @media screen and (max-width: 1919px){
     aside[id="slidr-div-control"].border .slidr-control.left {
       left: 50px !important;
-      right: initial !important;
     }
 
     aside[id="slidr-div-control"].border .slidr-control.right {
       right: 50px !important;
-      left: initial !important;
     }
   }
 
