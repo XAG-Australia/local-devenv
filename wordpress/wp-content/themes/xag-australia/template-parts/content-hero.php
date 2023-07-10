@@ -79,28 +79,31 @@ if($techup_enable_banner_section==true ) { ?>
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
 	.shop-now {
-		width: 180px;
-		height: 60px;
+		width: 50px;
+		height: 50px;
 		position: fixed;
-		bottom: 100px !important;
-		left: 100px !important;
+		top: 180px !important;
+		right: 100px !important;
 		z-index: 500;
-		background-color: #c01920;
-		color: #ffffff;
-		box-shadow: 3px 3px 20px rgba(0,0,0,0.5);
+		background: url('http://localhost:8080/wp-content/uploads/2023/07/shop-1.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		border-radius: 100px;
 		
 	}
-	.shop-now h2:hover {
-		background-color: #ffffff;
-		color: #c01920 !important;
-		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+	.shop-now:hover {
+		width: 50px;
+		height: 50px;
+		position: fixed;
+		top: 180px !important;
+		right: 100px !important;
+		z-index: 500;
+		background: url('http://localhost:8080/wp-content/uploads/2023/07/shop-2.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		border-radius: 100px;
 	}
-	.shop-now h2 {
-		color: #ffffff !important;
-    	font-size: 18px !important;
-   		line-height: 65px;
-    	text-align: center;
-	}
+
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
@@ -108,9 +111,9 @@ if($techup_enable_banner_section==true ) { ?>
 	<div class="chat">
 		<img src="http://localhost:8080/wp-content/uploads/2023/07/chat.png">
 	</div>
-	<div class="shop-now">
-		<h2 class="section-title">SHOP NOW</h2>
-	</div>
+
+	<div class="shop-now"></div>
+
 	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh;">
 		<!-- START SLIDE 1 -->
 
