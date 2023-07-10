@@ -11,7 +11,7 @@ if($techup_enable_banner_section==true ) { ?>
   // Customizing a specific controller arrow.
 
 
-aside[id="slidr-div-control"].border .slidr-control.right {
+  aside[id="slidr-div-control"].border .slidr-control.right {
   right: 50px !important;
     width: 50px !important;
     height: 50px !important;
@@ -37,12 +37,12 @@ aside[id="slidr-div-control"].border .slidr-control.left {
     background-position: center;
 }
 
-aside[id="{slidr-id}-control"].border .slidr-control.right:hover {
+aside[id="slidr-div-control"].border .slidr-control.right:hover {
   opacity: 1;
 }
 
 
-aside[id="{slidr-id}-control"].border .slidr-control.left:hover {
+aside[id="slidr-div-control"].border .slidr-control.left:hover {
   opacity: 1;
 }
 
