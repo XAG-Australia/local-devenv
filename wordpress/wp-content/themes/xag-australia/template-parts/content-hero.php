@@ -11,7 +11,7 @@ if($techup_enable_banner_section==true ) { ?>
 	<style>
 
 	aside[id="slidr-div-control"].border .slidr-control.right {
-	   left: calc(100vw - 1480px / 2) !important;
+	   left: calc(100vw - 1080px / 2) !important;
      right: inital !important;
 	   width: 50px !important;
 	   height: 50px !important;
@@ -42,7 +42,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-position: center;
 	}
 
-  @media screen and (max-width: 1280px){
+  @media screen and (max-width: 1979px){
     aside[id="slidr-div-control"].border .slidr-control.left {
       left: 50px !important;
       right: initial !important;
