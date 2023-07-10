@@ -123,7 +123,7 @@ if($techup_enable_banner_section==true ) { ?>
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
 
-	.btn-wraper:hover {
+	.readmore-btn:hover {
 		background-color: #c01920 !important;
 	}
 
