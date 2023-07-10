@@ -10,6 +10,7 @@ if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
 aside[id="{slidr-id}-control"] .slidr-control.right {
+  
   width: 50px !important;
   height: 50px !important;
   top: 50% !important;
@@ -21,6 +22,22 @@ aside[id="{slidr-id}-control"] .slidr-control.right {
 }
 
 aside[id="{slidr-id}-control"] .slidr-control.right:hover {
+  opacity: 1;
+}
+
+aside[id="{slidr-id}-control"] .slidr-control.left {
+  
+  width: 50px !important;
+  height: 50px !important;
+  top: 50% !important;
+  margin-top: -25px !important;
+  left: 50px !important;
+  border-radius: 25px;
+  background: url('/static/images/arrow_left.png') 14px 13px no-repeat white;
+  opacity: 0.4;
+}
+
+aside[id="{slidr-id}-control"] .slidr-control.left:hover {
   opacity: 1;
 }
 </style>
@@ -89,6 +106,8 @@ aside[id="{slidr-id}-control"] .slidr-control.right:hover {
 <div id="content"></div>
 <script>
 slidr.create('slidr-div', {
+  after: function(e) { console.log('in: ' + e.in.slidr); },
+  before: function(e) { console.log('out: ' + e.out.slidr); },
   direction: 'horizontal',
   breadcrumbs: true,
   fade: true,
