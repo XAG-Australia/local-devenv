@@ -73,6 +73,7 @@ if($techup_enable_banner_section==true ) { ?>
 		bottom: 100px !important;
 		right: 100px !important;
 		z-index: 500;
+		border-radius: 100px;
 	}
 	.chat:hover {
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
