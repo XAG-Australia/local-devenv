@@ -78,12 +78,30 @@ if($techup_enable_banner_section==true ) { ?>
 	.chat:hover {
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
+	.shop-now {
+		width: 220px;
+		height: 100px;
+		position: fixed;
+		top: 220px !important;
+		right: 100px !important;
+		z-index: 500;
+		background-color: #c01920;
+		color: #ffffff;
+	}
+	.shop-now:hover {
+		background-color: #ffffff;
+		color: #c01920;
+		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
   <!-- START HERO SLIDER -->
 	<div class="chat">
 		<img src="http://localhost:8080/wp-content/uploads/2023/07/chat.png">
+	</div>
+	<div class="shop-now">
+		<h2 class="section-title">SHOP NOW</h2>
 	</div>
 	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh;">
 		<!-- START SLIDE 1 -->
