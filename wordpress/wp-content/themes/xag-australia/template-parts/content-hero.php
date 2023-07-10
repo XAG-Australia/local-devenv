@@ -9,20 +9,19 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
 if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
-aside[id="{slidr-id}-control"] .slidr-control.right {
-  
-  width: 50px !important;
-  height: 50px !important;
-  top: 50% !important;
-  margin-top: -25px !important;
-  right: 50px !important;
-  border-radius: 25px;
-  background: url('/static/images/arrow_right.png') 14px 13px no-repeat white;
-  opacity: 0.4;
-}
+
 
 aside[id="slidr-div-control"].border .slidr-control.right {
   right: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+    top: 50% !important;
+    margin-top: -25px !important;
+    border-radius: 25px;
+    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5);
+    opacity: 1;
+    background-size: 25px;
+    background-position: center;
 }
 
 aside[id="slidr-div-control"].border .slidr-control.left {
@@ -38,47 +37,17 @@ aside[id="slidr-div-control"].border .slidr-control.left {
     background-position: center;
 }
 
-aside[id="{slidr-id}-control"] .slidr-control.right:hover {
+aside[id="{slidr-id}-control"].border .slidr-control.right:hover {
   opacity: 1;
 }
 
-aside[id="{slidr-id}-control"] .slidr-control.left {
-  
-  width: 50px !important;
-  height: 50px !important;
-  top: 50% !important;
-  margin-top: -25px !important;
-  border-radius: 25px;
-  background: url('/static/images/arrow_left.png') 14px 13px no-repeat white;
-  opacity: 0.4;
-}
 
-aside[id="{slidr-id}-control"] .slidr-control.left:hover {
+aside[id="{slidr-id}-control"].border .slidr-control.left:hover {
   opacity: 1;
-}
-
-// Customize the position, size, border color and background color.
-aside[id="{slidr-id}-breadcrumbs"] {
- margin-left: auto;
-  margin-right: auto;
-}
-
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li {
-  width: 15px !important;
-  height: 15px !important;
-  margin: 3px !important;
-}
-
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.normal {
-  border-color: white !important;
-}
-
-aside[id="{slidr-id}-breadcrumbs"] .slidr-breadcrumbs li.active {
-  background-color: black !important;
 }
 
 // Hide all Slidr arrows.
-aside[id*="-control"] .slidr-control:after {
+aside[id*="-control"].border .slidr-control:after {
   border-color: transparent !important;   
 }
 </style>
