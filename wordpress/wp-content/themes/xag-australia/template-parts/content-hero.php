@@ -27,6 +27,13 @@ aside[id="slidr-div-control"].border .slidr-control.right {
 
 aside[id="slidr-div-control"].border .slidr-control.left {
   left: 50px !important;
+  width: 50px !important;
+  height: 50px !important;
+  top: 50% !important;
+  margin-top: -25px !important;
+  border-radius: 25px;
+  background: url('/static/images/arrow_left.png') 14px 13px no-repeat white;
+  opacity: 0.4;
 }
 
 aside[id="{slidr-id}-control"] .slidr-control.right:hover {
@@ -39,7 +46,6 @@ aside[id="{slidr-id}-control"] .slidr-control.left {
   height: 50px !important;
   top: 50% !important;
   margin-top: -25px !important;
-  left: 50px !important;
   border-radius: 25px;
   background: url('/static/images/arrow_left.png') 14px 13px no-repeat white;
   opacity: 0.4;
