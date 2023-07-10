@@ -90,15 +90,16 @@ if($techup_enable_banner_section==true ) { ?>
 		box-shadow: 3px 3px 100px rgba(0,0,0,0.5);
 		
 	}
-	.shop-now:hover {
+	.shop-now h2:hover {
 		background-color: #ffffff;
-		color: #c01920;
+		color: #c01920 !important;
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
 	.shop-now h2 {
 		color: #ffffff !important;
-		font-size: 18px !important;
-		text-align: center;
+    	font-size: 18px !important;
+   		line-height: 65px;
+    	text-align: center;
 	}
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
