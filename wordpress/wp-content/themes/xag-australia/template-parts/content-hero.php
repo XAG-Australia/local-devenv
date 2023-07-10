@@ -127,8 +127,11 @@ if($techup_enable_banner_section==true ) { ?>
 	<div id="content">
 	</div>
 	<script>
-	slidr.create('slidr-div', {
-	 direction: 'horizontal',
+
+// Initialize a Slidr. 
+
+  var s = slidr.create('slidr-div', {
+   direction: 'horizontal',
 	 breadcrumbs: true,
 	 fade: true,
 	 controls: 'border',
@@ -137,7 +140,14 @@ if($techup_enable_banner_section==true ) { ?>
 	 transition: 'fade',
 	 overflow: false,
 	 pause: false,
-	}).auto(3000, 'right', 'one');
+});
+
+// Add horizontal slides with default linear transition.
+// The extra "one" allows the slidr to circle back and loop infinitely.
+s.add('h', ['one', 'two', 'three', 'one']);
+
+// Now start.
+s.auto(6000, 'right', 'one');
 
 	function auto(opt_msec, opt_direction, opt_start) {};
 
