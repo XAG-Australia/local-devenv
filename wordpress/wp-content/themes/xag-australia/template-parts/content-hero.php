@@ -17,11 +17,11 @@ if($techup_enable_banner_section==true ) { ?>
     height: 50px !important;
     top: 50% !important;
     margin-top: -25px !important;
-    border-radius: 25px;
-    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5);
-    opacity: 1;
-    background-size: 25px;
-    background-position: center;
+    border-radius: 25px !important;
+    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5) !important;
+    opacity: 1 !important;
+    background-size: 25px !important;
+    background-position: center !important;
 }
 
 aside[id="slidr-div-control"].border .slidr-control.left {
