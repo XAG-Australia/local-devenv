@@ -14,7 +14,7 @@ aside[id="{slidr-id}-control"] .slidr-control.right {
   height: 50px !important;
   top: 50% !important;
   margin-top: -25px !important;
-  right: -25px !important;
+  right: -50px !important;
   border-radius: 25px;
   background: url('/static/images/arrow_right.png') 14px 13px no-repeat white;
   opacity: 0.4;
