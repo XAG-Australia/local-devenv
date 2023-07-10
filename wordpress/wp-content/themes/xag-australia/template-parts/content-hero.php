@@ -123,6 +123,10 @@ if($techup_enable_banner_section==true ) { ?>
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
 	}
 
+	.btn-wraper:hover {
+		background-color: #c01920 !important;
+	}
+
 	</style>
 	<script src="/slidr-master/slidr.min.js" type="text/javascript"></script>
   
