@@ -121,13 +121,6 @@ aside[id="slidr-div-control"] .slidr-control.left::after, aside[id="slidr-div-co
   ...
 </aside>
 
-<aside id="{slidr-id}-control">
-  <div class="slidr-control up"></div>
-  <div class="slidr-control down"></div>
-  <div class="slidr-control left"></div>
-  <div class="slidr-control right"></div>
-</aside>
-
 <div id="content"></div>
 <script>
 slidr.create('slidr-div', {
