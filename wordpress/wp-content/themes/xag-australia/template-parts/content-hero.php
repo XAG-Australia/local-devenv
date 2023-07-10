@@ -184,7 +184,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Aerial Spraying, Seeding & Surveying Drones.</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Spraying, Seeding & Surveying Drones.</h2>
 
 
 							<div class="btn-wraper">
