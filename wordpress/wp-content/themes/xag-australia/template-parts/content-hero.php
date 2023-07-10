@@ -72,11 +72,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat black 0.5; background-size: cover; background-blend-mode: multiply;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 52px;"><?php echo esc_html($techup_banner_title); ?>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
 
@@ -94,11 +94,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat; background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 52px;">AGRICULTURAL DRONE TECHNOLOGY</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">AGRICULTURAL DRONE TECHNOLOGY</h2>
 
 
 							<div class="btn-wraper">
@@ -114,11 +114,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat; background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat rgba(0, 0, 0, 0.35); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
-							<h2 class="section-title" style="font-size: 52px;">AERIAL SPRAYING, SEEDING & SURVEYING</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.35);">AERIAL SPRAYING, SEEDING & SURVEYING</h2>
 
 
 							<div class="btn-wraper">
