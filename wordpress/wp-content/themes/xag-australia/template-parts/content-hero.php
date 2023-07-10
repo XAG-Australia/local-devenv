@@ -7,7 +7,6 @@ $techup_banner_button_label1 = get_theme_mod( 'techup_banner_button_label1','');
 $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
       
 if($techup_enable_banner_section==true ) { ?>
-<!DOCTYPE html>
 
 	<style>
 
@@ -129,18 +128,16 @@ if($techup_enable_banner_section==true ) { ?>
 	</div>
 	<script>
 	slidr.create('slidr-div', {
-	 after: function(e) { console.log('in: ' + e.in.slidr); },
-	 before: function(e) { console.log('out: ' + e.out.slidr); },
 	 direction: 'horizontal',
 	 breadcrumbs: true,
 	 fade: true,
 	 controls: 'border',
 	 theme: '#ffffff',
-	 timing: { 'fade': '0.5s ease-in' },
+	 timing: { 'fade': '1s ease-in' },
 	 transition: 'fade',
 	 overflow: false,
 	 pause: false,
-	}).auto();
+	}).auto(3000, 'right');
 
 	function auto(opt_msec, opt_direction, opt_start) {};
 
