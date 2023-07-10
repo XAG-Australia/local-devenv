@@ -46,18 +46,8 @@ aside[id="{slidr-id}-control"].border .slidr-control.left:hover {
   opacity: 1;
 }
 
-// Hide a single arrow within a single controller.
-aside[id="{slidr-id}-control"] .slidr-control.right:after {
-  border-color: transparent !important;
-}
-
-// Hide all arrows within a single controller.
-aside[id="{slidr-id}-control"] .slidr-control:after {
-  border-color: transparent !important;
-}
-
 // Hide all Slidr arrows.
-aside[id*="-control"] .slidr-control:after {
+aside[id*="slidr-div-control"].border .slidr-control:after {
   border-color: transparent !important;   
 }
 </style>
