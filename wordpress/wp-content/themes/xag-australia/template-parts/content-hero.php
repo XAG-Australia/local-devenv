@@ -10,17 +10,23 @@ if($techup_enable_banner_section==true ) { ?>
 <style>
   // Customizing a specific controller arrow.
 
-aside[id="slidr-div-control"] .slidr-control.right {
+  aside[id="slidr-div-control"].border .slidr-control.right, aside[id*="-control"].border .slidr-control.right, aside[id*="-control"] .slidr-control.right {
+
     right: 50px !important;
     width: 50px !important;
     height: 50px !important;
     top: 50% !important;
     margin-top: -25px !important;
     border-radius: 25px !important;
-    background: url(http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png) no-repeat rgb(0 0 0 /0.5) !important;
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.5) !important;
     opacity: 1 !important;
     background-size: 25px !important;
     background-position: center !important;
+
+}
+
+aside[id*="-control"] .slidr-control.disabled {
+  opacity: 0.5 !important;
 }
 
 aside[id="slidr-div-control"].border .slidr-control.left {
@@ -30,7 +36,7 @@ aside[id="slidr-div-control"].border .slidr-control.left {
     top: 50% !important;
     margin-top: -25px !important;
     border-radius: 25px;
-    background: url(http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png) no-repeat rgb(0 0 0 /0.5);
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.5);
     opacity: 1;
     background-size: 25px;
     background-position: center;
@@ -45,7 +51,7 @@ aside[id="slidr-div-control"].border .slidr-control.left:hover {
   opacity: 1;
 }
 
-aside[id="slidr-div-control"] .slidr-control.left::after, aside[id="slidr-div-control"] .slidr-control.right::after {
+aside[id="slidr-div-control"] .slidr-control.left::after {
   border: transparent !important;
 }
 </style>
