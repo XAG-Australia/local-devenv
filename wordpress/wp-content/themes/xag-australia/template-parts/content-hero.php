@@ -140,6 +140,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
+							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white.png" width="300">
 							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
