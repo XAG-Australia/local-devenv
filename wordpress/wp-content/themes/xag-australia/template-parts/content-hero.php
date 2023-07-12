@@ -227,7 +227,7 @@ if($techup_enable_banner_section==true ) { ?>
 	 timing: { 'fade': '1s ease-in' },
 	 transition: 'fade',
 	 overflow: false,
-	 pause: true,
+	 pause: true
 });
 
 // Add horizontal slides with default linear transition.
