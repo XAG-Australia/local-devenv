@@ -253,7 +253,7 @@ Home Area
   padding: 20px;
 }
 
-.hero-sec .content-sec .readmore-btn{
+.hero-sec .content-sec .readmore-btn, .readmore-btn{
     padding: 20px 40px 20px 40px;
     margin: 5px;
     font-size: 18px;
@@ -267,7 +267,7 @@ Home Area
     border: solid 4px #ffffff;
 }
 
-.hero-sec .content-sec .readmore-btn:hover {
+.hero-sec .content-sec .readmore-btn:hover, .readmore-btn:hover {
 	background-color: #e86230e6;
 }
 
