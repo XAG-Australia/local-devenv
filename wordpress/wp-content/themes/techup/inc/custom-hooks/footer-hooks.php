@@ -17,7 +17,7 @@ if( ! function_exists( 'techup_footer_start' ) ):
 endif; 
 if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
-	    <div class="foot-top" style="height: calc(50vh - 60px);">
+	    <div class="foot-top" style="height: calc(40vh - 60px);">
             <div class="container">
                 <div class="row clearfix">
                 	<?php if( is_active_sidebar( 'footer-widget-area' ) ){ ?>
