@@ -588,7 +588,7 @@ slider Area End
     padding: 50px;
     box-shadow: 8px 8px 30px 0 rgb(0 0 0 / 12%);
     transition: all 0.3s linear;
-    margin: 50px;
+    margin-top: 50px;
 }
 
 .buco .feature-box:hover {
