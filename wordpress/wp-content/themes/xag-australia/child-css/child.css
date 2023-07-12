@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 
-.header-two .container {
+.header-two.container {
 
   max-width: 1280px !important;
   height: 80px !important;
@@ -11,7 +11,7 @@
   
   }
   
-  .menu-item .menu-item-type-post_type .menu-item-object-page {
+  .menu-item.menu-item-type-post_type.menu-item-object-page {
       float: left !important;
       position: relative !important;
       height: 80px !important;
