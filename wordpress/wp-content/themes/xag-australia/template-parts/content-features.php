@@ -73,10 +73,11 @@ if($techup_enable_features_section==true ) {
         
       </div>
     </div>
-  </div>
-  <div class="btn-wraper">
+    <div class="btn-wraper">
 								<a class="readmore-btn" href="#">LEARN MORE</a>
 							</div>
+  </div>
+  
   <div class="feature-sec" style="height: calc(40vh + 80px); width: 100vw;">
       <div class="featured-1" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-1-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
     
