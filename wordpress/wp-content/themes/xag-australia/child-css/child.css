@@ -595,17 +595,17 @@ slider Area End
     position: absolute;
     content: "";
     width: 70px;
-    height: 3px;
+    height: 10px;
     bottom: 0px;
     left: 50%;
     opacity: 1;
     margin-left: -35px;
-    background: #fff !important;
+    background: #c01920 !important;
     border-radius: 1.5px;
     transition: all 0.3s linear;
 }
 
-.feature-sec .feature-box:hover:after{
+.feature-sec .feature-box:hover:after{ 
   opacity: 0;
 }
 
