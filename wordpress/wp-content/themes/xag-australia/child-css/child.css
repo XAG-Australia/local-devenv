@@ -1443,7 +1443,7 @@ s
 .footer{
   position: relative;
   background: #1E1E1E;
-  height: calc(60vh - 80px) !important;
+  height: calc(60vh - 140px) !important;
 }
 
 .foot-bottom a {
