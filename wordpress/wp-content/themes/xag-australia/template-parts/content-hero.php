@@ -17,7 +17,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   top: 50% !important;
 	   margin-top: -25px !important;
 	   border-radius: 25px !important;
-	   background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.1) !important;
+	   background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.1);
 	   opacity: 0.75 !important;
 	   background-size: 25px !important;
 	   background-position: center !important;
