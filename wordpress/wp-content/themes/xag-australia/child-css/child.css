@@ -1443,6 +1443,10 @@ s
 .footer{
   position: relative;
   background: #1E1E1E;
+  
+}
+
+.footer-one {
   height: calc(60vh - 140px) !important;
 }
 
