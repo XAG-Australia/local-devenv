@@ -107,9 +107,7 @@ letter-spacing: 4px;
 
 .main-navigation a:hover {
 	color: #c01920 !important;
-  font-weight: 600;
-  letter-spacing: 4px;
-  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .main-menu ul ul.sub-menu a:hover, .navbar-expand-lg a:hover {
