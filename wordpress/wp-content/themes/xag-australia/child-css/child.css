@@ -14,16 +14,15 @@
   .menu-item.menu-item-type-post_type.menu-item-object-page {
       float: left !important;
       position: relative !important;
-      height: 80px !important;
       padding: 20px !important;
   }
 
-  .menu-item.menu-item-type-post_type.menu-item-object-page:hover {
-    float: left !important;
-    position: relative !important;
-    height: 80px !important;
-    padding: 20px !important;
-   
+.main-menu {
+  clear: both;
+  display: block;
+  float: left;
+  max-height: 80px !important;
+  margin-top: -10px !important;
 }
   
   .main-menu li {
@@ -36,19 +35,23 @@
     font-weight: 300;
     text-transform: uppercase !important;
     margin-bottom: 0px !important;
-    margin-top: -10px;
+    margin-top: -20px;
     letter-spacing: 4px;
     font-family: 'Roboto Condensed', sans-serif;
+    height: 80px;
+    line-height: 40px;
 }
 
 .main-navigation .nav-menu>.menu-item>a:hover {
-  color: #ffffff !important;
-  text-transform: uppercase !important;
-  margin-bottom: 0px !important;
-  margin-top: -10px;
-  letter-spacing: 4px;
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: #c01920 !important;
+    color: #c01920;
+    font-weight: 300;
+    text-transform: uppercase !important;
+    margin-bottom: 0px !important;
+    margin-top: -20px;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 80px;
+    line-height: 40px;
 }
 
 /*--------------------------------------------------------------
