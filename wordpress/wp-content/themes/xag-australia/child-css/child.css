@@ -15,6 +15,14 @@
       float: left !important;
       position: relative !important;
       padding: 20px !important;
+      height: 80px;
+      color: #999999 !important;
+      background-color: #ffffff;
+  }
+
+  .menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+    color: #ffffff !important;
+    background-color: #c01920 !important;
   }
 
 .main-menu {
@@ -41,17 +49,7 @@
     line-height: 40px;
 }
 
-.main-navigation .nav-menu>.menu-item>a:hover {
-    color: #c01920;
-    font-weight: 300;
-    text-transform: uppercase !important;
-    margin-bottom: 0px !important;
-    margin-top: -20px;
-    letter-spacing: 4px;
-    font-family: 'Roboto Condensed', sans-serif;
-    height: 80px;
-    line-height: 40px;
-}
+
 
 /*--------------------------------------------------------------
 # Hero Section
