@@ -51,7 +51,6 @@ if($techup_enable_banner_section==true ) { ?>
   }
 
   aside[id="slidr-div-control"].border .slidr-control.right:hover {
-	 opacity: 1 !important;
 	 background: rgb(0 0 0 /0.25) !important;
 	}
 
