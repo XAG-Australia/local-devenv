@@ -15,6 +15,17 @@ if($techup_enable_features_section==true ) {
         ); 
         $techup_features_query = new WP_Query( $techup_features_args );
 ?>
+ <div class="feature-sec" style="height: calc(40vh + 80px); width: 100vw;">
+      <div class="featured-1" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-1-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
+    
+    </div>
+      <div class="featured-2" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-2-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
+    
+    </div>
+      <div class="featured-3" style="height: calc(40vh + 80px); width:33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-3-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
+    
+    </div>
+  </div>
 <div class="feature-sec buco" style="height: 60vh;">
     <h2 class="section-title" style="font-size: 28px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; margin-top: 80px; margin-bottom: 50px;">Explore Australian Agriculture Technology.</h2>
     <div class="container-fluid" style="width: 1480px; padding-left: 0px; padding-right: 0px;">
@@ -78,17 +89,7 @@ if($techup_enable_features_section==true ) {
       </div>
     </div>
   </div>
-  <div class="feature-sec" style="height: calc(40vh + 80px); width: 100vw;">
-      <div class="featured-1" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-1-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
-    
-    </div>
-      <div class="featured-2" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-2-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
-    
-    </div>
-      <div class="featured-3" style="height: calc(40vh + 80px); width:33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-3-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
-    
-    </div>
-  </div>
+ 
 <!-- End About Section -->
 
 <?php } ?>
