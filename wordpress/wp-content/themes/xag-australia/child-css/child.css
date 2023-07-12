@@ -23,6 +23,26 @@
       margin-right: 0px !important;
   }
 
+  .main-navigation .nav-menu>.menu-item>a {
+    color: #666666;
+    font-weight: 300;
+    text-transform: uppercase !important;
+    margin-bottom: 0px !important;
+    margin-top: -10px;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-navigation .nav-menu>.menu-item>a:hover {
+  color: #c01920;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  margin-bottom: 0px !important;
+  margin-top: -10px;
+  letter-spacing: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
