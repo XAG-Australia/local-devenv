@@ -22,7 +22,7 @@
 
   .menu-item.menu-item-type-post_type.menu-item-object-page:hover {
     color: #ffffff !important;
-    background-color: #c01920 !important;
+    border-bottom: solid 10px #c01920 !important;
   }
 
 .main-menu {
@@ -47,6 +47,10 @@
     font-family: 'Roboto Condensed', sans-serif;
     height: 80px;
     line-height: 40px;
+}
+
+.main-navigation .nav-menu>.menu-item>a:hover {
+  color: #c01920;
 }
 
 
