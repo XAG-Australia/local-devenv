@@ -145,7 +145,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 	<div class="shop-now"></div>
 
-	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh; box-shadow: 10px 10px 100px rgb(0 0 0 / 25%);">
+	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh; box-shadow: 3px 3px 40px rgb(0 0 0 / 35%);">
 		<!-- START SLIDE 1 -->
 
 
