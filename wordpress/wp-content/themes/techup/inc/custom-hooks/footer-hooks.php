@@ -30,8 +30,8 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 endif; 
 if( ! function_exists( 'techup_footer_site_info' ) ):
 	function techup_footer_site_info(){ ?>
-		<div class="foot-bottom" style="padding: 0px !important; box-shadow: none;">
-            <div class="container">
+		<div class="foot-bottom" style="padding: 0px !important; box-shadow: none; height: 60px;">
+            <div class="container" style="height: 60px; line-height: 60px;">
                 <div class="row">
                     <div class="col-sm-12">
                         <?php echo '©' ?> <?php bloginfo( 'name' ); ?> <?php echo '2023' ?>
