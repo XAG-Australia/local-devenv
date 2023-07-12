@@ -11,7 +11,7 @@
   
   }
   
-  .menu-item .menu-item-type-post_type .menu-item-object-page a {
+  .menu-item .menu-item-type-post_type .menu-item-object-page {
       float: left !important;
       position: relative !important;
       height: 80px !important;
