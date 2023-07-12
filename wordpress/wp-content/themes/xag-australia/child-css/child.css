@@ -35,7 +35,7 @@
 
 .main-navigation .nav-menu>.menu-item>a:hover {
   color: #c01920;
-  font-weight: 600;
+  font-style: bold;
   text-transform: uppercase !important;
   margin-bottom: 0px !important;
   margin-top: -10px;
