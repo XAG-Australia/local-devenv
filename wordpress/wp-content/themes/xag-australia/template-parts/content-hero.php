@@ -223,12 +223,11 @@ if($techup_enable_banner_section==true ) { ?>
      before: function(e) { console.log('out: ' + e.out.slidr); },
      direction: 'horizontal',
 	 overflow: false,
-	 pause: true,
 	 breadcrumbs: true,
 	 fade: true,
 	 controls: 'border',
 	 theme: '#ffffff',
-	 timing: { 'fade': '3s ease-in' },
+	 timing: { 'fade': '1s ease-in' },
 	 transition: 'fade'
 	  
 });
