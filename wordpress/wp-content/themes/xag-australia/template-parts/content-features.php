@@ -16,8 +16,9 @@ if($techup_enable_features_section==true ) {
         $techup_features_query = new WP_Query( $techup_features_args );
 ?>
 <div class="feature-sec buco" style="height: 60vh;">
-    <h2 class="section-title" style="font-size: 16px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; color: #c01920; font-weight: 600 !important; font-family: 'Roboto Condensed', sans-serif; margin-top: 50px; letter-spacing: 0px;">WHAT WE DO</h2>
-    <h2 class="section-title" style="font-size: 28px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; margin-bottom: 50px;">Agriculture & Farming Drone Technology.</h2>
+    <h2 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; color: #c01920; font-weight: 600 !important; font-family: 'Roboto Condensed', sans-serif; margin-top: 50px; letter-spacing: 0px;">WHAT WE DO</h2>
+    <h2 class="section-title" style="font-size: 28px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; ">Explore Our Agriculture & Farming Drone Technology.</h2>
+    <h2 class="section-title" style="font-size: 14px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; color: #999999; font-weight: 300 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
     <div class="container-fluid" style="width: 1480px; padding-left: 0px; padding-right: 0px;">
       <div class="row">
 		<?php
