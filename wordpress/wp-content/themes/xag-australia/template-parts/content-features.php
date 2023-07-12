@@ -28,6 +28,21 @@ if($techup_enable_features_section==true ) {
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?> first" style="width: 25vw; background-color: #fafafa !important; max-width: 480px; height: 480px; border-radius: 50px;">
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat; background-size: contain; background-location: center;">
+             
+            </div>
+            <div class="content">
+              <h5 class="title-box"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+              <?php the_excerpt(); ?>
+			</div>
+            <div class="link-boxer">
+              <a href="<?php the_permalink(); ?>" class="link-details">
+                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>" style="width: 25vw; background-color: #fafafa !important; max-width: 480px; height: 480px; border-radius: 50px;">
             <div class="icon">
               <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
             </div>
@@ -42,22 +57,7 @@ if($techup_enable_features_section==true ) {
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>" style="width: 25vw; background-color: #3E3C39; max-width: 480px; height: 480px; background-color: #fafafa; border-radius: 50px; border: solid 2px #999999;">
-            <div class="icon">
-              <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
-            </div>
-            <div class="content">
-              <h5 class="title-box"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-              <?php the_excerpt(); ?>
-			</div>
-            <div class="link-boxer">
-              <a href="<?php the_permalink(); ?>" class="link-details">
-                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>" style="width: 25vw; background-color: #3E3C39; max-width: 480px; height: 480px; background-color: #fafafa; border-radius: 50px; border: solid 2px #999999;">
+          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>" style="width: 25vw; background-color: #fafafa !important; max-width: 480px; height: 480px;  border-radius: 50px;">
             <div class="icon">
               <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
             </div>
