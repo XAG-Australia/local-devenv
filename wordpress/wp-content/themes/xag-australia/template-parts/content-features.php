@@ -34,8 +34,8 @@ if($techup_enable_features_section==true ) {
               <p style="text-align: justify; color: #999999 !important; margin-top: 20px;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system enables XAG agriculture & farming drones to contribute in reducing pesticide use and water waste. </p>
 			      </div>
             <div class="link-boxer">
-              <a href="<?php the_permalink(); ?>" class="link-details">
-                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
+              <a href="#" class="link-details">
+                <i class="fa fa-arrow-right"></i>Shop now</a>
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ if($techup_enable_features_section==true ) {
           <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?>" style="width: 25vw; background-color: #fafafa !important; max-width: 480px; height: 480px; border-radius: 50px;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #fafafa; background-size: contain; background-location: center;"></div>
             <div class="content">
-              <h5 class="title-box"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-              <?php the_excerpt(); ?>
-			</div>
+            <h5 class="title-box" style="color: #c01920 !important;">UNMANNED GROUND VEHICLES</a></h5>
+              <p style="text-align: justify; color: #999999 !important; margin-top: 20px;">Our unmanned ground vehicles provide the agriculture and farming industry with precision plant services, spreading systems, AI mowing, unmanned transportation of agricultural materials, and contagion prevention.</p>
+			      </div>
             <div class="link-boxer">
               <a href="<?php the_permalink(); ?>" class="link-details">
                 <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
@@ -61,7 +61,7 @@ if($techup_enable_features_section==true ) {
 			</div>
             <div class="link-boxer">
               <a href="<?php the_permalink(); ?>" class="link-details">
-                <i class="fa fa-arrow-right"></i> <?php esc_html('Learn More','fullscreen-techup'); ?></a>
+                <i class="fa fa-arrow-right"></i>Shop Now</a>
             </div>
           </div>
         </div>
