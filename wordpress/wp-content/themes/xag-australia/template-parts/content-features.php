@@ -27,7 +27,7 @@ if($techup_enable_features_section==true ) {
 		$techup_features_query->the_post();
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?> first" style="width: 25vw; background-color: #3E3C39; max-width: 480px; height: 480px; background-color: #ffffff; border-radius: 50px;">
+          <div class="feature-box feature-box-one feature-box-<?php echo esc_attr($count); ?> first" style="width: 25vw; background-color: #fafafa !important; max-width: 480px; height: 480px; border-radius: 50px;">
             <div class="icon">
               <i class="buco-feat fa <?php echo esc_html($techup_features_icon[$count]); ?>"></i>
             </div>
