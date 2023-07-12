@@ -79,13 +79,13 @@ if($techup_enable_features_section==true ) {
     </div>
   </div>
   <div class="feature-sec" style="height: calc(40vh + 80px);">
-      <div class="featured-1" style="height: calc(40vh + 80px); width: 33vw; background-color: #000000; float: left;">
+      <div class="featured-1" style="height: calc(40vh + 80px); width: 33vw; background-color: #000000; float: left; background: url;('http://localhost:8080/wp-content/uploads/2023/07/featured-1-2.png') background-size: contain; background-position: center;">
     
     </div>
-      <div class="featured-2" style="height: calc(40vh + 80px); width: 33vw; background-color: #999999; float: left;">
+      <div class="featured-2" style="height: calc(40vh + 80px); width: 33vw; background-color: #999999; float: left; background: url;('http://localhost:8080/wp-content/uploads/2023/07/featured-2-2.png') background-size: contain; background-position: center;">
     
     </div>
-      <div class="featured-3" style="height: calc(40vh + 80px); width: 33vw; background-color: #333333; float: left;">
+      <div class="featured-3" style="height: calc(40vh + 80px); width: 33vw; background-color: #333333; float: left; background: url;('http://localhost:8080/wp-content/uploads/2023/07/featured-3-2.png') background-size: contain; background-position: center;">
     
     </div>
   </div>
