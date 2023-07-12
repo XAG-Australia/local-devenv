@@ -42,13 +42,13 @@
 }
 
 .main-navigation .nav-menu>.menu-item>a:hover {
-  color: #ffffff;
-  font-weight: 600;
+  color: #ffffff !important;
   text-transform: uppercase !important;
   margin-bottom: 0px !important;
   margin-top: -10px;
   letter-spacing: 4px;
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #c01920 !important;
 }
 
 /*--------------------------------------------------------------
