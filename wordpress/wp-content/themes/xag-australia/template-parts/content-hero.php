@@ -40,6 +40,10 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-position: center;
 	}
 
+	aside[id="slidr-div-control"].border  {
+      border: 0px !important;
+    }
+
   @media screen and (max-width: 1279px){
     aside[id="slidr-div-control"].border .slidr-control.left {
       left: 50px !important;
