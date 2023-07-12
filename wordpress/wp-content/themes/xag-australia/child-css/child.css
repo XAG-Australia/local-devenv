@@ -96,15 +96,18 @@ letter-spacing: 4px;
 }
 
 .main-navigation a:hover {
-	color: #e86240 !important;
+	color: #c01920 !important;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .main-menu ul ul.sub-menu a:hover, .navbar-expand-lg a:hover {
-	color: #e86240 !important;
+	color: #c01920 !important;
 }
 
 .main-menu ul ul.sub-menu a::before {
-	color: #e86240 !important;
+	color: #c01920 !important;
 }
 
 .main-navigation .nav-menu>.menu-item-has-children > .sub-menu li a:before {
