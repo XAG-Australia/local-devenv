@@ -17,7 +17,7 @@ if($techup_enable_features_section==true ) {
 ?>
 <div class="feature-sec buco" style="height: 60vh;">
     <h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 40px rgba(0,0,0,0.75); text-align: center; margin-top: 80px; margin-bottom: 50px;">Explore Australian Agriculture Technology.</h2>
-    <div class="container-fluid">
+    <div class="container-fluid" style="width: 1480px; padding-left: 0px; padding-right: 0px;">
       <div class="row">
 		<?php
 		$count = 0;
