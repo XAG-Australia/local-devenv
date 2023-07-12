@@ -50,19 +50,21 @@ if($techup_enable_banner_section==true ) { ?>
     }
   }
 
-    aside[id="slidr-div-control"].border .slidr-control.right:hover {
+   aside[id="slidr-div-control"].border .slidr-control.right:hover {
 	
 	background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
 	background-size: 25px;
-	   background-position: center;
+	background-position: center;
+
 	}
 
 
 	aside[id="slidr-div-control"].border .slidr-control.left:hover {
 		
-		background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
-		background-size: 25px;
-	   background-position: center;
+	background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
+	background-size: 25px;
+	background-position: center;
+
 	}
 
 	aside[id="slidr-div-control"] .slidr-control.left::after,  aside[id="slidr-div-control"] .slidr-control.right::after, aside[id="slidr-div-control"] .slidr-control.down::after {
