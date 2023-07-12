@@ -17,6 +17,14 @@
       height: 80px !important;
       padding: 20px !important;
   }
+
+  .menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+    float: left !important;
+    position: relative !important;
+    height: 80px !important;
+    padding: 20px !important;
+   
+}
   
   .main-menu li {
   
@@ -34,8 +42,8 @@
 }
 
 .main-navigation .nav-menu>.menu-item>a:hover {
-  color: #c01920;
-  font-style: bold;
+  color: #ffffff;
+  font-weight: 600;
   text-transform: uppercase !important;
   margin-bottom: 0px !important;
   margin-top: -10px;
