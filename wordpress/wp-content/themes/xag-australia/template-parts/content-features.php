@@ -78,7 +78,17 @@ if($techup_enable_features_section==true ) {
       </div>
     </div>
   </div>
-  <div class="feature-sec" style="height: calc(40vh + 80px);"></div>
+  <div class="feature-sec" style="height: calc(40vh + 80px);">
+      <div class="featured-1" style="height: calc(40vh + 80px); width: 33vw; background-color: #000000;">
+    
+    </div>
+      <div class="featured-2" style="height: calc(40vh + 80px); width: 33vw; background-color: #999999;">
+    
+    </div>
+      <div class="featured-3" style="height: calc(40vh + 80px); width: 33vw; background-color: #333333;">
+    
+    </div>
+  </div>
 <!-- End About Section -->
 
 <?php } ?>
