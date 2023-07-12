@@ -50,7 +50,7 @@ if($techup_enable_banner_section==true ) { ?>
     }
   }
 
-   aside[id="slidr-div-control"].border .slidr-control.right:hover {
+    aside[id="slidr-div-control"].border .slidr-control.right:hover {
 	background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
 	}
 
