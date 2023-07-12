@@ -196,7 +196,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-s.png" width="160">
-							<h2 class="section-title" style="font-size: 28px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Aerial Spraying, Seeding & Surveying Drones.</h2>
+							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Spraying, Seeding & Surveying Drones.</h2>
 
 
 							<div class="btn-wraper">
