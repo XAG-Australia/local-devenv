@@ -268,7 +268,7 @@ Home Area
 }
 
 .hero-sec .content-sec .readmore-btn:hover, .readmore-btn:hover {
-	background-color: #e86230e6;
+	background-color: #c01920;
 }
 
 .main-navigation .nav-menu>.menu-item>a {
@@ -641,7 +641,7 @@ slider Area End
 
 .feature-sec .feature-box .link-details {
     margin-top: 18px;
-    color: #e86240;
+    color: #c01920;
     text-transform: uppercase;
     font-weight: 700;
     transition: 0.5s linear;
