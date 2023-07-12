@@ -31,7 +31,7 @@ if($techup_enable_features_section==true ) {
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #fafafa; background-size: contain; background-location: center;"></div>
             <div class="content">
               <h5 class="title-box" style="color: #c01920 !important;">AERIAL SPRAYING</a></h5>
-              <p style="text-align: justify; color: #999999 !important;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system enables XAG agriculture & farming drones to contribute in reducing pesticide use and water waste. </p>
+              <p style="text-align: justify; color: #999999 !important; margin-top: 20px;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system enables XAG agriculture & farming drones to contribute in reducing pesticide use and water waste. </p>
 			      </div>
             <div class="link-boxer">
               <a href="<?php the_permalink(); ?>" class="link-details">
@@ -74,6 +74,9 @@ if($techup_enable_features_section==true ) {
       </div>
     </div>
   </div>
+  <div class="btn-wraper">
+								<a class="readmore-btn" href="#">LEARN MORE</a>
+							</div>
   <div class="feature-sec" style="height: calc(40vh + 80px); width: 100vw;">
       <div class="featured-1" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/featured-1-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: center;">
     
