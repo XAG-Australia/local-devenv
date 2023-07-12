@@ -578,11 +578,13 @@ slider Area End
 
  .buco .feature-box:hover .icon {
  	transition: all 0.3s linear;
+   background-color: #ffffff !important;
  }
 
 .feature-sec .feature-box:hover .icon{
     color: #FFFFFF !important;
     border: 1px solid #fff;
+    background-color: #ffffff !important;
 }
 
 .feature-sec .feature-box:hover a,
