@@ -219,15 +219,18 @@ if($techup_enable_banner_section==true ) { ?>
 // Initialize a Slidr. 
 
   var s = slidr.create('slidr-div', {
-   direction: 'horizontal',
+	 after: function(e) { console.log('in: ' + e.in.slidr); },
+     before: function(e) { console.log('out: ' + e.out.slidr); },
+     direction: 'horizontal',
+	 overflow: false,
+	 pause: true,
 	 breadcrumbs: true,
 	 fade: true,
 	 controls: 'border',
 	 theme: '#ffffff',
-	 timing: { 'fade': '1s ease-in' },
-	 transition: 'fade',
-	 overflow: false,
-	 pause: true
+	 timing: { 'fade': '3s ease-in' },
+	 transition: 'fade'
+	  
 });
 
 // Add horizontal slides with default linear transition.
