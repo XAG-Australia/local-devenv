@@ -267,7 +267,7 @@ Home Area
     border: solid 4px #ffffff;
 }
 
-.readmore-btn {
+.feature-sec .readmore-btn {
   padding: 20px 40px 20px 40px;
     margin: 5px;
     font-size: 18px;
@@ -280,7 +280,7 @@ Home Area
     color: #fff;
 }
 
-.readmore-btn:hover {
+.feature-sec .readmore-btn:hover {
   padding: 20px 40px 20px 40px;
     margin: 5px;
     font-size: 18px;
