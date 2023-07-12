@@ -17,7 +17,6 @@ if($techup_enable_features_section==true ) {
 ?>
 <div class="feature-sec buco" style="height: 100vh; margin-top: 100px; padding: 0px;">
     <h2 class="section-title" style="font-size: 28px; text-align: center; color: #c01920; font-weight: 600 !important; font-family: 'Roboto Condensed', sans-serif; margin-top: 50px; letter-spacing: 2px; margin-bottom: 10px;">WHAT WE DO</h2>
-    <h2 class="section-title" style="font-size: 36px; text-align: center; margin-bottom: 50px; letter-spacing: 2px;">AUSTRALIAN AGRICULTURAL & FARMING <b>DRONE TECHNOLOGY</b></h2>
     <h2 class="section-title" style="font-size: 28px; text-align: center; color: #999999; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
     <div class="container-fluid" style="width: 1480px; padding-left: 0px; padding-right: 0px;">
       <div class="row">
