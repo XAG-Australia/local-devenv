@@ -1097,8 +1097,9 @@ slider Area End
 }
 .feature-box p
 {
-	 font-family: "Raleway", Sans-serif;
-	 color: #fff;
+	 font-family: "Roboto Condensed", Sans-serif;
+	 color: #d0d0d0 !important;
+   font-size: 14px;
 }
 
 .cta-7 span{
