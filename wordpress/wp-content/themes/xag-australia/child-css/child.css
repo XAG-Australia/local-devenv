@@ -8,6 +8,10 @@ border-top: solid 10px #c01920;
 .feature-sec .featured-1, .feature-sec .featured-2, .feature-sec .featured-3 {
   border-top: solid 10px transparent;
 }
+
+.featured-1 .btn-wraper:hover {
+  opacity: 1;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
