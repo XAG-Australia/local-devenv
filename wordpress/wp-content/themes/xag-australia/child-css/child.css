@@ -612,7 +612,7 @@ slider Area End
     color: #000000 !important;
 }
 
-.feature-box:hover::before {
+.feature-box:hover::after {
     position: absolute;
     content: "";
     width: 70px;
@@ -627,7 +627,7 @@ slider Area End
     z-index: unset !important;
 }
 
-.feature-box:hover::after{ 
+.feature-box:hover::before{ 
     position: absolute !important;
     content: "";
     width: 70px !important;
