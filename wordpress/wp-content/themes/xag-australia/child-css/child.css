@@ -598,21 +598,21 @@ slider Area End
 
 .feature-sec  .feature-box-1:hover .icon {
     background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff !important;
-    background-size: 140px !important; 
+    background-size: 130px !important; 
     background-position: center !important;
     transition: all 0.3s linear;
   }
 
   .feature-sec  .feature-box-2:hover .icon {
     background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff !important;
-    background-size: 140px !important; 
+    background-size: 130px !important; 
     background-position: center !important;
     transition: all 0.3s linear;
   }
 
   .feature-sec  .feature-box-3:hover .icon {
     background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff !important;
-    background-size: 140px !important; 
+    background-size: 130px !important; 
     background-position: center !important;
     transition: all 0.3s linear;
   }
