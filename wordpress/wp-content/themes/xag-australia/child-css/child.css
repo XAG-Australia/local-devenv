@@ -5,6 +5,9 @@ transition: all 0.5s ease-in-out;
 border-top: solid 10px #c01920;
 }
 
+.feature-sec .featured-1, .feature-sec .featured-2, .feature-sec .featured-3 {
+  border-top: solid 10px transparent;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
