@@ -625,7 +625,7 @@ slider Area End
     transition: all 0.3s linear;
 }
 
-.feature-sec .feature-box:hover:after{ 
+.feature-sec .feature-box:after:hover{ 
   opacity: 1;
   transition: all 0.3s linear;
   background-color: #c01920 !important;
