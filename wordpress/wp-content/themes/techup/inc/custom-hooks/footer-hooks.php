@@ -52,7 +52,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
 	    <div class="foot-top" style="height: calc(100% - 60px);">
             <div class="container">
-            <div id="map" style="height: 100%;"></div>
+            <div id="map" style="width: 100%; height: calc(100% - 60px);"></div>
             </div>
         </div>
 	<?php }
