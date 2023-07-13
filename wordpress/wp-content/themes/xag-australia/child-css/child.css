@@ -654,10 +654,6 @@ slider Area End
     z-index: unset !important;
 }
 
-.feature-box p:hover::before {
-  color: #c01920 !important;
-}
-
 .feature-sec .feature-box .icon{
     display: inline-block;
     color: #fff !important;
