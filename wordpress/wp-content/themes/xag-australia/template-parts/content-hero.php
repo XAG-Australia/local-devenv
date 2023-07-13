@@ -150,7 +150,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.png') no-repeat rgba(0, 0, 0, 0.1); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.jpg') no-repeat rgba(0, 0, 0, 0.1); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
@@ -174,7 +174,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.png') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.jpg') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
@@ -195,7 +195,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
-			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.png') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
+			<section class="hero-sec" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.jpg') no-repeat rgba(0, 0, 0, 0.15); background-size: cover;">
 				<div class="container">
 					<div class="row">
 						<div class="content-sec">
