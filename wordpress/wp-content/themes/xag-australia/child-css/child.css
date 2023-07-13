@@ -620,8 +620,8 @@ slider Area End
 }
 
 .feature-sec .feature-box:hover a,
-.feature-sec .feature-box:hover p{
-    color: #c01920 !important;
+.feature-sec .feature-box:hover p {
+    color: #333333!important;
 }
 
 .feature-box::after {
