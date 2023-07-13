@@ -29,7 +29,7 @@ if($techup_enable_features_section==true ) {
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
             <div class="content">
               <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SPRAYING</a></h5>
-              <p style="text-align: left; color: #d0d0d0 !important; margin-top: 40px;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system enables XAG agriculture & farming drones to contribute in reducing pesticide use and water waste. </p>
+              <p style="text-align: left; color: #d0d0d0 !important; margin-top: 40px;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system reduces pesticide use and water waste. </p>
 			      </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ if($techup_enable_features_section==true ) {
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
             <div class="content">
             <h5 class="title-box" style="color: #8d8d8d !important;">UNMANNED GROUND VEHICLES</a></h5>
-              <p style="text-align: left; color: #d0d0d0 !important; margin-top: 40px;">Our unmanned ground vehicles provide the agriculture and farming industry with precision plant services, spreading systems, AI mowing, unmanned transportation of agricultural materials, and contagion prevention.</p>
+              <p style="text-align: left; color: #d0d0d0 !important; margin-top: 40px;">Our unmanned ground vehicles provide the agriculture and farming industry with precision plant services, spreading systems, AI mowing and unmanned transportation.</p>
 			      </div>
           </div>
         </div>
