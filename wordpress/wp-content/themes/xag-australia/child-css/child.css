@@ -569,16 +569,16 @@ slider Area End
   background: transparent;
 }
 
-.feature-box-0 {
-	background-color: #3E3C39 !important;
+.feature-box-1 {
+	background-color: #ffffff !important;
 }
 
 .feature-box-1 {
-	background-color: #3E3C39 !important;
+	background-color: #ffffff !important;
 }
 
 .feature-box-2 {
-	background-color: #3E3C39!important;
+	background-color: #ffffff !important;
 }
 
 .feature-sec .feature-box{
@@ -626,7 +626,9 @@ slider Area End
 }
 
 .feature-sec .feature-box:hover:after{ 
-  opacity: 0;
+  opacity: 1;
+  transition: all 0.3s linear;
+  background-color: #c01920 !important;
 }
 
 .feature-sec .feature-box .icon{
