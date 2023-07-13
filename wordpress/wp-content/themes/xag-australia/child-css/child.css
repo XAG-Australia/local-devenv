@@ -604,10 +604,8 @@ slider Area End
     color: #000000 !important;
     border: 1px solid #fff;
     background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1W.png') no-repeat rgb(192 25 32 / 100%)  !important;
-}
-
-.feature-box-1 .icon:hover {
-  
+    background-size: 120px;
+    background-position: center;
 }
 
 .feature-sec .feature-box:hover a,
