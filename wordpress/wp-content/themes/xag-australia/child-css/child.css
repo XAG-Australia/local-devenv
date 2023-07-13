@@ -10,8 +10,8 @@ opacity: 1 !important;
   border-top: solid 10px transparent;
 }
 
-.feature-sec .featured-1 .btn-wraper:hover {
-  opacity: 1;
+.feature-sec.featured-1.btn-wraper:hover {
+  opacity: 1 !important;
 }
 /*--------------------------------------------------------------
 # Menu Section
