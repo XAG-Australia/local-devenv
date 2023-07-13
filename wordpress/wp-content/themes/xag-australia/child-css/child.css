@@ -1,5 +1,5 @@
 .feature-sec .featured-1:hover {
-opacity: 1;
+opacity: 1 !important;
 cursor: pointer;
 }
 /*--------------------------------------------------------------
