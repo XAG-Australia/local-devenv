@@ -1,8 +1,4 @@
-.feature-box.feature-box-one.feature-box-3:hover::after {
 
-background-color: #000000 !important;
-
-}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -631,17 +627,17 @@ slider Area End
     z-index: unset !important;
 }
 
-.feature-box:hover::after { 
-    position: absolute;
+.feature-box:hover .feature-box::after { 
+    position: absolute !important;
     content: "";
-    width: 70px;
-    height: 10px;
+    width: 70px !important;
+    height: 10px !important;
     bottom: 0px !important;
-    left: 50%;
+    left: 50% !important;
     opacity: 1 !important;
-    margin-left: -35px;
+    margin-left: -35px !important;
     background: #c01920 !important;
-    border-radius: 1.5px;
+    border-radius: 1.5px !important;
     top: unset !important;
     z-index: unset !important;
 }
