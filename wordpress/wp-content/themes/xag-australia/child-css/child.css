@@ -652,6 +652,7 @@ slider Area End
     border-radius: 1.5px !important;
     top: unset !important;
     z-index: unset !important;
+    color: #c01920 !important;
 }
 
 .feature-sec .feature-box .icon{
@@ -1109,9 +1110,7 @@ slider Area End
    font-size: 14px;
 }
 
-.feature-box p:hover {
-  color: #c01920 !important;
-}
+
 
 .cta-7 span{
   color: #e86240;
