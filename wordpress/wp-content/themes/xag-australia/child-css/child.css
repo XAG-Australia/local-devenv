@@ -9,7 +9,7 @@ border-top: solid 10px #c01920;
   border-top: solid 10px transparent;
 }
 
-.feature-sec .featured-1 .btn-wraper-product .readmore-btn:hover {
+.btn-wraper.product:hover {
   opacity: 1 !important;
 }
 /*--------------------------------------------------------------
