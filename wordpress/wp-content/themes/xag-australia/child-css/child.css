@@ -2,15 +2,9 @@
 background-color: rgb(250 250 250 / 25%) !important;
 cursor: pointer;
 transition: all 0.5s ease-in-out;
+border-top: solid 10px #c01920;
 }
 
-.feature-sec .featured-1:hover::after {
-width: 70px;
-height: 10px;
-background-color: #c01920;
-bottom: 0 !important;
-left: 50%;
-}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
