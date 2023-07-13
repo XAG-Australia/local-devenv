@@ -612,7 +612,7 @@ slider Area End
     color: #000000 !important;
 }
 
-.feature-box:hover::after {
+.feature-box::after {
     position: absolute;
     content: "";
     width: 70px;
