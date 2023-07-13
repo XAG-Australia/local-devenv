@@ -627,11 +627,11 @@ slider Area End
     margin-left: -35px;
     background: #999999 !important;
     border-radius: 1.5px;
-    transition: all 0.3s linear;
     top: unset !important;
+    z-index: unset !important;
 }
 
-.feature-box:hover:after { 
+.feature-box:hover::after { 
     position: absolute;
     content: "";
     width: 70px;
@@ -642,8 +642,8 @@ slider Area End
     margin-left: -35px;
     background: #c01920 !important;
     border-radius: 1.5px;
-    transition: all 0.3s linear;
     top: unset !important;
+    z-index: unset !important;
 }
 
 .feature-sec .feature-box .icon{
