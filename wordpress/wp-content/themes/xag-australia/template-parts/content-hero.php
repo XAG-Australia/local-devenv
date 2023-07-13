@@ -21,6 +21,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   opacity: 0.75 !important;
 	   background-size: 25px !important;
 	   background-position: center !important;
+	   transition: all 0.5s ease-in-out;
 	}
 
 	aside[id*="-control"] .slidr-control.disabled {
@@ -38,6 +39,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   opacity: 0.75 !important;
 	   background-size: 25px;
 	   background-position: center;
+	   transition: all 0.5s ease-in-out;
 	}
 
 	aside[id="slidr-div-control"].border  {
@@ -59,6 +61,7 @@ if($techup_enable_banner_section==true ) { ?>
 		background: url('http://localhost:8080/wp-content/uploads/2023/07/right-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
 		background-size: 25px;
 		background-position: center;
+		transition: all 0.5s ease-in-out;
 
 	}
 
@@ -68,6 +71,7 @@ if($techup_enable_banner_section==true ) { ?>
 		background: url('http://localhost:8080/wp-content/uploads/2023/07/left-arrow-1.png') no-repeat rgb(0 0 0 /0.25);
 		background-size: 25px;
 		background-position: center;
+		transition: all 0.5s ease-in-out;
 
 	}
 
@@ -90,6 +94,7 @@ if($techup_enable_banner_section==true ) { ?>
 		background-size: contain;
 		background-position: center;
 		border-radius: 100px;
+		transition: all 0.5s ease-in-out;
 	}
 	.chat:hover {
 		width: 50px;
@@ -104,6 +109,7 @@ if($techup_enable_banner_section==true ) { ?>
 		border-radius: 100px;
 		cursor: pointer;
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+		transition: all 0.5s ease-in-out;
 	}
 	.shop-now {
 		width: 50px;
@@ -116,6 +122,7 @@ if($techup_enable_banner_section==true ) { ?>
 		background-size: contain;
 		background-position: center;
 		border-radius: 100px;
+		transition: all 0.5s ease-in-out;
 		
 	}
 	.shop-now:hover {
@@ -131,10 +138,12 @@ if($techup_enable_banner_section==true ) { ?>
 		border-radius: 100px;
 		cursor: pointer;
 		box-shadow: 3px 3px 20px rgba(0,0,0,0.75);
+		transition: all 0.5s ease-in-out;
 	}
 
 	.readmore-btn:hover {
 		background-color: #c01920 !important;
+		transition: all 0.5s ease-in-out;
 	}
 
 	</style>
