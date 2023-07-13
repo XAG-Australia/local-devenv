@@ -652,7 +652,10 @@ slider Area End
     border-radius: 1.5px !important;
     top: unset !important;
     z-index: unset !important;
-    color: #c01920 !important;
+}
+
+.feature-box p:hover::before {
+  color: #c01920 !important;
 }
 
 .feature-sec .feature-box .icon{
