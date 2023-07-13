@@ -60,8 +60,8 @@ if($techup_enable_features_section==true ) {
         
       </div>
     </div>
-    <div class="btn-wraper" style="margin-bottom: 50px !important; transition: all 0.3s ease-in-out;">
-								<a class="readmore-btn" href="#">LEARN MORE</a>
+    <div class="btn-wraper" style="margin-bottom: 50px !important;">
+								<a class="readmore-btn" href="#" style="transition: all 0.4s ease-in-out;">LEARN MORE</a>
 							</div>
   </div>
   
