@@ -625,10 +625,18 @@ slider Area End
     transition: all 0.3s linear;
 }
 
-.feature-sec .feature-box:hover::after{ 
-  opacity: 1;
-  transition: all 0.3s linear;
-  background-color: #c01920 !important;
+.feature-sec .feature-box:hover:after{ 
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 10px;
+    bottom: 0px;
+    left: 50%;
+    opacity: 1;
+    margin-left: -35px;
+    background: #c01920 !important;
+    border-radius: 1.5px;
+    transition: all 0.3s linear;
 }
 
 .feature-sec .feature-box .icon{
