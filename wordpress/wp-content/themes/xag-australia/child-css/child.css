@@ -609,7 +609,7 @@ slider Area End
 
 .feature-sec .feature-box:hover a,
 .feature-sec .feature-box:hover p{
-    color: #000000 !important;
+    color: #c01920 !important;
 }
 
 .feature-box::after {
@@ -645,8 +645,8 @@ slider Area End
 .feature-sec .feature-box .icon{
     display: inline-block;
     color: #fff !important;
-    width: 90px;
-    height: 90px;
+    width: 140px;
+    height: 140px;
     line-height: 90px;
     text-align: center;
     font-size: 45px;
