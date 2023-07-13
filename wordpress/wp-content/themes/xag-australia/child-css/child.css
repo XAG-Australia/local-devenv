@@ -614,9 +614,9 @@ slider Area End
     background-position: center !important;
   }
 
-.feature-sec  .feature-box-1:hover {
+.feature-sec  .feature-box-1:hover, .feature-sec  .feature-box-2:hover, .feature-sec  .feature-box-3:hover {
   cursor: pointer;
-  box-shadow: 8px 8px 30px 0 rgb(0 0 0 / 25%);
+  box-shadow: 8px 8px 60px 0 rgb(0 0 0 / 35%);
 }
 
 .feature-sec .feature-box:hover a,
