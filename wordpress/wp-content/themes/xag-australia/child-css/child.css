@@ -1,9 +1,15 @@
 .feature-sec .featured-1:hover, .feature-sec .featured-2:hover,.feature-sec .featured-3:hover {
 background-color: rgb(250 250 250 / 25%) !important;
 cursor: pointer;
-border-bottom: solid 10px #c01920;
-border-bottom-width: 70px;
 transition: all 0.5s ease-in-out;
+}
+
+.feature-sec .featured-1:hover:before {
+width: 70px;
+height: 10px;
+background-color: #c01920;
+bottom: 0 !important;
+left: 50%;
 }
 /*--------------------------------------------------------------
 # Menu Section
