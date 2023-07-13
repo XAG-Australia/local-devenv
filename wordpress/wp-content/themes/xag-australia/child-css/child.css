@@ -1109,6 +1109,10 @@ slider Area End
    font-size: 14px;
 }
 
+.feature-box p:hover {
+  color: #c01920 !important;
+}
+
 .cta-7 span{
   color: #e86240;
   font-family: "Raleway", Sans-serif;
