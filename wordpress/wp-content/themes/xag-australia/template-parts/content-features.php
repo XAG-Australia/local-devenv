@@ -24,7 +24,7 @@ if($techup_enable_features_section==true ) {
 		while($techup_features_query->have_posts() && $count <= 4 ) :
 		$techup_features_query->the_post();
 		?> 
-        <div class="col-lg-4 col-md-6 col-sm-12" style="max-width: 20vw;  margin-right: 50px;">
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 20vw;  margin-right: 50px;">
           <div class="feature-box feature-box-one feature-box-1" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px; border-radius: 20px;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
             <div class="content">
@@ -33,7 +33,7 @@ if($techup_enable_features_section==true ) {
 			      </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" style="max-width: 20vw; margin-right: 50px;">
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 20vw; margin-right: 50px;">
           <div class="feature-box feature-box-one feature-box-2" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px; border-radius: 20px;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
             <div class="content">
@@ -42,7 +42,7 @@ if($techup_enable_features_section==true ) {
 			      </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" style="max-width: 20vw;">
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 20vw;">
           <div class="feature-box feature-box-one feature-box-3" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px;  border-radius: 20px; ">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 120px; background-position: center; margin-bottom: 30px;"></div>
             <div class="content">
