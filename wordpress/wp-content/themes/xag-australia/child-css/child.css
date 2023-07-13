@@ -2,7 +2,9 @@
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
-
+.site-content {
+  background-color: #fafafa !important;
+}
 
 .header-two .container {
 
