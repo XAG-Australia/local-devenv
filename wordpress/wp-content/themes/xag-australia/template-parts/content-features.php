@@ -65,14 +65,14 @@ if($techup_enable_features_section==true ) {
 							</div>
   </div>
   
-  <div class="feature-sec" style="height: calc(40vh + 80px); width: 100vw;">
-      <div class="featured-1" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
+  <div class="feature-sec" style="height: 33.33vw; width: 100vw;">
+      <div class="featured-1" style="height: 33.33vw; width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-1.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
     
     </div>
-      <div class="featured-2" style="height: calc(40vh + 80px); width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
+      <div class="featured-2" style="height: 33.33vw; width: 33.33%;  float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-2.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
     
     </div>
-      <div class="featured-3" style="height: calc(40vh + 80px); width:33.33%;   float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-3.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
+      <div class="featured-3" style="height: 33.33vw; width:33.33%;   float: left; background: url('http://localhost:8080/wp-content/uploads/2023/07/product-3.png') no-repeat rgb(0 0 0 /0.1); background-size: cover; background-position: bottom;">
     
     </div>
   </div>
