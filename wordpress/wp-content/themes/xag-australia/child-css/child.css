@@ -21,11 +21,13 @@
       height: 80px;
       color: #999999 !important;
       background-color: #ffffff;
+      transition: all 0.4s ease-in-out;
   }
 
   .menu-item.menu-item-type-post_type.menu-item-object-page:hover {
     color: #ffffff !important;
     border-bottom: solid 10px #c01920 !important;
+    transition: all 0.4s ease-in-out;
   }
 
 .main-menu {
