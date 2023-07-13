@@ -1,6 +1,7 @@
-.feature-sec .featured-1:hover {
+.feature-sec .featured-1:hover, .feature-sec .featured-2:hover,.feature-sec .featured-3:hover {
 opacity: 1 !important;
 cursor: pointer;
+transition: all 0.4s ease-in-out;
 }
 /*--------------------------------------------------------------
 # Menu Section
