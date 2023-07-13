@@ -16,7 +16,7 @@ border-top: solid 10px #c01920;
 # Menu Section
 --------------------------------------------------------------*/
 .site-content {
-  background-color: #fafafa !important;
+  background-color: transparent !important;
 }
 
 .header-two .container {

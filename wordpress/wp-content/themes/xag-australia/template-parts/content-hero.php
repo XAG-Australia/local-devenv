@@ -225,7 +225,7 @@ if($techup_enable_banner_section==true ) { ?>
 	<!-- END HERO SLIDER -->
 
 
-	<div id="content">
+	<div id="content" style="display: none;">
 	</div>
 	<script>
 
