@@ -616,7 +616,7 @@ slider Area End
     content: "";
     width: 70px;
     height: 10px;
-    bottom: 0px;
+    bottom: 0px !important;
     left: 50%;
     opacity: 1;
     margin-left: -35px;
@@ -630,7 +630,7 @@ slider Area End
     content: "";
     width: 70px;
     height: 10px;
-    bottom: 0px;
+    bottom: 0px !important;
     left: 50%;
     opacity: 1;
     margin-left: -35px;
