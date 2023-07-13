@@ -26,7 +26,7 @@ if($techup_enable_features_section==true ) {
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; ">
           <div class="feature-box feature-box-one feature-box-1" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px; border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
               <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SPRAYING</a></h5>
               <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">Drones allow users to spray safely and efficiently with uniformity and precision. The XAG patented AI rotary atomising spraying system reduces pesticide use and water waste. </p>
@@ -35,7 +35,7 @@ if($techup_enable_features_section==true ) {
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
           <div class="feature-box feature-box-one feature-box-2" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px; border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
             <h5 class="title-box" style="color: #8d8d8d !important;">UNMANNED GROUND VEHICLES</a></h5>
               <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">Our unmanned ground vehicles provide the agriculture and farming industry with precision plant services, spreading systems, AI mowing and unmanned transportation.</p>
@@ -44,7 +44,7 @@ if($techup_enable_features_section==true ) {
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
           <div class="feature-box feature-box-one feature-box-3" style="width: 20vw; background-color: #ffffff !important; max-width: 480px; height: 460px;  border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px;"></div>
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
             <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SURVEYING</a></h5>
             <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">XAG Australia has developed field survey drones that can generate high-resolution and detailed models of difficult to access areas. Our agriculture and farming industry drones allow the quick and safe delivery of field surveying data.</p>
