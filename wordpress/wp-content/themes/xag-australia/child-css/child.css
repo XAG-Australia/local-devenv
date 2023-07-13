@@ -597,7 +597,7 @@ slider Area End
 }
 
 .feature-sec  .feature-box-1:hover .icon{
-    background-color: #ffffff !important;
+    background-color: transparent !important;
   }
 
 .feature-sec  .feature-box-1:hover {
