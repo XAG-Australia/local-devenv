@@ -596,8 +596,22 @@ slider Area End
 	background-color: #000 !important;
 }
 
-.feature-sec  .feature-box-1:hover .icon{
-    background-color: transparent !important;
+.feature-sec  .feature-box-1:hover .icon {
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #fafafa;
+    background-size: 120px; 
+    background-position: center;
+  }
+
+  .feature-sec  .feature-box-2:hover .icon {
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #fafafa;
+    background-size: 120px; 
+    background-position: center;
+  }
+
+  .feature-sec  .feature-box-3:hover .icon {
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #fafafa;
+    background-size: 120px; 
+    background-position: center;
   }
 
 .feature-sec  .feature-box-1:hover {
