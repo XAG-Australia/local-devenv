@@ -592,10 +592,6 @@ slider Area End
     margin-top: 50px;
 }
 
-.buco .feature-box:hover {
-	background-color: #000 !important;
-}
-
 .feature-sec  .feature-box-1:hover .icon {
     background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff !important;
     background-size: 120px !important; 
