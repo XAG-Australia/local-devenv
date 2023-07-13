@@ -4,7 +4,7 @@ cursor: pointer;
 transition: all 0.5s ease-in-out;
 }
 
-.feature-sec .featured-1:hover:before {
+.feature-sec.featured-1:hover:before {
 width: 70px;
 height: 10px;
 background-color: #c01920;
