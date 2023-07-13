@@ -16,7 +16,7 @@ if($techup_enable_features_section==true ) {
         $techup_features_query = new WP_Query( $techup_features_args );
 ?>
 <div class="feature-sec buco" style="height: 87vh; margin-top: 100px; padding: 0px;">
-    <h2 class="section-title" style="font-size: 28px; text-align: center; color: #999999; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50px; margin-top: 50px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
+    <h2 class="section-title" style="font-size: 28px; text-align: center; color: #d0d0d0; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50px; margin-top: 50px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
     <div class="container-fluid" style="width: 1480px; padding-left: 0px; padding-right: 0px;">
       <div class="row" style="width: 100%; margin-left: auto; margin-right: auto;">
 		<?php
