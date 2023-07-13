@@ -1,3 +1,37 @@
+<script>
+// Initialize and add the map
+let map;
+
+async function initMap() {
+  // The location of Uluru
+  const position = { lat: -25.344, lng: 131.031 };
+  // Request needed libraries.
+  //@ts-ignore
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+  // The map, centered at Uluru
+  map = new Map(document.getElementById("map"), {
+    zoom: 4,
+    center: position,
+    mapId: "DEMO_MAP_ID",
+  });
+
+  // The marker, positioned at Uluru
+  const marker = new AdvancedMarkerElement({
+    map: map,
+    position: position,
+    title: "Uluru",
+  });
+}
+
+initMap();
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+
 <?php
 /**
  * Managed the custom functions and hooks for footer section of the theme.
@@ -19,11 +53,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
 	    <div class="foot-top" style="height: calc(100% - 60px);">
             <div class="container">
-                <div class="row clearfix">
-                	<?php if( is_active_sidebar( 'footer-widget-area' ) ){ ?>
-                    <?php dynamic_sidebar('footer-widget-area'); ?>
-                    <?php } ?>
-                </div>
+            <div id="map" style="height: 100%;"></div>
             </div>
         </div>
 	<?php }
