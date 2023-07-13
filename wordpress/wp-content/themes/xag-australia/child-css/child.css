@@ -1,5 +1,5 @@
 .feature-sec .featured-1:hover, .feature-sec .featured-2:hover,.feature-sec .featured-3:hover {
-opacity: 1 !important;
+  background-color: rgb(250 250 250 / 100%);
 cursor: pointer;
 transition: all 0.5s ease-in-out;
 }
