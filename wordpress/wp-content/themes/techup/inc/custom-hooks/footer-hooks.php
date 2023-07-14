@@ -11,17 +11,17 @@ if( ! function_exists( 'techup_footer_start' ) ):
 	function techup_footer_start(){
 		$footer_sticky = get_theme_mod( 'techup_footer_sticky_opt', true ); ?>
 		
-		    <footer class="footer footer-one" id="foot-wdgt">
+		    <footer class="footer footer-one" id="foot-wdgt" style="padding: 0px !important;">
 
 <?php }
 endif; 
 if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
 	    <div class="foot-top" style="height: calc(100% - 60px);">
-            <div class="container-left" style="float: left; width: 50vw; height: 100%;">
+            <div class="container-left" style="float: left; width: 50%; height: 100%;">
             
             </div>
-            <div class="container-right" style="float: left; width: 50vw; height: 100%;">
+            <div class="container-right" style="float: left; width: 50%; height: 100%;">
             
             </div>
 	<?php }
