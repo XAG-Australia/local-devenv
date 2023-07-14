@@ -22,7 +22,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
             
             </div>
             <div class="container-right" style="float: left; width: 50vw; height: 100%;">
-            [contact-form-7 id="63" title="Homepage Form"]
+            <shortcode>[contact-form-7 id="63" title="Homepage Form"]</shortcode>
             </div>
 	<?php }
 endif; 
