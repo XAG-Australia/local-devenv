@@ -1521,7 +1521,7 @@ s
 }
 
 .footer-one {
-  height: calc(60vh - 140px) !important;
+  height: 100vh !important;
 }
 
 .foot-bottom a {

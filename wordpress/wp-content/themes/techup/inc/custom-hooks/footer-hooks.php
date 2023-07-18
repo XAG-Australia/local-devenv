@@ -25,7 +25,7 @@ input[type=submit]:hover {
 
 .container-right {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #333333;
   padding: 20px;
 }
 </style>
@@ -42,13 +42,13 @@ if( ! function_exists( 'techup_footer_start' ) ):
 	function techup_footer_start(){
 		$footer_sticky = get_theme_mod( 'techup_footer_sticky_opt', true ); ?>
 		
-		    <footer class="footer footer-one" id="foot-wdgt" style="padding: 0px !important;">
+		    <footer class="footer footer-one" id="foot-wdgt" style="padding: 50px !important;">
 
 <?php }
 endif; 
 if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
-	    <div class="foot-top" style="height: calc(100% - 60px);">
+	    <div class="foot-top" style="height: 100%;">
             <div class="container-left" style="float: left; width: 50%; height: 100%;">
             
             </div>
