@@ -8,15 +8,18 @@
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #c01920;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 input[type=submit]:hover {
@@ -27,6 +30,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #232323;
   padding: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 </style>
 <?php
