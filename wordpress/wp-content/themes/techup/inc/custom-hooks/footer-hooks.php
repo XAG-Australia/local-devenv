@@ -35,9 +35,12 @@ input[type=submit]:hover {
 .container-right {
   border-radius: 5px;
   background-color: #232323;
-  padding: 50px;
   padding-top: 0px !important;
   font-family: 'Roboto Condensed', sans-serif;
+  padding: 100px;
+  padding-top: 100px !important;
+  border-radius: 0px !important;
+  background: rgb(35 35 35 / 95%) !important;
 }
 
 .container-right label {
@@ -66,9 +69,9 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
 	    <div class="foot-top" style="height: 100vh; width: 100vw; overflow: hidden; z-index: 999; padding: 0px !important; position: absolute;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.6632911974166!2d151.2197601765195!3d-33.949787273195724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b16a9e88eaf9%3A0x26cb380defb0dc04!2sXAG%20Australia!5e0!3m2!1sen!2sau!4v1689663545448!5m2!1sen!2sau" style="border:0; width: 100vw; height: 100vh; z-index: 1; position: absolute;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="container-left" style="float: left; width: 50vw; height: 100vh; position: relative; z-index: 9999;">
+            <div class="container-left" style="float: left; width: 66.66vw; height: 100vh; position: relative; z-index: 9999;">
             </div>
-            <div class="container-right" style="float: left; width: 50vw; height: 100vh; position: relative; z-index: 9999; padding: 100px;">
+            <div class="container-right" style="float: left; width: 33.33vw; height: 100vh; position: relative; z-index: 9999;">
             <form action="/action_page.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
