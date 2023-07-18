@@ -5,10 +5,11 @@
   border-bottom: 2px solid #fafafa;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
+  background: transparent !important;
 }
 
 input[type=submit] {
