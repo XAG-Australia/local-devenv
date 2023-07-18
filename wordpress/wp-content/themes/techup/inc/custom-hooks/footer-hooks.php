@@ -2,7 +2,7 @@
     input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border-bottom: 2px solid #fafafa;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -25,8 +25,8 @@ input[type=submit]:hover {
 
 .container-right {
   border-radius: 5px;
-  background-color: #333333;
-  padding: 20px;
+  background-color: #232323;
+  padding: 50px;
 }
 </style>
 <?php
