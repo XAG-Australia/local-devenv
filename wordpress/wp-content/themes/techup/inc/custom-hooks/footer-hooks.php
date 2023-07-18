@@ -44,10 +44,6 @@ input[type=submit]:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#map {
-    height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
-}
 </style>
 <?php
 /**
@@ -70,41 +66,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 	function techup_footer_sidebar(){ ?>
 	    <div class="foot-top" style="height: 100%;">
             <div class="container-left" style="float: left; width: 50%; height: 100%;">
-            <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-            <!--The div element for the map --><script>
-            // Initialize and add the map
-                let map;
-
-                async function initMap() {
-                // The location of Uluru
-                const position = { lat: -33.9497873, lng: 151.2197602 };
-                // Request needed libraries.
-                //@ts-ignore
-                const { Map } = await google.maps.importLibrary("maps");
-                const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
-                // The map, centered at Uluru
-                map = new Map(document.getElementById("map"), {
-                    zoom: 4,
-                    center: position,
-                    mapId: "DEMO_MAP_ID",
-                });
-
-                // The marker, positioned at Uluru
-                const marker = new AdvancedMarkerElement({
-                    map: map,
-                    position: position,
-                    title: "Uluru",
-                });
-                }
-
-                initMap();
-                </script>
-                <div id="map"></div>
-
-            <!-- prettier-ignore -->
-                        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-                    ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.6632911974166!2d151.2197601765195!3d-33.949787273195724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b16a9e88eaf9%3A0x26cb380defb0dc04!2sXAG%20Australia!5e0!3m2!1sen!2sau!4v1689663545448!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="container-right" style="float: left; width: 50%; height: 100%;">
             <form action="/action_page.php">
