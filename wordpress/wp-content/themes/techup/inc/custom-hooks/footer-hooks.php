@@ -3,18 +3,18 @@
   width: 100%;
   padding: 12px;
   border-bottom: 2px solid #fafafa !important;
-  border-radius: 4px;
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
   resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
   background: transparent !important;
-  border: none;
+  border: 0px;
 }
 
 input[type=text]:hover, select:hover, textarea:hover {
     border-bottom: 2px solid #c01920 !important;
+    border: 0px;
 }
 
 input[type=submit] {
@@ -40,6 +40,7 @@ input[type=submit]:hover {
 }
 
 .container-right label {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 </style>
