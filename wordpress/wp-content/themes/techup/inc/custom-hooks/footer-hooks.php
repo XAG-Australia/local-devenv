@@ -2,7 +2,7 @@
     input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border-bottom: 2px solid #fafafa;
+  border-bottom: 2px solid #fafafa !important;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -10,6 +10,11 @@
   resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
   background: transparent !important;
+  border: none;
+}
+
+input[type=text]:hover, select:hover, textarea:hover {
+    border-bottom: 2px solid #c01920 !important;
 }
 
 input[type=submit] {
@@ -32,6 +37,10 @@ input[type=submit]:hover {
   background-color: #232323;
   padding: 50px;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-right label {
+    margin-bottom: 20px;
 }
 </style>
 <?php
