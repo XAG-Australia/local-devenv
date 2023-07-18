@@ -36,6 +36,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #232323;
   padding: 50px;
+  padding-top: 0px !important;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
