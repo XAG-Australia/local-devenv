@@ -251,7 +251,7 @@ Home Area
 
 .hero-sec .content-sec {
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: 50%;
   left: 50%;
   padding-top: 100px;
@@ -262,7 +262,7 @@ Home Area
   text-shadow: 0px 7px 10px rgb(0 0 0 / 10%);
   text-transform: capitalize;
   margin: auto;
-  text-align: center;
+  text-align: left;
   font-size: 75px;
   line-height: 90px;
   color: #fff;
@@ -270,7 +270,7 @@ Home Area
 
 .btn-wraper{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   position: relative;
   padding-top: 20px;
   padding-left: 0px !important;
@@ -323,7 +323,7 @@ Home Area
 
 @media screen and (max-width: 991px) {
   .hero-sec .content-sec .section-title {
-    text-align: center;
+    text-align: left;
     margin: auto;
     width: 500px;
     font-size: 70px;
@@ -336,7 +336,7 @@ Home Area
 
 @media screen and (max-width: 769px) {
   .hero-sec .content-sec .section-title {
-    text-align: center;
+    text-align: left;
     font-size: 55px;
   }
 }
