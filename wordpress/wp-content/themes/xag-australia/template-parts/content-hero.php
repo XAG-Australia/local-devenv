@@ -28,6 +28,9 @@ if($techup_enable_banner_section==true ) { ?>
 	aside[id*="-control"] .slidr-control.disabled {
 	 opacity: 0.5 !important;
 	}
+	aside[id="slidr-div-control"].border .slidr-control.up, aside[id="slidr-div-control"].border .slidr-control.down {
+		display: none !important;
+	}
 
 	aside[id="slidr-div-control"].border .slidr-control.left {
 	   left: calc((100vw - 1280px)/2);
