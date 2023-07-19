@@ -68,19 +68,19 @@ if($techup_enable_features_section==true ) {
   <div class="feature-sec" style="height: 33.33vw; width: 100vw; border: 0px !important;">
       <div class="featured-1" style="height: 33.33vw; width: 33.33%;  float: left; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/product-1.png'); background-color: rgb(250 250 250 / 75%); background-blend-mode: lighten; background-size: cover; background-position: bottom; transition: all 0.5s ease-in-out;">
       <h2 class="section-title" style="opacity: 1; font-size: 38px; text-align: center; margin-top: 50px;">P100 PRO</h2>
-      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out; left: 50%;">
+      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out; left: 40%;">
 				<a class="readmore-btn" href="#" style="transition: all 0.4s ease-in-out; ">LEARN MORE</a>
 			</div>
     </div>
       <div class="featured-2" style="height: 33.33vw; width: 33.33%;  float: left; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/product-2.png'); background-color: rgb(250 250 250 / 75%); background-blend-mode: lighten; background-size: cover; background-position: bottom; transition: all 0.5s ease-in-out;">
       <h2 class="section-title" style="opacity: 1; font-size: 38px; text-align: center; margin-top: 50px;">R150</h2>
-      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out;">
+      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out; left: 40%;">
 				<a class="readmore-btn" href="#" style="transition: all 0.4s ease-in-out; ">LEARN MORE</a>
 			</div>
     </div>
       <div class="featured-3" style="height: 33.33vw; width:33.33%;   float: left; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/product-3.png'); background-color: rgb(250 250 250 / 75%); background-blend-mode: lighten; background-size: cover; background-position: bottom; transition: all 0.5s ease-in-out;">
       <h2 class="section-title" style="opacity: 1; font-size: 38px; text-align: center; margin-top: 50px;">v40</h2>
-      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out;">
+      <div class="btn-wraper product" style="opacity: 0; padding-top: 85%; margin-top: -120px; transition: all 0.4s ease-in-out; left: 40%;">
 				<a class="readmore-btn" href="#" style="transition: all 0.4s ease-in-out; ">LEARN MORE</a>
 			</div>
     </div>
