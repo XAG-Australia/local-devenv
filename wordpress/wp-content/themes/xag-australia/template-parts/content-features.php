@@ -60,7 +60,7 @@ if($techup_enable_features_section==true ) {
         
       </div>
     </div>
-    <div class="btn-wraper" style="margin-bottom: 50px !important; display: initial;">
+    <div class="btn-wraper" style="margin-bottom: 50px !important; display: initial; left: 44%;">
 								<a class="readmore-btn" href="#" style="transition: all 0.4s ease-in-out;">LEARN MORE</a>
 							</div>
   </div>
