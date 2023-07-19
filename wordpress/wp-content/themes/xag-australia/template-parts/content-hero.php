@@ -154,11 +154,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 	<div class="shop-now"></div>
 
-	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 100vh; box-shadow: 3px 3px 40px rgb(0 0 0 / 35%);">
+	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 50vh; box-shadow: 3px 3px 40px rgb(0 0 0 / 35%);">
 		<!-- START SLIDE 1 -->
 
 
-		<div data-slidr="one" style="min-width: 100vw; min-height: 100vh;">
+		<div data-slidr="one" style="min-width: 100vw; min-height: 50vh;">
 			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.jpg'); background-attachement: fixed; background-size: cover; background-position: center;">
 				<div class="container">
 					<div class="row">
@@ -182,7 +182,7 @@ if($techup_enable_banner_section==true ) { ?>
 		<!-- START SLIDE 2 -->
 
 
-		<div data-slidr="two" style="min-width: 100vw; min-height: 100vh;">
+		<div data-slidr="two" style="min-width: 100vw; min-height: 50vh;">
 			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-t-1.jpg'); background-attachement: fixed; background-size: cover; background-position: center;">
 				<div class="container">
 					<div class="row">
@@ -203,7 +203,7 @@ if($techup_enable_banner_section==true ) { ?>
 		<!-- START SLIDE 3 -->
 
 
-		<div data-slidr="three" style="min-width: 100vw; min-height: 100vh;">
+		<div data-slidr="three" style="min-width: 100vw; min-height: 50vh;">
 			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.jpg'); background-attachement: fixed; background-size: cover; background-position: center;">
 				<div class="container">
 					<div class="row">
@@ -224,9 +224,6 @@ if($techup_enable_banner_section==true ) { ?>
 	</div>
 	<!-- END HERO SLIDER -->
 
-
-	<div id="content" style="display: none;">
-	</div>
 	<script>
 
 // Initialize a Slidr. 
