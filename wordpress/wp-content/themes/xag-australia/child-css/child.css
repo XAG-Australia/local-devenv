@@ -253,9 +253,9 @@ Home Area
   position: absolute;
   text-align: left;
   top: 50%;
-  left: 50%;
+  left: 0;
   padding-top: 100px;
-  -webkit-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-0%, -50%);
 }
 
 .hero-sec .content-sec .section-title {

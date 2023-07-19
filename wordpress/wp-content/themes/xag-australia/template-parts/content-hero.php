@@ -161,7 +161,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 50vh;">
-			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-12.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
+			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 				<div class="container" style="margin-left: unset; margin-right: unset; width: 50% !important; height: 100% !important; background: #ffffff; border-radius: 0px 400px 400px 0px; border-right: 300px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec">
@@ -185,8 +185,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 50vh;">
-			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-t-1.jpg'); background-attachement: fixed; background-size: cover; background-position: center;">
-				<div class="container">
+		<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
+				<div class="container" style="margin-left: unset; margin-right: unset; width: 50% !important; height: 100% !important; background: #ffffff; border-radius: 0px 400px 400px 0px; border-right: 300px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
@@ -206,8 +206,8 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="three" style="min-width: 100vw; min-height: 50vh;">
-			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.jpg'); background-attachement: fixed; background-size: cover; background-position: center;">
-				<div class="container">
+			<<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
+				<div class="container" style="margin-left: unset; margin-right: unset; width: 50% !important; height: 100% !important; background: #ffffff; border-radius: 0px 400px 400px 0px; border-right: 300px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
