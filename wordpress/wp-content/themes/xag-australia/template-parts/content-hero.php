@@ -168,8 +168,8 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 50% !important; height: 100% !important; background: #232323; border-radius: 0px 300px 300px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
-							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="320">
-							<h2 class="section-title" style="font-size: 32px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75); display: none;"><?php echo esc_html($techup_banner_title); ?>
+							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
+							<h2 class="section-title" style="font-size: 32px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
 
@@ -193,7 +193,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160" style="display: none;">
-							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Agricultural Drones</h2>
+							<h2 class="section-title" style="font-size: 32px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Agricultural Drones</h2>
 
 
 							<div class="btn-wraper">
@@ -214,7 +214,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
-							<h2 class="section-title" style="font-size: 38px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Spraying, Seeding & Surveying.</h2>
+							<h2 class="section-title" style="font-size: 32px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Spraying, Seeding & Surveying.</h2>
 
 
 							<div class="btn-wraper">
