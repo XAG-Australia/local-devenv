@@ -22,6 +22,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-size: 25px !important;
 	   background-position: center !important;
 	   transition: all 0.5s ease-in-out;
+	   display: none;
 	}
 
 	aside[id*="-control"] .slidr-control.disabled {
@@ -40,6 +41,7 @@ if($techup_enable_banner_section==true ) { ?>
 	   background-size: 25px;
 	   background-position: center;
 	   transition: all 0.5s ease-in-out;
+	   display: none;
 	}
 
 	aside[id="slidr-div-control"].border  {
@@ -80,7 +82,7 @@ if($techup_enable_banner_section==true ) { ?>
 	}
 
 	aside[id*="-breadcrumbs"] {
-		right: 49% !important;
+		right: 100px !important;
 		bottom: 100px !important;
 	}
 	.chat {
