@@ -612,7 +612,7 @@ slider Area End
     padding: 50px;
     box-shadow: 10px 10px 20px 0 rgb(0 0 0 / 10%);
     transition: all 0.3s linear;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .feature-sec  .feature-box-1:hover .icon {
