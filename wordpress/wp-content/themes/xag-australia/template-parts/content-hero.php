@@ -188,7 +188,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 50vh;">
-		<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
+		<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2X.jpg'); background-attachment: fixed; background-size: cover; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 50% !important; height: 100% !important; background: #232323; border-radius: 0px 300px 300px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
