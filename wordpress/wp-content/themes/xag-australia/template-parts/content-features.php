@@ -17,7 +17,7 @@ if($techup_enable_features_section==true ) {
 ?>
 <div class="feature-sec buco" style="height: 50vh; padding-top: 20px !important; padding: 0px; background: #fafafa; background-attachment: fixed; background-size: cover; background-position: center;">
     <h2 class="section-title" style="display: none; font-size: 28px; text-align: left; color: #d0d0d0; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 0px; margin-top: 25px; width: 1280px; margin-left: auto; margin-right: auto; padding-left: 40px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
-    <div class="container-fluid" style="width: 100%; max-width: 1280px; padding-left: 0px; padding-right: 0px; height: 425px;">
+    <div class="container-fluid" style="width: 100%; max-width: 1600px; padding-left: 0px; padding-right: 0px; height: 425px;">
       <div class="row" style="width: 100%; margin-left: auto; margin-right: auto;">
 		<?php
 		$count = 0;
