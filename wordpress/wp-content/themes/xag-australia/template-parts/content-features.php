@@ -25,7 +25,7 @@ if($techup_enable_features_section==true ) {
 		$techup_features_query->the_post();
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; ">
-          <div class="feature-box feature-box-one feature-box-1" style="width: 20vw; background-color: #ffffff !important; max-width: 360px; height: 360px; border-radius: 20px; margin-left: auto; margin-right: auto;">
+          <div class="feature-box feature-box-one feature-box-1" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
               <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SPRAYING</a></h5>
@@ -34,7 +34,7 @@ if($techup_enable_features_section==true ) {
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
-          <div class="feature-box feature-box-one feature-box-2" style="width: 20vw; background-color: #ffffff !important; max-width: 360px; height: 360px; border-radius: 20px; margin-left: auto; margin-right: auto;">
+          <div class="feature-box feature-box-one feature-box-2" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
             <h5 class="title-box" style="color: #8d8d8d !important; font-size: 14px;">UNMANNED GROUND VEHICLES</a></h5>
@@ -43,7 +43,7 @@ if($techup_enable_features_section==true ) {
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
-          <div class="feature-box feature-box-one feature-box-3" style="width: 20vw; background-color: #ffffff !important; max-width: 360px; height: 360px;  border-radius: 20px; margin-left: auto; margin-right: auto;">
+          <div class="feature-box feature-box-one feature-box-3" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
             <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SURVEYING</a></h5>
