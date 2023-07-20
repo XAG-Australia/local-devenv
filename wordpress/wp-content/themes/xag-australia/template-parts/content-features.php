@@ -17,37 +17,37 @@ if($techup_enable_features_section==true ) {
 ?>
 <div class="feature-sec buco" style="height: 50vh; padding-top: 20px !important; padding: 0px; background: #fafafa; background-attachment: fixed; background-size: cover; background-position: center;">
     <h2 class="section-title" style="display: none; font-size: 28px; text-align: left; color: #d0d0d0; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 0px; margin-top: 25px; width: 1280px; margin-left: auto; margin-right: auto; padding-left: 40px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
-    <div class="container-fluid" style="width: 100%; max-width: 1600px; padding-left: 0px; padding-right: 0px; height: 425px;">
+    <div class="container-fluid" style="width: 100%; max-width: 1280px; padding-left: 0px; padding-right: 0px; height: 425px;">
       <div class="row" style="width: 100%; margin-left: auto; margin-right: auto;">
 		<?php
 		$count = 0;
 		while($techup_features_query->have_posts() && $count <= 4 ) :
 		$techup_features_query->the_post();
 		?> 
-        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; ">
-          <div class="feature-box feature-box-one feature-box-1" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important; ">
+          <div class="feature-box feature-box-one feature-box-1" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto;">
+            <div class="icon" style="display: none; background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
-              <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SPRAYING</a></h5>
-              <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">Spray safely and efficiently with XAG agricultural drones.</p>
+              <h5 class="title-box" style=" display: none; color: #8d8d8d !important;">AERIAL SPRAYING</a></h5>
+              <p style="display: none; text-align: left; color: #d0d0d0; margin-top: 40px;">Spray safely and efficiently with XAG agricultural drones.</p>
 			      </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
-          <div class="feature-box feature-box-one feature-box-2" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important;">
+          <div class="feature-box feature-box-one feature-box-2" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto;"">
+            <div class="icon" style="display: none; background: url('http://localhost:8080/wp-content/uploads/2023/07/service-2.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
-            <h5 class="title-box" style="color: #8d8d8d !important; font-size: 14px;">UNMANNED GROUND VEHICLES</a></h5>
-              <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">Precision plant services, spreading systems, AI mowing and unmanned transportation.</p>
+            <h5 class="title-box" style="display: none; color: #8d8d8d !important; font-size: 14px;">UNMANNED GROUND VEHICLES</a></h5>
+              <p style="display: none; text-align: left; color: #d0d0d0; margin-top: 40px;">Precision plant services, spreading systems, AI mowing and unmanned transportation.</p>
 			      </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%;">
-          <div class="feature-box feature-box-one feature-box-3" style="width: 500px; background-color: #ffffff !important; max-width: 500px; height: 200px; border-radius: 20px; margin-left: auto; margin-right: auto;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important;">
+          <div class="feature-box feature-box-one feature-box-3" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto;">
+            <div class="icon" style="display: none; background: url('http://localhost:8080/wp-content/uploads/2023/07/service-3.png') no-repeat #ffffff; background-size: 110px; background-position: center; margin-bottom: 30px; transition: all 0.3s ease-in-out;"></div>
             <div class="content">
-            <h5 class="title-box" style="color: #8d8d8d !important;">AERIAL SURVEYING</a></h5>
-            <p style="text-align: left; color: #d0d0d0; margin-top: 40px;">Survey high-resolution and detailed models of any terrain.</p>
+            <h5 class="title-box" style="display: none; color: #8d8d8d !important;">AERIAL SURVEYING</a></h5>
+            <p style="display: none; text-align: left; color: #d0d0d0; margin-top: 40px;">Survey high-resolution and detailed models of any terrain.</p>
 			</div>
           
           </div>
