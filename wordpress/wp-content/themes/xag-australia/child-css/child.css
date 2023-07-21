@@ -156,7 +156,7 @@ letter-spacing: 4px;
 
 .logo img {
 	width: inherit;
-  max-height: 35px;
+  max-height: 70px !important;
 }
 
 .site-title, .site-description {
