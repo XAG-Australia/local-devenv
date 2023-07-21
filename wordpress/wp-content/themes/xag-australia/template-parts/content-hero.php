@@ -159,13 +159,13 @@ if($techup_enable_banner_section==true ) { ?>
 
 	<div class="shop-now"></div>
 
-	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: 50vh; box-shadow: 3px 3px 40px rgb(0 0 0 / 35%); background: #232323;">
+	<div id="slidr-div" style="display: inline; min-width: 100vw; min-height: calc(50vh + 180px); box-shadow: 3px 3px 40px rgb(0 0 0 / 35%); background: #c01920;">
 		<!-- START SLIDE 1 -->
 
 
-		<div data-slidr="one" style="min-width: 100vw; min-height: 50vh;">
+		<div data-slidr="one" style="min-width: 100vw; min-height: calc(50vh + 180px);">
 			<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-1X.jpg'); background-attachment: fixed; background-size: contain; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
-				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #232323; border-radius: 0px 200px 200px 0px; max-width: 1280px !important;">
+				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
@@ -187,9 +187,9 @@ if($techup_enable_banner_section==true ) { ?>
 		<!-- START SLIDE 2 -->
 
 
-		<div data-slidr="two" style="min-width: 100vw; min-height: 50vh;">
+		<div data-slidr="two" style="min-width: 100vw; min-height: calc(50vh + 180px);">
 		<section class="hero-sec" style="background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2X.jpg'); background-attachment: fixed; background-size: contain; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
-				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #232323; border-radius: 0px 200px 200px 0px; max-width: 1280px !important;">
+				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
@@ -208,10 +208,10 @@ if($techup_enable_banner_section==true ) { ?>
 		<!-- START SLIDE 3 -->
 
 
-		<div data-slidr="three" style="min-width: 100vw; min-height: 50vh;">
+		<div data-slidr="three" style="min-width: 100vw; min-height: calc(50vh + 180px);">
 			<section class="hero-sec" style=" background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-3X.jpg'); background-attachment: fixed; background-size: contain
 			; background-position: center; width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
-				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #232323; border-radius: 0px 200px 200px 0px; max-width: 1280px !important;">
+				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
