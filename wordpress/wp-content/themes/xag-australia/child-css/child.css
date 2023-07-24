@@ -704,10 +704,9 @@ slider Area End
 }
 
 .feature-sec .feature-box .content .title-box{
-  font-size: 20px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 18px;
+  margin-top: -5px;
+  line-height: 1;
   font-family: 'Roboto Condensed';
   letter-spacing: 2px;
   font-weight: 400;
