@@ -710,6 +710,7 @@ slider Area End
   font-family: 'Roboto Condensed';
   letter-spacing: 2px;
   font-weight: 400;
+  opacity: 0;
 }
 
 .feature-sec .feature-box .content .title-box:hover {
