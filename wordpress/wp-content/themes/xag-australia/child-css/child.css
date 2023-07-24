@@ -287,8 +287,9 @@ Home Area
     margin: 5px;
     font-size: 16;
     font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 4px;
     transition: all 0.4s linear;
     background-color: #ffffff;
     color: #c01920;
