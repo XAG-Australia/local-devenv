@@ -193,9 +193,8 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 22px;"><b>Pioneering</b></br>drone technology</h2>
-
-
+							<h2 class="section-title" style="font-size: 22px;">Pioneering</h2>
+							<h5>drone technology</h5>
 							<div class="btn-wraper">
 								<a class="readmore-btn" href="#">Learn More</a>
 							</div>
