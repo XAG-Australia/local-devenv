@@ -168,7 +168,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
-							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160" style="display: none;">
+							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
 							<h2 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
@@ -192,7 +192,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
-						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160" style="display: none;">
+						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
 							<h2 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Australian Agricultural Drones</h2>
 
 
@@ -214,7 +214,7 @@ if($techup_enable_banner_section==true ) { ?>
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 35% !important; height: 100% !important; background: #c01920; border-radius: 0px 800px 800px 0px; max-width: 1280px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
-						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160" style="display: none;">
+						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
 							<h2 class="section-title" style="font-size: 22px; text-shadow: 3px 3px 20px rgba(0,0,0,0.75);">Spraying, Seeding & Surveying.</h2>
 
 
