@@ -96,6 +96,7 @@ border-top: solid 10px #c01920;
 
 body {
   overflow-x: hidden !important;
+  background-color: #f7f7f7 !important;
 }
 
 h2 { 
