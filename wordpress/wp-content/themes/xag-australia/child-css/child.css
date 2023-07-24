@@ -622,8 +622,8 @@ slider Area End
 }
 
 .feature-sec  .feature-box-1:hover .icon {
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1.png') no-repeat #ffffff !important;
-    background-size: 120px !important; 
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1B.png') no-repeat #ffffff !important;
+    background-size: 100px !important; 
     background-position: center !important;
     transition: all 0.3s ease-in-out;
   }
@@ -687,17 +687,15 @@ slider Area End
 .feature-sec .feature-box .icon{
     display: inline-block;
     color: #fff !important;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     line-height: 90px;
     text-align: center;
     font-size: 45px;
-    margin-bottom: 17px;
     text-align:center;
-    background: #ffffff24;
+    background: #ffffff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 .buco .feature-box .link-details {
