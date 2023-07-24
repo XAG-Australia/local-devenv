@@ -622,7 +622,7 @@ slider Area End
 }
 
 .feature-sec  .feature-box-1:hover .icon {
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/service-1B.png') no-repeat #ffffff !important;
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-1B.png') no-repeat #ffffff !important;
     background-size: 100px !important; 
     background-position: center !important;
     transition: all 0.3s ease-in-out;
