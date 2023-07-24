@@ -37,10 +37,10 @@ input[type=submit]:hover {
   background-color: #232323;
   padding-top: 0px !important;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 100px;
+  padding: 10%;
   padding-top: 100px !important;
   border-radius: 0px !important;
-  background: rgb(35 35 35 / 95%) !important;
+  background: rgb(35 35 35) !important;
 }
 
 .container-right label {
