@@ -169,7 +169,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px; ">
 							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 16px; font-weight: bold;"><?php echo esc_html($techup_banner_title); ?>
+							<h2 class="section-title" style="font-size: 22px;"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
 
@@ -193,7 +193,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 16px; font-weight: bold;">Australian Agricultural Drones</h2>
+							<h2 class="section-title" style="font-size: 22px;">Pioneering Agriculure Tech</h2>
 
 
 							<div class="btn-wraper">
@@ -215,7 +215,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 16px; font-weight: bold;">Spraying, Seeding & Surveying.</h2>
+							<h2 class="section-title" style="font-size: 22px;">Spraying, Seeding & Surveying</h2>
 
 
 							<div class="btn-wraper">
