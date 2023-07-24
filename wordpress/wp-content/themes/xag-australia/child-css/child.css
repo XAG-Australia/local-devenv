@@ -2,7 +2,7 @@
 background-color: rgb(250 250 250 / 25%) !important;
 cursor: pointer;
 transition: all 0.5s ease-in-out;
-border-left: solid 10px #c01920;
+border: solid 10px #c01920;
 }
 
 .feature-sec .featured-1, .feature-sec .featured-2, .feature-sec .featured-3 {
