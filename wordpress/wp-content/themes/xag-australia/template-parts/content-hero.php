@@ -193,8 +193,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 22px;">Pioneering</h2>
-							<h5>drone technology</h5>
+							<h2 class="section-title" style="font-size: 18px;">Leading drone technology</h2>
 							<div class="btn-wraper">
 								<a class="readmore-btn" href="#">Learn More</a>
 							</div>
@@ -214,7 +213,7 @@ if($techup_enable_banner_section==true ) { ?>
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 22px;">Spraying, Seeding & Surveying</h2>
+							<h2 class="section-title" style="font-size: 18px;">Spraying, seeding & surveying</h2>
 
 
 							<div class="btn-wraper">
