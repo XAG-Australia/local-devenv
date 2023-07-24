@@ -712,6 +712,10 @@ slider Area End
   font-weight: 400;
 }
 
+.feature-sec .feature-box .content .title-box:hover {
+  opacity: 1;
+}
+
 .feature-sec .feature-box .content .title-box a {
     color: #ffffff;
 }
