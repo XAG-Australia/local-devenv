@@ -250,7 +250,7 @@ Home Area
   position: sticky;
   background-attachment: fixed;
   z-index: 100;
-  height: calc(50vh + 180px) !important;
+  height: calc(50vh + 80px) !important;
 } 
 
 
