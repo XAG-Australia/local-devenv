@@ -650,9 +650,10 @@ slider Area End
 .feature-sec .feature-box:hover a,
 .feature-sec .feature-box:hover p,
 .feature-sec .feature-box:hover h5 {
-    color: #333333 !important;
+    color: #4c4c4c!important;
     opacity: 1 !important;
-    transition: all 0.3s linear;
+    font-size: 18px !important;
+    transition: all 0.3s ease-in-out;
 }
 
 .feature-box::after {
@@ -710,7 +711,7 @@ slider Area End
   font-family: 'Roboto Condensed';
   letter-spacing: 2px;
   font-weight: 400;
-  opacity: 0;
+  opacity: 0.35;
   transition: all 0.3s ease-in;
 }
 
