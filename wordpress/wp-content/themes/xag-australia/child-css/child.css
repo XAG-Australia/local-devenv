@@ -287,7 +287,7 @@ Home Area
   padding-right: 0px !important;
 }
 
-.hero-sec .content-sec .readmore-btn:hover{
+.hero-sec .content-sec .readmore-btn{
     padding: 20px 30px 20px 30px;
     margin: 5px;
     font-size: 16;
@@ -315,9 +315,13 @@ Home Area
     color: #fff;
 }
 
+.feature-sec .readmore-btn:hover {
+    background-color: #ffffff !important;
+    color: #ffffff !important;
+    border: solid 4px #c01920 !important;
+}
 
-
-.hero-sec .content-sec .readmore-btn {
+.hero-sec .content-sec .readmore-btn:hover {
 	  padding: 20px 30px 20px 30px;
     margin: 5px;
     font-size: 16;
@@ -330,7 +334,7 @@ Home Area
     color: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
-    border: solid 4px #ffffff !important;
+    border: solid 4px #ffffff
 }
 
 .main-navigation .nav-menu>.menu-item>a {
