@@ -315,11 +315,7 @@ Home Area
     color: #fff;
 }
 
-.feature-sec .readmore-btn:hover {
-    background-color: #ffffff !important;
-    color: #c01920 !important;
-    border: solid 4px #c01920 !important;
-}
+
 
 .hero-sec .content-sec .readmore-btn {
 	  padding: 20px 30px 20px 30px;
