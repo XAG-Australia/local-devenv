@@ -12,6 +12,10 @@ border-top: solid 10px #c01920;
 .btn-wraper.product:hover {
   opacity: 1 !important;
 }
+
+.btn-wraper.product {
+  justify-content: center !important;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
