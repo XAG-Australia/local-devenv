@@ -296,8 +296,8 @@ Home Area
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: all 0.4s ease-in-out;
-    background-color: #ffffff;
-    color: #c01920;
+    background-color: #c01920;
+    color: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
 }
