@@ -254,7 +254,7 @@ if($techup_enable_banner_section==true ) { ?>
 s.add('h', ['one', 'two', 'three', 'one']);
 
 // Now start.
-s.auto(6000, 'right', 'one');
+s.auto(4000, 'right', 'one');
 
 	function auto(opt_msec, opt_direction, opt_start) {};
 
