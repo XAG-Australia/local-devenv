@@ -9,11 +9,24 @@ border-top: solid 10px #c01920;
   border-top: solid 10px transparent;
 }
 
-.btn-wraper.product:hover {
+.readmore-btn.product:hover {
   opacity: 1 !important;
+  padding: 20px 30px 20px 30px;
+  margin: 5px;
+  font-size: 16;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: all 0.4s ease-in-out;
+  background-color: #232323;
+  color: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: solid 4px #ffffff;
 }
 
-.btn-wraper.product {
+.readmore-btn.product {
     padding: 20px 30px 20px 30px;
     margin: 5px;
     font-size: 16;
@@ -27,7 +40,6 @@ border-top: solid 10px #c01920;
     border-radius: 5px;
     box-sizing: border-box;
     border: solid 4px #ffffff;
-
 }
 /*--------------------------------------------------------------
 # Menu Section
