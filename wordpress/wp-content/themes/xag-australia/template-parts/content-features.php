@@ -54,6 +54,7 @@ if($techup_enable_features_section==true ) {
 		?> 
         
       </div>
+      <h2 class="section-title" style="font-size: 28px; text-align: center; color: #d0d0d0; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50 px; margin-top: 0px; width: 1280px; margin-left: auto; margin-right: auto; padding-left: 40px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
     </div>
     </div>
   <div class="feature-sec" style="height: calc(75vh - 180px); width: 1280px; border: 0px !important; margin-left: auto; margin-right: auto; ">
