@@ -40,6 +40,7 @@ border-top: solid 10px #c01920;
     border-radius: 5px;
     box-sizing: border-box;
     border: solid 4px #ffffff;
+    opacity: 0 !important;
 }
 /*--------------------------------------------------------------
 # Menu Section
