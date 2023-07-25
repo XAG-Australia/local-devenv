@@ -295,10 +295,11 @@ Home Area
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    transition: all 0.4s linear;
+    transition: all 0.4s ease-in-out;
     background-color: #ffffff;
     color: #c01920;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .feature-sec .readmore-btn {
@@ -321,9 +322,19 @@ Home Area
 }
 
 .hero-sec .content-sec .readmore-btn:hover {
-	background-color: transparent !important;
-  border: solid 4px #ffffff !important;
-  color: #ffffff !important;
+	  padding: 20px 30px 20px 30px;
+    margin: 5px;
+    font-size: 16;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: solid 4px #ffffff !important;
 }
 
 .main-navigation .nav-menu>.menu-item>a {
