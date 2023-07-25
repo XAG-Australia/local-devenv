@@ -761,8 +761,8 @@ slider Area End
   margin-top: -5px;
   line-height: 1;
   font-family: 'Roboto Condensed';
-  letter-spacing: 2px;
-  font-weight: 400;
+  letter-spacing: 3px;
+  font-weight: 300;
   opacity: 0.35;
   transition: all 0.3s ease-in;
 }
