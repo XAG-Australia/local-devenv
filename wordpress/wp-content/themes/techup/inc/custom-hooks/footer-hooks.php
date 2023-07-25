@@ -40,7 +40,7 @@ input[type=submit]:hover {
   padding: 10%;
   padding-top: 100px !important;
   border-radius: 0px !important;
-  background: rgb(35 35 35) !important;
+  background: #232323 !important;
 }
 
 .container-right label {
