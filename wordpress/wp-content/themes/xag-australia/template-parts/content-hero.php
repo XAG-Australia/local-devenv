@@ -208,8 +208,8 @@ if($techup_enable_banner_section==true ) { ?>
 		<!-- END SLIDE 2 -->
 		<!-- START SLIDE 3 -->
 
-		<!--
-		<div data-slidr="three" style="min-width: 100vw; min-height: 65vh; display: none;">
+		
+		<div data-slidr="three" style="min-width: 100vw; min-height: 65vh;">
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
 						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-3.mp4" type="video/mp4" />
@@ -227,8 +227,8 @@ if($techup_enable_banner_section==true ) { ?>
 				</div>
 			</section>
 		</div>
-		-->
 		
+
 		<!-- END SLIDE 3 -->
 	</div>
 	<!-- END HERO SLIDER -->
