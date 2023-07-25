@@ -58,7 +58,7 @@ if($techup_enable_features_section==true ) {
     </div>
     </div>
   <div class="feature-sec" style="height: calc(75vh - 180px); width: 1280px; border: 0px !important; margin-left: auto; margin-right: auto; ">
-  <h2 class="section-title" style="font-size: 28px; text-align: center; color: #d0d0d0; font-weight: 400 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 0px; margin-bottom: 50 px; margin-top: 0px; width: 1280px; margin-left: auto; margin-right: auto; padding-left: 40px;">XAG Australia specialises in providing aerial, and unmanned ground <b style="color:#c01920; ">drone technology.</b></h2>
+  <h2 class="section-title" style="font-size: 22px; text-align: center; color: #d0d0d0; font-weight: 200 !important; font-family: 'Roboto Condensed', sans-serif; letter-spacing: 6px; margin-bottom: 50 px; margin-top: 0px; width: 1280px; margin-left: auto; margin-right: auto; padding-left: 40px;">FEATURED</h2>
       <div class="featured-1" style="height: 420px; width: 420px;  float: left; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/product-1.png'); background-color: rgb(250 250 250 / 75%); background-blend-mode: lighten; background-size: cover; background-position: bottom; transition: all 0.5s ease-in-out;">
       <h2 class="section-title" style="opacity: 1; font-size: 38px; text-align: center; margin-top: 50px;">P100 PRO</h2>
       <div class="btn-wraper product" style="opacity: 0; padding-top: 50%; transition: all 0.4s ease-in-out;">
