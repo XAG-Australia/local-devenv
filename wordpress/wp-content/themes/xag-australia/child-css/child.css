@@ -348,8 +348,8 @@ Home Area
   text-transform: uppercase;
   letter-spacing: 4px;
   transition: all 0.4s ease-in-out;
-  background-color: transparent !important;
-  color: #c01920;
+  background-color: #c01920 !important;
+  color: #ffffff !important;
   border-radius: 5px;
   box-sizing: border-box;
   border: solid 4px #c01920;
@@ -365,11 +365,11 @@ Home Area
   text-transform: uppercase;
   letter-spacing: 4px;
   transition: all 0.4s ease-in-out;
-  background-color: #232323 !important;
-  color: #ffffff;
+  background-color: #ffffff !important;
+  color: #c01920;
   border-radius: 5px;
   box-sizing: border-box;
-  border: solid 4px #ffffff !important;
+  border: solid 4px #c01920 !important;
 }
 
 .main-navigation .nav-menu>.menu-item>a {
