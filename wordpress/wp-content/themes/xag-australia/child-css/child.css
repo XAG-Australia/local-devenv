@@ -369,7 +369,7 @@ Home Area
   color: #ffffff;
   border-radius: 5px;
   box-sizing: border-box;
-  border: solid 4px #ffffff;
+  border: solid 4px #ffffff !important;
 }
 
 .main-navigation .nav-menu>.menu-item>a {
