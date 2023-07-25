@@ -300,6 +300,7 @@ Home Area
     color: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
+    border: solid 4px #ffffff;
 }
 
 .feature-sec .readmore-btn {
