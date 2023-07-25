@@ -321,7 +321,9 @@ Home Area
 }
 
 .hero-sec .content-sec .readmore-btn:hover {
-	background-color: #ffffff !important;
+	background-color: transparent !important;
+  border: solid 4px #ffffff !important;
+  color: #ffffff !important;
 }
 
 .main-navigation .nav-menu>.menu-item>a {
