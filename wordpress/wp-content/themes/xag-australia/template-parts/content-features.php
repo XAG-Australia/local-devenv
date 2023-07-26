@@ -60,8 +60,8 @@ if($techup_enable_features_section==true ) {
     </div>
     </div>
     </div>
-  <div class="feature-sec" style="height: calc(75vh - 180px); width: 1280px; border: 0px !important; margin-left: auto; margin-right: auto; z-index: 9; margin-top: 20vh;">
-  <h2 class="section-title" style="font-size: 32px; text-align: left; color: #d0d0d0; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 1280px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 25px; padding-bottom: 25px; border-bottom: solid 4px #d0d0d0;">FEATURED</h2>
+  <div class="feature-sec" style="height: calc(85vh - 180px); width: 1280px; border: 0px !important; margin-left: auto; margin-right: auto; z-index: 9; margin-top: 20vh;">
+  <h2 class="section-title" style="font-size: 32px; text-align: left; color: #d0d0d0; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 1280px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px; padding-bottom: 50px; border-bottom: solid 4px #d0d0d0;">FEATURED</h2>
       <div class="featured-1" style="height: 420px; width: 420px;  float: left; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/product-1.png'); background-color: rgb(250 250 250 / 75%); background-blend-mode: lighten; background-size: cover; background-position: bottom; transition: all 0.5s ease-in-out;">
       <h2 class="section-title" style="opacity: 1; font-size: 38px; text-align: center; margin-top: 50px;">P100 PRO</h2>
       <div class="btn-wraper product" style="opacity: 0; padding-top: 50%; transition: all 0.4s ease-in-out;">
