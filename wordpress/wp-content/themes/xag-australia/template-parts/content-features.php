@@ -15,7 +15,7 @@ if($techup_enable_features_section==true ) {
         ); 
         $techup_features_query = new WP_Query( $techup_features_args );
 ?>
-<div class="feature-sec buco" style="height: 35vh; padding-top: 10px !important; margin-bottom: 10px; padding: 0px; background: transparent; background-attachment: fixed; background-size: cover; background-position: center; margin-top: -100px; position: absolute; z-index: 99; ">
+<div class="feature-sec buco" style="height: 35vh; padding-top: 10px !important; margin-bottom: 10px; padding: 0px; background: transparent; background-attachment: fixed; background-size: cover; background-position: center; margin-top: -80px; position: absolute; z-index: 99; ">
     <div class="container-fluid" style="width: 100%; max-width: 1280px; padding-left: 0px; padding-right: 0px; height: 325px;">
       <div class="row" style="width: 100%; margin-left: auto; margin-right: auto;">
 		<?php
