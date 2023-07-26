@@ -17,7 +17,6 @@ if($techup_enable_features_section==true ) {
 ?>
 <div class="feature-sec buco" style="height: 35vh; padding-top: 10px !important; margin-bottom: 10px; padding: 0px; background: #f7f7f7; background-attachment: fixed; background-size: cover; background-position: center;">
     <div class="container-fluid" style="width: 100%; max-width: 1280px; padding-left: 0px; padding-right: 0px; height: 325px;">
-    <h2 class="section-title" style="font-size: 32px; text-align: left; color: #d0d0d0; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 6px; width: 1280px; margin-left: auto; margin-right: auto; margin-top: 35px; margin-bottom: 35px;">WHAT WE DO</h2>
       <div class="row" style="width: 100%; margin-left: auto; margin-right: auto;">
 		<?php
 		$count = 0;
