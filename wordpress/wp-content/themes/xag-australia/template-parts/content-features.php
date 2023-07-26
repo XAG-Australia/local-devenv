@@ -24,8 +24,8 @@ if($techup_enable_features_section==true ) {
 		$techup_features_query->the_post();
 		?> 
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important; ">
-          <div class="feature-box feature-box-one feature-box-1" style="width: 420px; background-color: #f7f7f7 !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-1A.png') no-repeat #f7f7f7; background-size: 90px; background-position: center;  transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left;">
+          <div class="feature-box feature-box-one feature-box-1" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-1A.png') no-repeat #ffffff; background-size: 90px; background-position: center;  transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left;">
           </div>
             <div class="content" style="width: calc(100% - 100px); height: 100px; float: left;">
               <h5 class="title-box" style="color: #4c4c4c !important; font-size: 16px; line-height: 100px;">AERIAL SPRAYING</a></h5>
@@ -33,8 +33,8 @@ if($techup_enable_features_section==true ) {
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important;">
-          <div class="feature-box feature-box-one feature-box-2" style="width: 420px; background-color: #f7f7f7 !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-2A.png') no-repeat #f7f7f7; background-size: 90px; background-position: center;  transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left; ">
+          <div class="feature-box feature-box-one feature-box-2" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-2A.png') no-repeat #ffffff; background-size: 90px; background-position: center;  transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left; ">
           </div>
             <div class="content" style="width: calc(100% - 100px); height: 100px; float: left;">
             <h5 class="title-box" style="color: #4c4c4c !important; font-size: 16px; line-height: 100px;">UNMANNED VEHICLES</a></h5>
@@ -42,8 +42,8 @@ if($techup_enable_features_section==true ) {
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12" style="width: 100%; padding-left: 0px !important;">
-          <div class="feature-box feature-box-one feature-box-3" style="width: 420px; background-color: #f7f7f7 !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
-            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-3A.png') no-repeat #f7f7f7; background-size: 90px; background-position: center; transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left;">
+          <div class="feature-box feature-box-one feature-box-3" style="width: 420px; background-color: #ffffff !important; max-width: 420px; height: 200px; border-radius: 0px; margin-left: auto; margin-right: auto; border: solid 4px #d0d0d050;">
+            <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-3A.png') no-repeat #ffffff; background-size: 90px; background-position: center; transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left;">
           </div>
             <div class="content" style="width: calc(100% - 100px); height: 100px; float: left;">
             <h5 class="title-box" style="color: #4c4c4c !important; font-size: 16px; line-height: 100px;">AERIAL SURVEYING</a></h5>
