@@ -169,11 +169,11 @@ if($techup_enable_banner_section==true ) { ?>
 					</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important; ">
 					
-				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 30% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 22px;"><?php echo esc_html($techup_banner_title); ?>
+							<h2 class="section-title" style="font-size: 32px;"><?php echo esc_html($techup_banner_title); ?>
 							</h2>
 							<?php if($techup_banner_button_label1) :?>
 
@@ -193,11 +193,11 @@ if($techup_enable_banner_section==true ) { ?>
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 80vh; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-22F.jpg'); background-attachment: fixed; background-size: cover; background-position: center;">
 		<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
-				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 30% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 16px;">Leading drone technology</h2>
+							<h2 class="section-title" style="font-size: 32px;">Pioneering Australia's Agriculture Drone Technology</h2>
 							<div class="btn-wraper">
 								<a class="readmore-btn" href="#">Learn More</a>
 							</div>
@@ -216,11 +216,11 @@ if($techup_enable_banner_section==true ) { ?>
 						</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						
-				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 30% !important; height: calc(100% - 180px) !important; background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important; background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="120">
-							<h2 class="section-title" style="font-size: 16px;">Spraying, seeding & surveying</h2>
+							<h2 class="section-title" style="font-size: 16px;">Drone Spraying, Seeding & Surveying</h2>
 							<div class="btn-wraper">
 								<a class="readmore-btn" href="#">LEARN MORE</a>
 							</div>
