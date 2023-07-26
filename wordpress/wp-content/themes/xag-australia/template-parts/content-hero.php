@@ -212,7 +212,7 @@ if($techup_enable_banner_section==true ) { ?>
 		
 		<div data-slidr="three" style="min-width: 100vw; min-height: 80vh;">
 		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
-						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-2B.mp4" type="video/mp4" />
+						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-3f.mp4" type="video/mp4" />
 						</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						
@@ -258,7 +258,7 @@ if($techup_enable_banner_section==true ) { ?>
 s.add('h', ['one', 'two', 'three', 'one']);
 
 // Now start.
-s.auto(5900, 'right', 'one');
+s.auto(12000, 'right', 'one');
 
 	function auto(opt_msec, opt_direction, opt_start) {};
 
