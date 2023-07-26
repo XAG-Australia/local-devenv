@@ -37,7 +37,7 @@ if($techup_enable_features_section==true ) {
             <div class="icon" style="background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-2A.png') no-repeat #ffffff; background-size: 90px; background-position: center;  transition: all 0.3s ease-in-out; width: 100px; height: 100px; float: left; ">
           </div>
             <div class="content" style="width: calc(100% - 100px); height: 100px; float: left;">
-            <h5 class="title-box" style="color: #4c4c4c !important; font-size: 16px; line-height: 100px;">UNMANNED VEHICLES</a></h5>
+            <h5 class="title-box" style="color: #4c4c4c !important; font-size: 16px; line-height: 100px;">GROUND VEHICLES</a></h5>
 			      </div>
           </div>
         </div>
