@@ -653,20 +653,20 @@ slider Area End
 }
 
 .feature-box-1 {
-	background-color: #ffffff !important;
+	background-color: #f7f7f7 !important;
 }
 
 .feature-box-1 {
-	background-color: #ffffff !important;
+	background-color: #f7f7f7  !important;
 }
 
 .feature-box-2 {
-	background-color: #ffffff !important;
+	background-color: #f7f7f7  !important;
 }
 
 .feature-sec .feature-box{
     position: relative;
-    background: #fff;
+    background: #f7f7f7 ;
     text-align: center;
     padding: 50px;
     box-shadow: 3px 3px 20px 0 rgb(0 0 0 / 5%);
@@ -675,21 +675,21 @@ slider Area End
 }
 
 .feature-sec  .feature-box-1:hover .icon {
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-1B.png') no-repeat #ffffff !important;
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-1B.png') no-repeat #f7f7f7  !important;
     background-size: 110px !important; 
     background-position: center !important;
     transition: all 0.3s ease-in-out;
   }
 
   .feature-sec  .feature-box-2:hover .icon {
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-2B.png') no-repeat #ffffff !important;
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-2B.png') no-repeat #f7f7f7 !important;
     background-size: 110px !important; 
     background-position: center !important;
     transition: all 0.3s ease-in-out;
   }
 
   .feature-sec  .feature-box-3:hover .icon {
-    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-3B.png') no-repeat #ffffff !important;
+    background: url('http://localhost:8080/wp-content/uploads/2023/07/icon-3B.png') no-repeat #f7f7f7 !important;
     background-size: 110px !important; 
     background-position: center !important;
     transition: all 0.3s ease-in-out;
@@ -748,7 +748,7 @@ slider Area End
     text-align: center;
     font-size: 45px;
     text-align:center;
-    background: #ffffff;
+    background: #f7f7f7;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
 }
