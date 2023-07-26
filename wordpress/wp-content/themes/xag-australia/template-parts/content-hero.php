@@ -165,7 +165,7 @@ if($techup_enable_banner_section==true ) { ?>
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 80vh;">
 		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
-					<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-1B.mp4" type="video/mp4" />
+					<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-1F.mp4" type="video/mp4" />
 					</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important; ">
 					
