@@ -9,6 +9,54 @@ $techup_banner_button_link1 = get_theme_mod( 'techup_banner_button_link1','');
 if($techup_enable_banner_section==true ) { ?>
 
 	<style>
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 2px solid #fafafa !important;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  resize: vertical;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: transparent !important;
+  border: 0px;
+}
+
+input[type=text]:hover, select:hover, textarea:hover {
+    border-bottom: 2px solid #c01920 !important;
+    border: 0px;
+}
+
+input[type=submit] {
+  background-color: #c01920;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+}
+
+.container-right {
+  border-radius: 5px;
+  background-color: #232323;
+  padding-top: 0px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10%;
+  padding-top: 100px !important;
+  border-radius: 0px !important;
+  background: #232323 !important;
+}
+
+.container-right label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 	aside[id="slidr-div-control"].border .slidr-control.right {
      right: calc((100vw - 1280px)/2);
