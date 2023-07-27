@@ -46,12 +46,12 @@ input[type=submit]:hover {
   background-color: #232323;
   padding-top: 0px !important;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 50px !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5% !important;
   border-radius: 0px !important;
   background: #232323 !important;
-  padding-bottom: 25px;
+  padding-bottom: 5%;
 }
 
 .container-right label {
