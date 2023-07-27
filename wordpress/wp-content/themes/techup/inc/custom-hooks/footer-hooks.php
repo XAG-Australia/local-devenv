@@ -22,7 +22,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
             <div class="container-left" style="float: left; width: 66.66vw; height: 100vh; position: relative; z-index: 9999;">
             </div>
             <div class="container-right" style="float: left; width: 33.33vw; height: 100vh; position: relative; z-index: 9999;">
-            <h2 class="section-title" style="font-size: 22px; text-align: left; color: #FFFFFF; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 100%; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 25px; padding-bottom: 25px; border-bottom: solid 4px #FFFFFF;">CONTACT XAG</h2>
+            <h2 class="section-title" style="font-size: 22px; text-align: left; color: #FFFFFF; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 100%; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px; padding-bottom: 25px; border-bottom: solid 4px #FFFFFF;">CONTACT XAG</h2>
             <form action="/action_page.php">
                     <label for="fname" style="margin-top: 0px !important;">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -42,7 +42,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 
                     <input type="submit" value="Submit">
             </form>
-            <div class="social" style="width: 100%; height: 25px;">
+            <div class="social" style="width: 100%; height: 25px; padding-top: 25px; padding-bottom: 25px;">
                 <ul style="width: 100%; height: 25px;">
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-fb.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-ig.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
