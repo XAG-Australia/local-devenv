@@ -22,7 +22,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
             <div class="container-left" style="float: left; width: 66.66vw; height: 100vh; position: relative; z-index: 9999;">
             </div>
             <div class="container-right" style="float: left; width: 33.33vw; height: 100vh; position: relative; z-index: 9999;">
-            <h2 class="section-title" style="font-size: 22px; text-align: left; color: #FFFFFF; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 390px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px; padding-bottom: 50px; border-bottom: solid 4px #FFFFFF;">CONTACT XAG</h2>
+            <h2 class="section-title" style="font-size: 22px; text-align: left; color: #FFFFFF; font-weight: 300 !important; font-family: 'Open Sans', sans-serif !important; letter-spacing: 16px; width: 350px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px; padding-bottom: 50px; border-bottom: solid 4px #FFFFFF;">CONTACT XAG</h2>
             <form action="/action_page.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
