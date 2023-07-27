@@ -34,7 +34,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
