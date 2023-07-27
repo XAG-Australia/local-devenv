@@ -1,11 +1,19 @@
 .main-menu a {
-  color: #232323 !important;
-  transition: all 0.5s ease-in-out;
+  color: #23232395 !important;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 6px;
 }
 
 .main-menu a:hover {
   color: #c01920 !important;
   transition: all 0.5s ease-in-out;
+  font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 6px;
 }
 
 .feature-sec .featured-1:hover, .feature-sec .featured-2:hover,.feature-sec .featured-3:hover {
