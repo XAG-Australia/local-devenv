@@ -47,10 +47,13 @@ input[type=submit]:hover {
   background-color: #232323;
   padding-top: 0px !important;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 100px !important;
   border-radius: 0px !important;
   background: #232323 !important;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .container-right label {
