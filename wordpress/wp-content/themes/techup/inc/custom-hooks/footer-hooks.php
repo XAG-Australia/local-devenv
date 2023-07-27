@@ -50,24 +50,13 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-yt.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-in.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
                 </ul>
+                <div class="col-sm-12">
+                        <?php echo '©' ?> <?php bloginfo( 'name' ); ?> <?php echo '2023' ?>
+                    </div>
         </div>
             </div>
 	<?php }
-endif; 
-if( ! function_exists( 'techup_footer_site_info' ) ):
-	function techup_footer_site_info(){ ?>
-		<div class="foot-bottom" style="padding: 0px !important; box-shadow: none; height: 60px;">
-            <div class="container" style="height: 60px; line-height: 60px;">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <?php echo '©' ?> <?php bloginfo( 'name' ); ?> <?php echo '2023' ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-<?php }
-endif; 
-
+endif;
 
 /*----------------------------------------------------------------------------------------------------------------------*/
 
