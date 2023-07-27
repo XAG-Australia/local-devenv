@@ -42,7 +42,7 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
 
                     <input type="submit" value="Submit">
             </form>
-            <div class="social" style="width: 100%; height: 25px; margin-top: 35px; margin-bottom: 35px;">
+            <div class="social" style="width: 300px; height: 25px; margin-top: 35px; margin-bottom: 35px; margin-left: auto; margin-right: auto;">
                 <ul style="width: 100%; height: 25px;">
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-fb.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
                         <li style="width: 25px; height: 25px; float: left; margin-right: 20px; background: url('http://localhost:8080/wp-content/uploads/2023/07/social-ig.png') no-repeat transparent; background-size: 25px; background-position: center;"></li>
