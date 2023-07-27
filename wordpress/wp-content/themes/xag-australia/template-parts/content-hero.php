@@ -18,6 +18,7 @@ if($techup_enable_banner_section==true ) { ?>
   font-family: 'Roboto Condensed', sans-serif;
   background: transparent !important;
   border: 0px;
+  margin-bottom: 20px;
 }
 
 input[type=text]:hover, select:hover, textarea:hover {
