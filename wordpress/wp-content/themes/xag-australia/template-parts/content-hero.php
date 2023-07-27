@@ -48,7 +48,7 @@ input[type=submit]:hover {
   font-family: 'Roboto Condensed', sans-serif;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 5% !important;
+  padding-top: 3% !important;
   border-radius: 0px !important;
   background: #232323 !important;
   padding-bottom: 5%;
