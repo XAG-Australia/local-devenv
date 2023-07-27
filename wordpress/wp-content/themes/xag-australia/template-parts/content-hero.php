@@ -244,7 +244,7 @@ input[type=submit]:hover {
 		<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
-						<div class="content-sec" style="right: 50px;">
+						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
 							<h2 class="section-title" style="font-size: 32px; margin-bottom: 25px;">Pioneering Australia's Agriculture Drone Technology</h2>
 							<div class="btn-wraper">
