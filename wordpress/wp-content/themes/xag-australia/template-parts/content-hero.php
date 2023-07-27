@@ -15,7 +15,6 @@ if($techup_enable_banner_section==true ) { ?>
   border-bottom: 2px solid #fafafa !important;
   box-sizing: border-box;
   margin-top: 20px;
-  margin-bottom: 20px;
   resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
   background: transparent !important;
