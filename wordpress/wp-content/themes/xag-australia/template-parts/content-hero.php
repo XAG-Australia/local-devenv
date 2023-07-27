@@ -14,7 +14,6 @@ if($techup_enable_banner_section==true ) { ?>
   padding: 12px;
   border-bottom: 2px solid #fafafa !important;
   box-sizing: border-box;
-  margin-top: 20px;
   resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
   background: transparent !important;
@@ -33,7 +32,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 50px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
