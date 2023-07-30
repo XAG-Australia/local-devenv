@@ -241,6 +241,9 @@ input[type=submit]:hover {
 
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 80vh; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2FF.jpg'); background-attachment: fixed; background-size: cover; background-position: center;">
+		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover; opacity: 0 !important;">
+						<source src="" type="video/mp4" />
+						</video>
 		<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
