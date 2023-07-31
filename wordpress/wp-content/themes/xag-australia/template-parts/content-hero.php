@@ -302,7 +302,7 @@ input[type=submit]:hover {
 	 fade: true,
 	 controls: 'border',
 	 theme: '#ffffff',
-	 timing: { 'fade': '1s ease-in-out' },
+	 timing: { 'fade': '1.3s ease-in-out' },
 	 transition: 'fade'
 	  
 });
