@@ -218,7 +218,7 @@ input[type=submit]:hover {
 					</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important; ">
 					
-				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 							<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
@@ -239,25 +239,27 @@ input[type=submit]:hover {
 		<!-- END SLIDE 1 -->
 		<!-- START SLIDE 2 -->
 
-
-		<div data-slidr="two" style="min-width: 100vw; min-height: 80vh; background-image: url('http://localhost:8080/wp-content/uploads/2023/07/slide-2FF.jpg'); background-attachment: fixed; background-size: cover; background-position: center;">
-		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover; opacity: 0 !important;">
-						<source src="" type="video/mp4" />
+		<div data-slidr="two" style="min-width: 100vw; min-height: 80vh;">
+		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
+						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-2F.mp4" type="video/mp4" />
 						</video>
-		<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
-				<div class="container" style="padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important;  background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
+						
+				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important; background: transparent; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
 							<h2 class="section-title" style="font-size: 32px; margin-bottom: 25px;">Pioneering Australia's Agriculture Drone Technology</h2>
 							<div class="btn-wraper">
-								<a class="readmore-btn" href="#">Learn More</a>
+								<a class="readmore-btn" href="#">LEARN MORE</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</div>
+
+		
 		<!-- END SLIDE 2 -->
 		<!-- START SLIDE 3 -->
 
@@ -268,7 +270,7 @@ input[type=submit]:hover {
 						</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						
-				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important; background: transparent; border-radius: 0px 400px 400px 0px; max-width: 1280px !important; margin-top: 180px !important;">
+				<div class="container" style="position: absolute; z-index: 99; padding-left: 0px; padding-right: 0px; margin-left: unset; margin-right: unset; width: 100% !important; height: calc(100% - 180px) !important; background: transparent; max-width: 1280px !important; margin-top: 180px !important;">
 					<div class="row">
 						<div class="content-sec" style="right: 50px; padding-top: 0px !important;">
 						<img src="http://localhost:8080/wp-content/uploads/2023/07/logo-white-1.png" width="160">
