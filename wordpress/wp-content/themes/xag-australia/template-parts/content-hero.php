@@ -214,7 +214,7 @@ input[type=submit]:hover {
 
 		<div data-slidr="one" style="min-width: 100vw; min-height: 80vh;">
 		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
-					<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-11F.mp4" type="video/mp4" />
+					<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-1FV3.mp4" type="video/mp4" />
 					</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important; ">
 					
@@ -241,7 +241,7 @@ input[type=submit]:hover {
 
 		<div data-slidr="two" style="min-width: 100vw; min-height: 80vh;">
 		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
-						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-22F2.mp4" type="video/mp4" />
+						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-2FV3.mp4" type="video/mp4" />
 						</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						
@@ -266,7 +266,7 @@ input[type=submit]:hover {
 		
 		<div data-slidr="three" style="min-width: 100vw; min-height: 80vh;">
 		<video autoplay muted loop style="width: 100%; height: 100%; position: absolute; object-fit: cover;">
-						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-33F.mp4" type="video/mp4" />
+						<source src="http://localhost:8080/wp-content/uploads/2023/07/hero-3FV3.mp4" type="video/mp4" />
 						</video>
 			<section class="hero-sec" style="width: 1280px; margin-left: auto; margin-right: auto; padding: 0px !important;">
 						
@@ -302,7 +302,7 @@ input[type=submit]:hover {
 	 fade: true,
 	 controls: 'border',
 	 theme: '#ffffff',
-	 timing: { 'fade': '1s ease-in-out' },
+	 timing: { 'fade': '300ms ease-in-out' },
 	 transition: 'fade'
 	  
 });
