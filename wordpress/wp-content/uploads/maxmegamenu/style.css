@@ -13,15 +13,17 @@
   bottom: auto;
   box-sizing: border-box;
   clip: auto;
-  color: #666;
+  color: #23232395;
   display: block;
   float: none;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 16px;
   height: auto;
   left: auto;
   line-height: 1.7;
   list-style-type: none;
+  letter-spacing: 4px;
+  font-family: 'Roboto Condensed', sans-serif !important;
   margin: 0;
   min-height: auto;
   max-height: none;
@@ -70,6 +72,8 @@
   font-weight: 300;
   text-decoration: none;
   border-color: #fff;
+  letter-spacing: 4px;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 @media only screen and (max-width: 768px) {
   #mega-menu-wrap-primary.mega-keyboard-navigation > li.mega-menu-item > a.mega-menu-link:focus {
