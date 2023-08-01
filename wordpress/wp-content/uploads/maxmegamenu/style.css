@@ -29,7 +29,7 @@
   max-height: none;
   min-width: auto;
   max-width: none;
-  opacity: .95;
+  opacity: 1;
   outline: none;
   overflow: visible;
   padding: 0;
@@ -655,7 +655,7 @@
   left: 0px !important;
   margin-left: 0px !important;
   overflow-x: hidden !important;
-  height: 100% !important;
+  height: calc(80vh - 180px) !important;
   margin-top: 50px !important;
 }
 @media only screen and (max-width: 768px) {
