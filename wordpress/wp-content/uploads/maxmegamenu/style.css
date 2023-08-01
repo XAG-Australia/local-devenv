@@ -655,7 +655,7 @@
   left: 0px !important;
   margin-left: 0px !important;
   overflow-x: hidden !important;
-  height: calc(80vh - 180px) !important;
+  height: calc(80vh - 175px) !important;
   margin-top: 50px !important;
 }
 @media only screen and (max-width: 768px) {
