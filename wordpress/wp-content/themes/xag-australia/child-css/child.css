@@ -162,7 +162,7 @@ letter-spacing: 4px;
 }
 
 .buco .our-team .post-title a:hover {
-  color: #e86240 !important;
+  color: #c01920 !important;
 }
 
 .main-navigation a:hover {
@@ -179,11 +179,11 @@ letter-spacing: 4px;
 }
 
 .main-navigation .nav-menu>.menu-item-has-children > .sub-menu li a:before {
-	background-color: #e86240 !important;
+	background-color: #c01920!important;
 }
 
 .navbar-expand-lg a:hover {
-	color: #e86240 !important;
+	color: #c01920 !important;
 }
 
 .logo img {
@@ -226,7 +226,7 @@ letter-spacing: 4px;
 }
 
 .top-bar .social-icon i:hover{
-  background-color: #e86240;
+  background-color: #c01920;
 }
 
 .top-bar .content{
@@ -240,7 +240,7 @@ letter-spacing: 4px;
 }
 
 .top-bar .content .icon i{
-  color: #e86240;
+  color: #c01920;
   font-size: 25px;
   margin-right: 15px;
 }
@@ -259,7 +259,7 @@ letter-spacing: 4px;
 }
 
 .top-bar .content .details p.light:hover{
-  color: #e86240;
+  color: #c01920;
 }
 
 /*=================================
@@ -1002,7 +1002,7 @@ slider Area End
 }
 
 .services-sec .service-box h4 a:hover {
-  color: #e86240;
+  color: #c01920;
 }
 
 .services-sec .service-box p {
@@ -1169,7 +1169,7 @@ slider Area End
 }
 
 #product .product-hover li:hover a {
-    background: #e86240;
+    background: #c01920;
     color: #fff;
 }
 
