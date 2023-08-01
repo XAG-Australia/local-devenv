@@ -304,7 +304,7 @@
   #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:focus {
     background: #fff;
     color: #c01920;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     border-color: #fff;
   }
@@ -325,7 +325,7 @@
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
   background: #fff;
   color: #c01920;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   border-color: #fff;
 }
