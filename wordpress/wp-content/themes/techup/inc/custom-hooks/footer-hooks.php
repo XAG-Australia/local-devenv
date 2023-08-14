@@ -28,7 +28,6 @@ if( ! function_exists( 'techup_footer_sidebar' ) ):
         <div class="col-sm-12" style="width: 100%; text-align: center;">
                         <?php echo '©' ?> <?php bloginfo( 'name' ); ?> <?php echo '2023' ?>
                     </div>
-            </div>
 	<?php }
 endif;
 
